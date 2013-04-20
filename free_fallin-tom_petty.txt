@@ -1,0 +1,56 @@
+{t:FREE FALLIN}
+{st:Tom Petty}
+
+{gc:First guitar capo on 3rd fret}
+{gc:Second guitar with capo on 1st fret play E-A  A-E-B bar chords}
+
+{c:INTRO x2}
+[D][Dsus]   [Dsus][D][Asus]
+
+{c:VERSE 1}
+she's a [D]good [Dsus]girl, [Dsus]loves [D]her [Asus]mama
+loves [D]Je-[Dsus]sus and [Dsus]Ameri[D]ca [Asus]too
+she's a [D]good [Dsus]girl, [Dsus]crazy [D]'bou[Asus]t Elvis
+loves [D]hors[Dsus]-es and her [Dsus]boy - [D]friend [Asus]too
+
+{c:intro again 1x}
+
+{c:VERSE 2}
+it's a long day   livin' in Reseda
+there's a free-way runnin' through the yard
+and i'm a bad boy, cause i don't even miss her
+i'm a bad boy for breakin' her heart
+
+{c:CHORUS}
+{soc}
+now i'm [D-Dsus]free[Dsus-D-Asus]
+free [D-Dsus]fall-in[Dsus-D-Asus]'
+ya i'm [D-Dsus]free[Dsus-D-Asus]
+free [D-Dsus]fall-in[Dsus-D-Asus]'
+{eoc}
+
+{c:VERSE 3}
+all the vampires walkin' through the valley
+move west down Ventura Boulevard
+all the bad boys are standing in the shadows
+and the good girls are home with broken hearts
+
+{c:REPEAT CHORUS}
+
+{gc:intro again, with light solo/riff}
+(free fallin, now I'm, free fallin)
+
+{c:VERSE 4}
+i wanna glide down over Mulholland
+i wanna write her name in the sky
+gonna free fall out into nothin'
+gonna leave this world for a while
+
+{c:OUTRO}
+and i'm free (free fallin, now I'm, free fallin)
+free fall-in' (free fallin, now I'm, free fallin)
+ya i'm free (free fallin, now I'm, free fallin)
+free fall-in' (free fallin, now I'm, free fallin)
+
+
+

@@ -1,0 +1,27 @@
+{t:Autumn Leaves}
+{st:Eva Cassidy}
+                                                                              
+{c:Intro}
+[Em7]      
+{c:Verse 1}
+[Em7]The falling [Am7]leaves   [D7]   drift by my [GM7]window  [CM7]
+The falling [Am6]leaves [B7]   of red and gold   [Em]
+
+{c:Verse 2}
+I see your [Am7]lips,  [D7]    the summer  [GM7]kisses   [CM7]
+The sunburnt [Am6]hands [B7]  I used to hold    [Em]
+
+{c:Chorus}
+{soc}
+Since you [B7]went away The days  grow [Em]long
+And soon I'll [Am7]hear  [D]old winter's [G]song
+But I [Am6]miss  you most of [B7]all my [Em7]darling
+When[Am7] Au[Am6]tumn [B7]leaves start to [Em]fall
+{gc:instrumental same chords as verse x2}
+{eoc}
+
+Since you went away the days grow long
+And soon I'll hear old winter's song
+But I miss you most of all
+my darling,
+When Autumn leaves start to fall

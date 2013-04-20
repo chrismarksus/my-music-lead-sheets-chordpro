@@ -1,0 +1,2146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="537"
+   name=""
+   committed-date="2007-02-25T19:09:30.611701Z"
+   url="svn+ssh://ce@four.local/Users/ce/SCM/Songsheet/SG02/trunk/SG02/Songs/Worship"
+   last-author="ce"
+   kind="dir"
+   uuid="5be1c67a-88fa-0310-bd08-a3a6d2a83bdd"
+   revision="545"/>
+<entry
+   committed-rev="309"
+   name="break_dividing_walls.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="6990e650609ae3ec336610c38fbd2261"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="emmanuel.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="bd85cb568fe9e4df5d035ed6d267f510"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="crown_him_with_many.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="e06f2399fdedde0e59941b20abe67f09"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="hark_the_herald.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="5d95cb4093274cfe32099635ebe73d99"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="obsession.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="18125b4c4f1c61a98b4937b671844929"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="psalm_9.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="499115c0ae54120c75648077ab8919c8"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="397"
+   name="faith_is_the_victory.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2004-07-25T08:27:29.000000Z"
+   checksum="df8030b5e9bb5f90f548e582fec3c2ea"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="how_priceless.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="9c885d59dafccfeab7517415efd160ed"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="make_us_a_prayer.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="3c34cfb20956ad5c887e18fa2a2a0e6c"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="537"
+   name="your_love_surrounds.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2007-02-25T19:09:30.611701Z"
+   checksum="dc882a7acba0a0ba9c8dbda7ebafa76a"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="i_surrender_all.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="dfa913da67c7adca17fb3847d370f326"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="midnight_clear.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="3e4f12fc0650283763a954df8ee8a26b"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="387"
+   name="nothing_is_as_wonderful.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2004-07-19T12:13:11.000000Z"
+   checksum="69bbdc5e01fcafc5f2914c7f857931e3"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="oh_lord_youre_beautiful.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="15e7787025d313263cfbd3cf08108b7b"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="who_is_like_our_god.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="2b360cc894de6ccaec24bdb8dd4cd4a7"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="i_give_thanks.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="be5f91912a6ca90e0e2f0d40d7fb51f7"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="how_majestic.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="60111205101b69d77af9d1702fe2c1c3"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="398"
+   name="light_the_fire.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2004-07-26T04:16:11.000000Z"
+   checksum="3b44d1da6e5be04d123721f2e3d4d095"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="shout_to_the_north.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="c38962aad37e6768a4145f3ba421a1af"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="you_are_lord.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="ab2cd47bae5d5fac2a6d6325d5c97c6d"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="my_tribute.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="2adf39dc230a601d074af180f705e955"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="throne_of_grace.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="c6237bd0ab848dccecf0fae086d11231"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="430"
+   name="old_rugged_cross.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2005-06-26T18:45:15.000000Z"
+   checksum="fed98a60ca81948cb82db625905dcd67"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="387"
+   name="holy_is_the_lord.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2004-07-19T12:13:11.000000Z"
+   checksum="042e09723baeb6705863718a63c5d4a1"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="we_believe_in_you.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="70f647e5be7d4d4618121a2b802fd14e"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="o_mighty_cross.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="081e9c73bac8dce77996ec50a4151a72"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="387"
+   name="you_are_in_control.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2004-07-19T12:13:11.000000Z"
+   checksum="8decfcbb0fb813e17c116c4139a98b9c"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="i_looked_up.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="02dcdbb33a7948829a4933a34b96efb4"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="oh_heavenly_father.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="836c8f2c78f1b6f54205ec1dfaf926c4"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="be_exalted.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="2e15daad11feeaf02c4e048798e585df"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="king_of_saints.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="90a814344c3560dcdafca3a727699e42"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="i_worship_you.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="d86ac500a767d6225a703bb0fb29ecba"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="387"
+   name="better_than.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2004-07-19T12:13:11.000000Z"
+   checksum="32b7a8fefd13143dce9ea5365f7a3d72"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="you_are_the_one_i_love.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="e55a2e42a682fc4f881d89e0da6d2309"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="crowns_down.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="12437e4248885a10fed292a9dbfe77cc"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="faithful_one.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="858cf2d900d724422f32ed92cab3d556"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="rise_up.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="a4bcde718d79d895ae6344ac053c6d23"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="shout_to_the_lord_hillsongs.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="f71ead0655d12036711f9b0e82e1bd63"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="jesus_blood.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="b24097a4ebf2ab2546678e13ca0986f7"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="create_in_me.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="19b9f22e64d31a4ec0ac97c4a894bb9b"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="grace_dance.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="6e5de2280c3f15818b920bb37c899f49"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="387"
+   name="i_will_lift_my_hands.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2004-07-19T12:13:11.000000Z"
+   checksum="ef2baee53765286dda10569179eb4715"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="mercy.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="2cad110d5bbe5db4348f0c76d456bd8c"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="whatever_is_true.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="8a5936112a6708994c5b6e281effdeee"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="jesus_youre_everything.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="feaef9ad0614dc68bd1788d18bde8c9a"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="refiners_fire.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="0b21a88a36fca94f2acfef43b4232187"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="387"
+   name="your_love_is_extravagant.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2004-07-19T12:13:11.000000Z"
+   checksum="95b0cd7ef301d5e6b0ff65a94b8642c6"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="391"
+   name="all_creatures.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2004-07-22T22:29:09.000000Z"
+   checksum="7f23790532f941cf142ab49490916331"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="391"
+   name="your_everlasting_love.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2004-07-22T22:29:09.000000Z"
+   checksum="d769d92498e877246ee4a4d9e789213b"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="lord_you_have_my_heart.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="2415208e85358c0a34360e0c8f05fb73"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="hosanna.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="d3ad8bb30d1008db7dd67ec08116f2ac"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="another_drink.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="f35cb488e72bae4e237540531c8e158e"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="lord_of_every_man.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="b7357280a370e57d27bee1ed9a8d00dc"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="it_is_well.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="5a8acd6b72fd2d970b2bdd74a62b0c82"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="lord_reign_in_me.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="6041876950d4559a550db778fea90d69"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="faithful_god.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="b5ea9a993544fd32e2a39b342f4abd7e"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="the_blood_of_jesus.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="7c0545ab4490a3f89a1178fafac8d494"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="exalt_the_lord.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="c4c6b1083058f58be2fa1f183dbca430"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="i_love_your_ways.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="1fa787ce0e24fb2e5daa20ad25a10988"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="praise_adonai.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="e3986c5c4b6f4ebc4b631afacadf3861"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="to_him_who_sits.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="08c57a6daff83c410db06c814f56c998"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="the_heart_of_worship.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="a87fd24d41db0460f13aee6ec3231ac7"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="true_love.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="c73dda30e9b7e638151a3b7d85cf9a7d"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="our_god_reigns.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="2edff7585dd127c921e4d2aea0366c55"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="your_wonderful_love.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="bc8f89fe273c00b613706d3d817f8c01"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="o_come_all_ye_faithful.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="142ec5af2247ae779369b0250d3a4b3e"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="show_your_power.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="f16891ff23ede36389a7d0219935bc0a"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="good_to_me.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="5358e02d8191ce7f4b75b2354a5a8ca2"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="holy_unto_you.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="cbcbf3fe66bdc632f60357d248e0a933"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="483"
+   name="peace.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2006-02-10T20:31:36.645077Z"
+   checksum="562c7830ac94f076ff530074d6cb641d"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="god_is_so_good.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="7a88de4207859b43dc8d513ed8375802"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="help_us_our_god.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="c2c18a472674aaa307e262c4838bd8a7"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="will_you_worship.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="6fd6f1cf1f92e8df580724580b214499"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="resting_place.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="1d5da13e18c3ef2ac9e4e99c1b86885e"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="hands_of_kindness.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="55b9e9bc514d3ef8be2c55400c6c2c01"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="stay.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="ad7611cb8cb52ed7c1dd333ee3f48225"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="lead_me_to_the_father.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="70654abffec63a70dc7cca9d35907b60"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="o_little_town.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="5d5cbd79b056fd537b58b2f3262a0a1a"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="i_believe_in_jesus.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="3cd59f9d7bb898741b7b8923f24e4f62"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="i_will_come.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="ce47db117e0f73e041cbd9119cbd8156"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="let_the_river_flow.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="5078903d59aaf4c94fbd9c33b932c3ef"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="you_shelter_me.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="83b4965f29f68ea7557049d543883453"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="387"
+   name="save_us_oh_god.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2004-07-19T12:13:11.000000Z"
+   checksum="1fb5566ed2fa7d33e1034d39b59b1bc8"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="l_of_the_world.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="0f2ee9305d5e9d92fdcec3bbb6aab158"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="lets_all_go_up_to_zion.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="3d53c50a9dacdcc9ea81154b5670ab56"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="greater_grace.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="f0a857abce959d4c611f603f44b5b7eb"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="lord_we_praise_you.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="169eac466be0684572d3b21823262ca5"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="take_me_in.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="2c0d2b507a2363ae30d121b8177b09d2"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="psalm_99.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="36d79f6faff8bb270c8e7cc05fbd4772"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="psalm_121.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="325dc0b36dddbf80c158a448a72170ef"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="483"
+   name="i_need_thee_every_hour.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2006-02-10T20:31:36.645077Z"
+   checksum="03139e95079badf31496fbf23bc2f2ff"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="only_the_blood.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="102cdef48647783bcccbd7ea290ff682"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="all_heaven_declares.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="90ce01ecfbdcf7c4158465ba502b84aa"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="holy_love.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="37f387de34b3ccd5a0683d9acc58cf70"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="in_christ_alone.txt"
+   text-time="2007-04-24T15:04:23.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="cddd66a9b1d67836e43f7f3595837208"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="holy_holy_holy.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="6acce3487595bbd4e2e71fce7673ede3"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="more_like_you.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="8636912e3ff2adf17a015722f9da5b9b"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="blbe_the_name.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="6996b16dda99ea80837cdda84a3da639"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="lord_your_name_is_holy.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="49bd3c396977344cdb94985805774dcc"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="386"
+   name="blessed_be_your_name.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2004-07-19T10:56:45.000000Z"
+   checksum="5e722c9651cefddb6cf4b8c26ffe91e7"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="meet_with_me.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="8f5d4951148253daebd1165d18442c37"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="the_lord_reigns.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="a0e694c61c3ec826e12c41fd9aa364e1"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="let_everything_that.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="0139b12c415ffae832c716ce9e405a72"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="salvation_belongs.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="42cd808526bec2c2a2e979dfc77a5f0b"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="537"
+   name="isaiah_58.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2007-02-25T19:09:30.611701Z"
+   checksum="341ee1ed1296c65b6f551f2b482444b2"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="more_precious.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="c582815026fefdfe791a437ba046b343"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="in_the_secret.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="ab9aec87e10720665509cf790d6b5fcc"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="you_are_my_king.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="96d66c582c8c80f72c39a540eb5e5fa8"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="386"
+   name="cares_chorus.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2004-07-19T10:56:45.000000Z"
+   checksum="9ae6a5c24d0283f5bc31a498bf835703"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="days_of_my_youth.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="fa153ffe151b32fa40d6424ea763b913"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="you_are_mighty.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="6e7ee7e18b34faee462f045d26a9ea99"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="pour_out_your_spirit.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="a270d5aec79a06a37408df81bc735864"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="387"
+   name="his_banner_over_me.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2004-07-19T12:13:11.000000Z"
+   checksum="e791a77ed7b9eff5885c6837e9174b67"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="387"
+   name="here_i_am_to_worship.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2004-07-19T12:13:11.000000Z"
+   checksum="b8c89147dab53a9f1ab6691d9b58dcfa"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="silent_night.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="d149f726b840ed805e6cc350c0c10c43"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="hail_to_the_king.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="74e614dce19e86b44f0b0ee655fea184"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="blessed_be_the_name.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="0fdb7284eed3150ba40578e37c0d507d"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="as_i_am.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="cc8e53740d130fb44da8c55d7deb70c2"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="lamb_of_god.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="c7dacd46e03ce656374f37fd0668abf4"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="its_all_about_jesus.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="086d2bd23e01b18c567890ce2c324e2d"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="whom_have_i_but_you.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="7d29fd2b36a3dea4b5f21eb23a8598e7"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="seek_ye_first.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="6629fdbbf2ef096e87ea7bb2b88557e3"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="i_worship_you_almighty.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="62f488804cc140acec67daecadafce3c"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="come_and_fill_me_up.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="bdaf7139e554ed7f94c623348c745ff8"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="open_the_eyes_of_my_heart.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="8d9f142ffb0bf2e0e5474d29a5e6e0b1"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="youre_worthy_of_my.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="ba1899344259e852fdec3767dc482547"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="387"
+   name="holiness_unto_the_lord.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2004-07-19T12:13:11.000000Z"
+   checksum="9e837776b9a452554c4bc6d030781d35"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="be_unto_your_name.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="32e0732073739505d7075de72eb02934"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="we_shall_assemble.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="4457ee569fe3c840c8c1ac8f561f4481"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="joy_to_the_world.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="4742632c32f55f017b41fd61a4560564"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="light_the_fire_again.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="b89a7e7368568185789a59d26148357a"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="at_the_cross.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="111a4d1aa707418ec9d4563630078121"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="386"
+   name="you_are_my_all_in_all.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2004-07-19T10:56:45.000000Z"
+   checksum="6212d4043c9c7628b929f5eff6d3d532"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="483"
+   name="resonate.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2006-02-10T20:31:36.645077Z"
+   checksum="b6b63445a8d9d4b703d5773bec5cb994"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="387"
+   name="holy_is_the_lord_on_high.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2004-07-19T12:13:11.000000Z"
+   checksum="c6700bab2fd1728d4b66e5cd66cad104"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="blessed_is_the_king.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="a24f45087375e329ab4db0f7ae2a3ff7"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="army_of_god.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="1ed9221b6b738f61c6b188636dafa257"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="387"
+   name="every_move_i_make.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2004-07-19T12:13:11.000000Z"
+   checksum="bcd270385e285c6ed0aa16c69aa33cfe"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="behold_the_lamb.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="552fc49d08ef439410d11771791dc608"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="lord_i_love_you.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="4596d0fc53d44c30f97abefc72188d20"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="529"
+   name="trading_my_sorrows.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2007-01-13T15:28:05.311564Z"
+   checksum="4735d8f591dfe8ce16522fbb545451ca"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="holy_holy_holy_hymn.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="7f243bff249acd4058a4df39af04e47c"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="fthfl_father.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="8278170aba0510700f1160c68cb282c5"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="one_hope.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="68607026cd4d22240351aa0a1dc04bc6"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="therefore_we_lift.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="6292dfd7417de79d0ae9a626121f18f5"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="398"
+   name="just_as_i_am.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2004-07-26T04:16:11.000000Z"
+   checksum="d5b8c6e152fd50ad9a02ed5ecddbd836"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="believer.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="7813e4bbb5cf6239d1d7f3952096c92e"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="remember_mercy.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="9e67355847ffb5e55a21e9df4e27e11f"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="victory_is_the_lords.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="d1fb6ad3176b2b5482e520beb02d0a63"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="397"
+   name="near_the_cross.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2004-07-25T08:27:29.000000Z"
+   checksum="ed5b0832c4ca27b0947ea83f237f1671"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="fire_of_god.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="770787bd96fb6cd363ac490ea1d7a69a"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="draw_me_close.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="f18b148a87e95395a82c7e8bfafbca22"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="391"
+   name="lord_i_lift_your_name.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2004-07-22T22:29:09.000000Z"
+   checksum="78a976a75fe57c3912f2ae6278770dbd"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="let_it_burn.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="1cbb3a4334e4898cb92c4aa2afd115c1"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="428"
+   name="invitacion_fountain.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2005-06-26T18:41:23.000000Z"
+   checksum="65fa5cfcc8bb871a0988493603032251"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="i_remember.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="95550c8709a2d892eaae7205683f29bf"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="one_voice.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="a7aeb9f4cd6c271a8cae43dbe5483a5e"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="he_is_lord.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="4b23805c0ddecc4cc506ee241e4afcaa"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="sweet_wind.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="c9b8210f853feafed8810070834b53a2"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="did_you_feel_the_mts.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="d10dd533c9e45898e6e3140a59e6f1a0"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="451"
+   name="there_is_a_redeemer.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2005-09-12T22:04:02.094616Z"
+   checksum="597dc64f47ef27e23a3595e7cd0b01b4"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="hungry.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="c304b12728c8d3caacb052459081746d"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="537"
+   name="no_other.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2007-02-25T19:09:30.611701Z"
+   checksum="4e27a6ddfbf51363209140690a98d9df"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="take_me_home.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="5c1edbd1cd5d706d64a96790498166ad"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="better_is_one_day.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="12fbd091d4547a1063267fbc0c874e3d"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="thank_you_lord.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="748498ba5fa729aec55be8b9c02053de"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="lets_worship.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="131e3a7835b1fea267b80cacb5231b77"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="hold_on.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="4cc5fb67afcaff7e5fd460f4bc8928ef"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="arms_of_my_father.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="7e46fea8fb64f1e2a90010dd6f2b89a3"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="i_would_do_anything.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="64b4c7628da58fab6cb409b5199a4567"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="more_love_more_power.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="6a29417b501ed35676111beac1576696"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="when_i_survey.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="f3c798f18a893c44a0fd550428e27ac8"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="amazing_grace.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="bb57301f6414406c4e33e40cd85c4ab4"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="on_jordans_bank.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="44620f7f7106e6faa40e1a01aa42e78e"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="the_solid_rock.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="3e49eec29d4bd540ce9c4f1a18056eeb"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="all_that_i_need.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="9f0fd607c4fcbdc054180ae548174c97"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="apostles_creed.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="0fe9f6967dfa4ac7b6372756d37ce50c"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="387"
+   name="we_will_dance.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2004-07-19T12:13:11.000000Z"
+   checksum="d817267e57bd3d4068f2a2ddaaf10268"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="before_you.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="b7ffab967d08e881456cd668e7a5df19"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="sweet_mercies.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="2e3371d168987bd0644f673380f0e239"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="eternity.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="bd23132d593e63373d4d12186ca31918"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="come_and_fill_this_place.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="047b0f5957971ee5b7bf92b9172a6ae6"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="387"
+   name="mercy_is_falling.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2004-07-19T12:13:11.000000Z"
+   checksum="7cda6aad8184dee521dddef021554f88"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="father_of_lights.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="66f0995633c968c4b2397e19288cadc3"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="i_will_offer_up_my_life.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="d7ba69df73760385c68cf79b0a3740ad"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="his_love.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="e43b180ab73a0ce148d7d982128e810f"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="jesus_lead_on.txt"
+   text-time="2007-04-24T15:04:24.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="97e59bfa99453c28de5063d39120f348"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="breathe.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="0a45fc78d50ee6e841677c77f6d9a28d"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="glorify.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="63d351e4b0c15d6e0c09735c889b079d"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="let_your_glory_fall.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="869cc1138f476a6099bb8cbee87f459d"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="majesty.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="081776e4e66cd2ff76d87a8dc3230251"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="oh_lead_me.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="f98004b2fe8837887623192dc71e0cbb"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="you.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="e302cfe35335553848a2ea942a0aedb2"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="you_are_so_good.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="3518596aa35d7cfd85401d39e26a260e"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="mercy_mercy.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="69fee5472bb0dd9bcfcf5a9a1b3618ed"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="387"
+   name="holy_and_anointed_one.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2004-07-19T12:13:11.000000Z"
+   checksum="f1da4ef73a348c37c4f9bf6b3081c8f1"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="come_now_is_the_time.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="dcde0f6b54fa147082a89517e34309f4"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="spirit_of_sovereign.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="5675a4b17fbdd16d293b11a71e1385b5"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="glory_and_honor.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="496fbddbf2cc73820552d8f7c4a8bc56"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="ancient_of_days.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="370c196231eb6bdc350648aba0a602fd"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="yahweh.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="9079aa9ff524b5bc7845470043d0a7b9"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="psalm_94.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="75965b1f2a003a4a655c1146d50597a0"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="take_my_life.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="b279e0130cf451e3624d5aaab5a44bf4"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="no_other_gods.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="ccb664d6d2cc5ccf8254ea117c502e6f"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="451"
+   name="you_alone.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2005-09-12T22:04:02.094616Z"
+   checksum="c531abac67315a03c612eb5b311ae75b"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="angels_dancing.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="ad9a7fe0d5bdfb7c321bbc11abec0238"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="great_is_thy_faithfulness.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="886419d74ef552c651f9958616f80682"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="you_are_god.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="21486ac2594257acc1a39722dbbb0df4"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="to_god_be_the_glory.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="b01d0147aa8e1422bf8a5e5ac9716e1c"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="386"
+   name="when_i_look.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2004-07-19T10:56:45.000000Z"
+   checksum="f5b0e52a1ffce79cca76442e09b9f7fc"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="391"
+   name="god_of_wonders.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2004-07-22T22:29:09.000000Z"
+   checksum="94afa633e841da78a2d1807b2d5b374c"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="daniels_prayer.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="c2128e28f9ec37734062cd324ef70058"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="come_jazzy_and_fill.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="d0a3596e2a9d84e824e4b3ad2bb2c0d1"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="more.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="a8eedc2b419ab0f7a52901047929c0b2"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="romans12_1_2.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="9f6dda58376dcdc526359f2bf02b4926"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="we_will_ride.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="2f7744619cc67993b14d01b2aa07651b"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="there_must_be_more.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="574e7cb9849281a0f6320ed52c97e4b0"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="hosanna_holy_holy_holy.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="7d47a43397e96f5fa84f7a1f63495fa5"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="arms_of_love.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="59361e4a68c177c2b404efd76adb0f40"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="451"
+   name="have_thine_own_way.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2005-09-12T22:04:02.094616Z"
+   checksum="1640589f3b52d31567596f288be1723f"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="p_out_my_heart.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="a88fe48453e9d43fb1a1b88bd64d44a5"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="weve_come_to_praise.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="ef280c09804b0c9423833f0cbc6e3c24"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="come_thou_long_expected.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="8bcd292a46a4ee050310cab7741ad2ec"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="387"
+   name="lover_of_my_soul.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2004-07-19T12:13:11.000000Z"
+   checksum="66e2af8a35c82612e6ed47f11c044d82"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="386"
+   name="once_again.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2004-07-19T10:56:45.000000Z"
+   checksum="c6c04b16c63dfa6893cfc0c693c1080d"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="o_come_emmanuel.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="2920f1e677cab8e761a06e63f2957af1"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="shout_to_the_lord.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="9927ee2158679a4d8a2ada44493fa5b8"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="393"
+   name="i_give_you_my_heart.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2004-07-24T11:32:43.000000Z"
+   checksum="ce93ac233eaad525fbe34b59af22360f"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="397"
+   name="come_thou_almighty_king.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2004-07-25T08:27:29.000000Z"
+   checksum="6cebfe9623385d51a7da8399f311b549"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="undone.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="8a5454dcc2568d58148e260b84984540"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="violets_strength_1e.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="0a1d951dc406784037be60133f06e603"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="what_child_is_this.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="898257177a4d5e812774135b69c27da3"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="be_magnified.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="659590864c3aed48d4fe177d5381165a"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="351"
+   name="angels_from_realms.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2004-02-08T12:57:21.000000Z"
+   checksum="cbc9ca5dcbfc4fb1db2c7054ccc1eecb"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="thank_you_for_saving_me.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="f918daa66badb1bbb0a491329c74e7d7"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="309"
+   name="i_could_sing_of_your.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2003-04-08T04:37:25.000000Z"
+   checksum="949c72728a364b8a835cddd9824aed8d"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+<entry
+   committed-rev="398"
+   name="we_fall_down.txt"
+   text-time="2007-04-24T15:04:25.000000Z"
+   committed-date="2004-07-26T04:16:11.000000Z"
+   checksum="78292ce97e450188447f25165371f18c"
+   last-author="ce"
+   kind="file"
+   prop-time="2007-04-24T15:04:23.000000Z"/>
+</wc-entries>

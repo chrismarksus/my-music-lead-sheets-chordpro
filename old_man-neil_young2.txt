@@ -1,0 +1,73 @@
+{t:Old Man 2}
+{st:Neil Young}
+
+[FM7]Old man look at my life, I'm a lot like [D]you were       {gc:(x2)}
+
+[D]  [F]  [C]  [G]   
+[D]  [F]  [C]  [F]                    
+
+{gc:DWB: (try a quick F-G at the end of the phrase on the way back to D)}
+
+{c:VERSE 1}
+[D]Old man [F]look at my life
+[C]Twenty four and there's [G]so much more
+[D]Live alone in a [F]paradise
+That [C]makes me think of [F]two
+
+{gc:DWB: (try a quick F-G at the end of the verse on the way back to D)}
+
+{c:VERSE 2}
+[D]Love lost, [F]such a cost,
+[C]Give me things that [G]don't get lost.
+[D]Like a coin that [C]won't get tossed
+[F]Rollin' home to [G]you.
+
+
+[D]  [Am7]    [Em7]    [G]  [D/F#]                       
+
+{gc:DWB: (Between to D and Am7, try Dsus4->D->D9->D, pulling-off the high E from the
+
+3rd fret to 2nd fret to open E, then a quick punch on the 2nd fret again)}
+
+{c:CHORUS}
+{soc}
+[D]Old man take a look at my life I'm a [Am7]lot like [Em7]you  [G]
+[D]I need someone to love me the [Am7]whole day [Em7]through   [G]
+[D]Oh, one look in my eyes and you can [Am7]tell that's [Em7]true.
+{eoc}
+
+[D]  [F]  [C]  [G]   
+[D]  [F]  [C]  [F]                    
+
+{gc:(DWB: play a quick F-G at the end of the phrase on the way back to D)}
+
+{c:VERSE 3}
+Lullabies, look in your eyes,
+Run around the same old town.
+Doesn't mean that much to me
+To mean that much to you
+I've been first and last
+Look at how the time goes past.
+But I'm all alone at last.
+Rolling home to you.
+
+Old man look at my life, I'm a lot like you were  {gc:x2 (intro chords)}
+
+[D]  [F]  [C]  [G]                              
+[D]                                    
+
+{define: FM7: 0 X 0 0 5 6 0}
+{define: Dsus4: 0 X 0 0 2 3 3}
+{define: D9: 0 X 0 0 3 2 0}
+{define: Am7: 0 X 0 0 2 0 1 0}
+{define: Em7: 0 0 2 2 0 3 0}
+
+{gc:FM7 is x00560, and you repeatedly hammer-on the third (G) string (0h5)}
+{gc:The mention of Dsus4 is to indicate that you should fiddle around with the }
+{gc:high E string, between D, Dsus4 and D9.}
+
+{gc:(DWB: I made the corrections he notes in the next paragraph, and fixed up the ending)}
+
+{gc:Just looking at the file right now, i wonder if the line: D F C G  D F C G}
+{gc:(or D F C G x2 )  is correct - strikes me it should end in F. hmmm}
+{gc:If you make any additions or corrections - let me know of them!}

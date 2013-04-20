@@ -1,0 +1,59 @@
+{t:A Whiter Shade of Pale}
+{st:Keith Reid and Gary Brooker (Procul Harum)}
+{c:This version includes verses 3&4 which were only performed in live shows.}
+{c:Verses 3&4 were cut from the original recording so as to fit the song one side of a 45rpm.}
+{c:See other versions for tabs of melody line . . .}
+
+{c:VERSE 1}
+[C]We skipped the light fan-[Am]dango
+[F]and turned cartwheels across the [Dm]floor
+[G]I was feeling kind of [Em]seasick  [G7]
+[C]but the crowd called out for [Am]more.  [Em]
+[F]The room was humming [Dm]harder
+[G]as the ceiling flew a-[Em]way . .  [G7]
+[C]When we called out for a-[Am]nother drink  [Em]
+[F]the waiter brought a [Dm]tray
+
+{c:CHORUS}
+{soc}
+[G]And so it [C]was that [Am]later
+[F]as the miller told his [Dm]tale
+[G]that her face at first just [Em]ghostly
+[G7]turned a [C]whiter [F]shade of [C]pale.  [G7]
+{eoc}
+
+{c:VERSE 2}
+[C]She said, 'There is no [Am]reason,  
+[F]and the truth is plain to [Dm]see.'
+[G7]But I wandered through my [Em]playing cards  [G7]
+[C]and would not let her [Am]be . . [Em]
+[F]One of sixteen vestal [Dm]virgins
+[G7]who were leaving for the [Em]coast  [G7]
+[C]and although my eyes were [Am]open  [Em]
+[F]they might just as well have been [Dm]closed
+
+{c:REPEAT CHORUS}
+
+{c:VERSE 3}
+[C]She said, 'I'm home on [Am]shore leave,'
+[F]though in truth we were at [Dm]sea
+[G7]so I took her by the [Em]looking glass  [G7]
+[C]and forced her to a-[Am]gree.  [Em]
+[F]Saying, 'You must be the [Dm]mermaid
+[G7]who took Neptuen for a [Em]ride.'  [G7]
+[C]But she smiled at me so [Am]sadly  [Em]
+[F]that my anger straightway [Dm]died.
+
+{c:REPEAT CHORUS}
+
+{c:VERSE 4}
+[C]If music be the [Am]food of love
+[F]then laughter is its [Dm]queen
+[G7]and likewise if be-[Em]hind is in front  [G7]
+[C]then dirt in truth is [Am]clean.  [Em]
+[F]My mouth by then like [Dm]cardboard
+[G7]seemed to slip straight through my [Em]head.  [G7]
+[C]So we crash-dived straightway [Am]quickly  [Em]
+[F]and attacked the ocean [Dm]bed.
+
+{c:REPEAT CHORUS}

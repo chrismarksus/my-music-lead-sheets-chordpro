@@ -1,0 +1,112 @@
+{t:Everything}
+{st:Michael Buble}
+
+{c:Intro}
+{sot}
+e|-------------------------------------------------------------------------|
+B|--7-------7---5----------7-------7---5-----------7------7--5-----7--5----|
+G|-----------------7--7-------------------7--7-----------------7--------7-7|
+D|7----7-6-------------6s7----7-6-------------6s7----7-6--------6-5--------|
+A|-------------------------------------------------------------------------|
+E|-------------------------------------------------------------------------|
+{eot}
+
+{c:VERSE 1}
+           D                       E
+You're a falling star, You're the get away car.
+           G           A           D
+You're the line in the sand when I go too far.
+           D                    E
+You're the swimming pool, on an August day.
+               G       A        D
+And You're the perfect thing to say.
+
+{c:VERSE 2}
+	 D                    E
+And you play it coy, but it's kinda cute.
+             G               A            D
+Ah, When you smile at me you know exactly what you do.
+     D                             E
+Baby don't pretend, that you don't know it's true.
+      G              A              D
+Cause you can see it when I look at you.
+
+{c:CHORUS}
+{soc}
+            G  A  D                       G   A D
+And in this crazy life, and through these crazy times
+                E    G   A       D
+It's you, it's you, You make me sing.
+             E                  G            A    D
+You're every line, you're every word, you're everything.
+{eoc}
+
+{c:VERSE 3}
+	 D                          E
+You're a carousel, you're a wishing well,
+        G            A        D
+And you light me up, when you ring my bell.
+	 D                    E
+You're a mystery, you're from outer space,
+             G            A    D
+You're every minute of my everyday.
+
+{c:VERSE 4}
+      D                      E
+And I can't believe, uh that I'm your man,
+      G               A           D
+And I get to kiss you baby just because I can.
+	 D                       E
+Whatever comes our way, ah we'll see it through,
+        G                    A        D
+And you know that's what our love can do.
+
+{c:REPEAT CHORUS}
+
+Solo:
+{sot}
+e|---------------------------------------------------------------------------|
+B|---------------------------------------------------------------------------|
+G|--------------9/11p9-9p7---7--7-7h9-7--------77-66---------9/11p9-9p7------|
+D|--0-0-0-0---7------------9----7-7---7----00--------99-7-6-------------9----|
+A|----------9----------------------------------------------------------------|
+E|---------------------------------------------------------------------------|
+
+e|---------------------------------------------------------------------------|
+B|--7--10-8-7----------------------------------------------------------------|
+G|--7--7--7-7--9p7---7-------------------------------------------------------|
+D|-----------------9---------------------------------------------------------|
+A|---------------------------------------------------------------------------|
+E|---------------------------------------------------------------------------|
+{eot}
+
+    D       E       G   A   D
+So, La, La, La, La, La, La, La
+    D       E       G   A   D
+So, La, La, La, La, La, La, La
+
+{c:CHORUS}
+{soc}
+            A  B  E                       A   B E
+And in this crazy life, and through these crazy times
+   E  F#   E  C#     A   B       C#
+It's you, it's you, You make me sing.
+             F#                  A              A   C#  E
+You're every line, you're every word, you're everything.
+         A                B                          E
+You’re every song. And I sing Along, cause you’re my everything.
+{eoc}
+
+{c:OUTRO}
+{sot}
+e|-------------------------------------------------------------------------|
+B|--9-------9---7----------9-------9---7-----------9------9--7-----9--7----|
+G|-----------------9--9-------------------9--9-----------------9--------9-9|
+D|9----9-8-------------8s9----9-8-------------8s9----9-8--------8-7--------|
+A|-------------------------------------------------------------------------|
+D|-------------------------------------------------------------------------|
+{eot}
+    E       F#       A   B   E
+So, La, La, La, La, La, La, La
+    E       F#       A   B   E
+So, La, La, La, La, La, La, La

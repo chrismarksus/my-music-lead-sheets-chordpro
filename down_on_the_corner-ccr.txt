@@ -1,0 +1,56 @@
+{t:Down On The Corner}
+{st:Creedence Clearwater Revival}
+
+{c:INTRO}
+[C]            [G]       [C]                  [G]      [C]                                  
+{sot}
+|----------------------------------------------
+|----------------------------------------------
+|---------------------------------------------- 
+|----------------------------------------------  
+|3-0---3-3-0-----2-3-3---3-0---3-3-0-----2-3-3-
+|----3-------3-3-------------3-------3-3-------
+{eot}
+
+[F]             [C]            [C]            [G]      [C]                                  
+{sot}
+|----------------------------------------------
+|----------------------------------------------
+|------------------0-0-------------------------
+|3-0---3-3-0-----2-----------------------------
+|----3-------3-3---------3-0---3-3-0-----2-3-3-
+|----------------------------3-------3-3-------
+
+{eot}
+
+{c:VERSE 1}
+[C]Early in the evenin, j[G]ust around supper 
+[C]time, over by the courthouse, they're 
+[G]starting to unwi[C]nd, f[F]our kids on the corner, 
+t[C]rying to bring you up, Willy picks a tune out and he 
+[G]blows it on the [C]harp.
+
+{c:CHORUS}
+{soc}
+[F]Down on the [C]corner, [G]out in the [C]street, Willy and the 
+[F]Poorboys are [C]playin bring a ni[G]ckel, tap your [C]feet
+{eoc}
+
+{c:VERSE 2}
+[C]Rooster hits the washboard, and [G]people just gotta 
+[C]smile, Blinky thumps the bass and [G]solos for [C]awhile. 
+[F]Poor-boy twangs the rythym out [C]on his Kalamazoo. 
+And Willy goes into a dance and [G]doubles on Kazo[C]o.
+
+{c:REPEAT CHORUS}
+
+{c:VERSE 3}
+[C]You don't need a penny [G]just to hang 
+a[C]round, but if you got a nickel won't you 
+l[G]ay your money [C]down. [F]Over in the corner, 
+[C]there's a happy noise, people come from all 
+around to w[G]atch the magic [C]boy.
+
+{gc:Repeat chorus and fade}
+
+

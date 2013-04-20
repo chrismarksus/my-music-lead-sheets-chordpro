@@ -1,0 +1,98 @@
+{t:If Youre Gone}
+{st:Matchbox 20}
+{gc:Lead Guitar: Play 4 times}
+[A]  [E]  [D]                                                                              
+{sot}
+e-----5----7--5-----
+b--5----5--------5--
+g-------------------
+d-------------------
+a-------------------
+e-------------------
+{eot}
+{c:Verse 1}
+[A] I think I've already [D]lost you
+[A] I think you're [E]already [D]gone.
+[A] I think I'm finally [D]scared now
+ You think I'm weak[Bm] - But I think you're [E]wrong
+[A] I think you're already [D]leaving
+[A] Feels like your [E]hand is on the [D]door
+[A] I thought this place was an [D]empire
+ But now I'm relaxed [Bm]- I can't be [E]sure
+{c:Pre Chorus}
+ And I think you're so [Bm]mean - I think we should [E]try
+ I think I could [A]need - this in my [D]life
+ I think I'm just [Bm]scared - I think too [E]much
+ I [G]know it's wrong it's a problem I'm dealing with
+{c:Chorus}
+ If you're[A] gone - maybe it's time to go[D] home            [E]
+ There's an [Bm]awful lot of breathing roo[E]m
+ But I can hardly [A]move
+ If you're [A]gone - baby you need to come [D]home            [E]
+ Cos there's a [Bm]little bit of something [E]me
+ In everything in [A]you [D]    [A]    [E]    [D]
+{c:Verse 2}
+[A] I bet you're hard to get [D]over
+[A] I bet the [E]room just won't [D]shine
+[A]                      [D]              
+ I bet my hands I can stay here
+ I bet you [Bm]need - more than you [E]mind
+{c:Pre Chorus}
+ And I think you're so [Bm]mean - I thinnk we should [E]try
+ I think I could [A]need - this in my [D]life
+ I think I'm just [Bm]scared - that I know too [E]much
+ I [G]can't relate and that's a problem I feeling
+{c:Chorus}
+ If you're [A]gone - maybe it's time to go [D]home           [E]
+ There's an [Bm]awful lot of breathing [E]room
+ But I can hardly [A]move
+ If you're [A]gone - baby you need to come [D]home           [E]
+ Cos there's a [Bm]little bit of something me[E]
+ In everything in [Bm]you
+{gc:Instrumental solo tabbed for guitar}
+    [A]        [D]         [E]        [Bm]                                                 
+{sot}
+e---10---7--------------------------------------------
+b-----------9--7--9--10-------------------------------
+g------------------------9---7--10--9--7--------------
+d-----------------------------------------9-----7--9--
+a-----------------------------------------------------
+e-----------------------------------------------------
+{eot}
+  [E]       [A]                                                                     
+{sot}
+e-10--7-------------------
+b--------9--10--10--------                                                                     
+g-------------------------
+d-------------------------
+a-------------------------                                                                       
+e-------------------------
+{eot}
+{c:Pre Chorus}
+ And I think you're so [Bm]mean - I think we should [E]try
+ I think I could [A]need - this in my [D]life
+ I think I'm just [Bm]scared - do I talk too [E]much
+ I [G]know it's wrong it's a problem I dealing
+{c:Chorus}
+ If your [A]gone - maybe it's time to go [D]home                [E]
+ There's an [Bm]awful lot of breathing [E]room
+ But I can hardly [A]move
+ If you're [A]gone - baby you need to come [D]home
+ Cos there's a [Bm]little bit of something me[E]
+ {gc:play intro riff until end}
+               A  E   
+ In everything in you
+[A] Something in me[E]
+ Everything [A]in
+ Something in m[E]e
+ In [A]you
+ 
+{c: intro}
+{sot}
+E------------------------------------
+A------------------------------------
+D------------------------------------
+G---11---------9---------------------
+B------12---12-----------------------
+e---------9--------------------------
+{eot}

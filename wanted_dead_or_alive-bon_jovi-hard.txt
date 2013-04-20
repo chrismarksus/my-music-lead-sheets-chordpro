@@ -1,0 +1,56 @@
+{t:Wanted Dead Or Alive (HARD)}
+{st:Bon Jovi}
+
+{c:INTRO: } 
+[D]  [Dsus4]  [D]  [C]  [G]  [C]  [G]  [F]  [D]  [D]  [D]
+
+{c:VERSE 1:}
+It's [DM]all [D]the same[Dsus4][D][C] only the names will [G]change
+And [C]ev'ryday[G] it seems we're [F]wasting a[D]way
+A[DM]nother [D]place[Dsus4][D][C] where the faces are so [G]cold
+[C]I'd drive all [G]night just to [F]get back [D]home
+
+{soc}
+{c:CHORUS:}
+I'm a [C]cowboy[G] on a [F]steel horse I [D]ride
+I'm [C]wanted[G] dead or [D]alive
+[C]Wanted[G] dead or [D]alive
+{eoc}
+
+{c:VERSE 2:}
+[DM]Sometimes [D]I sleep[Dsus4][D][C] sometimes is not for [G]days
+And [C]people I [G]meet always go their [F]separate [D]ways
+Some[DM]times you [D]tell [Dsus4]the day [D]by the [C]bottle that you [G]drink
+And [C]times when all you [G]do [F]is [D]think
+
+{c:CHORUS:}
+
+{c:SOLO:}
+{sob}
+Ooooh and I'm a [C]cowboy [G]on a [F]steel horse I [D]ride
+I'm [C]wanted, [G]wanted, dead or [D]alive
+{eob}
+
+{c:VERSE 3:}
+And I [D]walk these streets a loaded [C]six string on my [G]back
+I [C]play for [G]keeps cause I [C]might not make it [D]back
+I been [D]ev'ry where still I'm [C]standig [G]tall
+I've [C]seen a million [G]faces and I've [C]rock them [D]all
+
+{c:OUTRO}
+'Cause I'm a [C]cowboy [G]on a [F]steel horse I [D]ride
+I'm [C]wanted, [G]wanted, dead or [D]alive
+Well [C]I'm a cowboy[G] I got [F]the night on my [D]side
+I'm [C]Wanted, [G]wanted, dead or [D]alive
+Dead or [C]alive, dead or [G]alive,
+Dead or a[D]live, I still [C]ride, still [G]ride
+Dead or a[D]live, dead or a[G]live,
+Dead or a[D]live, dead or a[G]live,
+Dead or a[D]live.
+
+{define: DM 0 1 3 2 0 0 X}  
+{define: D 0 2 3 2 0 X X}
+{define: Dsus4 0 3 3 2 0 X X}
+{define: C 0 0 1 0 2 3 X}
+{define: G 0 3 3 0 0 2 3}
+{define: F 0 1 1 2 3 3 1}

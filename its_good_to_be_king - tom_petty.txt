@@ -1,0 +1,90 @@
+{t:Its Good To Be King}
+{st:Tom Petty}
+
+[Em]    [Am]    [D]   [Em]     [Em]    [Am]    [D]   [Em]         
+
+{c:VERSE (0:26)}
+It's good to be [Em]king, if just for a[Am]while.
+To be there in v[D]elvet. Yeah, to give 'em a s[Em]mile.
+It's good to get [Em]high, and never come d[Am]own.
+It's good to be [D]King, of your own little [Em]town.
+
+{c:FILL (0:51)}                                                                        
+{sot}
+e|---------------|
+B|----------0-0--|
+G|------0-0------|
+D|--2-2----------|
+A|---------------|
+E|---------------|
+{eot}
+
+{c:CHORUS (0:53) }
+Y[A]eah, the world would swing, if [D]I were k[G]ing.
+[C]  [G]  [D]  Can I help it if I [C]  [G]  [Em]   still dr[A]eam time to time. [Asus]      [A]
+
+{c:VERSE (1:20)}
+It's good to be [Em]king, and have your own[Am] way.
+Get a feeling of p[D]eace at the end of the [G]day.
+And when your bulldog b[Em]arks and your canary s[Am]ings ,
+You're out there with w[D]inners, it's good to be [Em]king.
+
+{c:CHORUS (1:47) }
+Y[A]eah, I'll be king when d[D]ogs get w[G]ings.
+[C]  [G]  [D]  Can I help it if I[C]  [G]  [Em]   still dr[A]eam time to time. [Asus]     [A]
+
+{c:SOLO (2:14) -}                                                                               
+{sot}
+e|------------------------------------------------------------------------|
+B|--------------------------------------------------------------12h15-12--|
+G|--14b(16)r14-12-14b(16)~--14b(16)r14-12h14~--14b(16)~-14~--14-----------|
+D|------------------------------------------------------------------------|
+A|------------------------------------------------------------------------|
+E|------------------------------------------------------------------------|
+{eot}
+
+
+
+
+{gc:these bent notes are played rapidly, and with a trill}                             
+{sot}
+e|------------------------------------------------------------------------|
+B|--15b(17)r15--12--15b(17)-(17)-(17)-(17)-(17)-(17)-(17)-(17)-(17)-(17)--|
+G|------------------------------------------------------------------------|
+D|------------------------------------------------------------------------|
+A|------------------------------------------------------------------------|
+E|------------------------------------------------------------------------|
+{eot}
+                                                                               
+{sot}
+e|------------------------------------------------------------------------------|
+B|-15b(17)-15-15p12-15p12---------------15-12-------12-------12-----------------|
+G|------------------------14-12-14b(16)-------14-12----14-12----14-12-14-12-----|
+D|--------------------------------------------------------------------------14~-|
+A|------------------------------------------------------------------------------|
+E|------------------------------------------------------------------------------|
+{eot}
+
+{c:VERSE (2:40)}
+It's good to be k[Em]ing and have your own w[Am]orld.
+It helps to make f[D]riends, it's good to meet g[Em]irls.
+A sweet little q[Em]ueen, who can't run [Am]away.
+It's good to be k[D]ing, whatever it p[Em]ays.
+
+{c:CHORUS (3:07) }
+[C]  [G]  [D]  Excuse me if I [C]  [G]  [D]  have some place in my mind.
+[C]  [G]  [Em]   Where I go[A] time to time. [Asus]      [A]   [Asus]      [A]   [Asus]      [A]
+
+{c:OUTRO (3:33)}
+[Em]    [Am]    [D]   [Em]    [Em]    [Am]    [D]   [Em]          
+
+{gc:CHORD LEGEND}
+{sot}
+Em - 0 2 2 0 0 0
+Am - x 0 2 2 1 0
+D - x x 0 2 3 2
+A - x 0 2 2 2 0
+G - 3 2 0 0 0 3
+C - x 3 2 0 1 0
+Asus - x 0 2 2 3 0
+{eot}

@@ -1,0 +1,137 @@
+{t:Wonderwall}
+{st:Oasis}
+#Album: (What's the story) Morning Glory?
+
+{c:Capo 2. fret}
+
+{define: Em7 1 base-frets 0 2 2 0 3 3}
+{define: G 1 base-frets 3 2 0 0 3 3}
+{define: Dsus4 1 base-frets x x 0 2 3 3}
+{define: A7sus4 1 base-frets x 0 2 0 3 3}
+{define: Cadd9 1 base-frets x 3 2 0 3 3}
+{define: Dsus4/F# 1 base-frets 2 x 0 2 3 3}
+
+{c:Here's the rythym of how the chord in the verses should be played}
+
+   [Em7]               [G]               [Dsus4]            [A7sus4]                                  
+{sot}
+e--3--3--3--3-3-3-3-3--3--3-3--3-3-3--3--3-3-3--3--3-3-3-3-3-3-3----|
+B--3--3--3--3-3-3-3-3--3--3-3--3-3-3--3--3-3-3--3--3-3-3-3-3-3-3----|
+G--0--0--0--0-0-0-0-0--0--0-0--0-2-2--2--2-0-0--0--0-0-0-0-0-0-0----|
+D--2--2--2--2-2-2-0-0--0--0-0--0-0-0--0--0-0-2--2--0-2-2-0-2-2-0----|
+A--2--2--2--2-2-2-2-2--2--2-2----------------0--0----0-0-0-0-0------|
+E--0--0--0--0-0-0-3-3--3--3-3---------------------------------------|
+{eot}
+
+{c:NOTE: use the above strumming rythym when playing the verse chords below}
+{c:ANOTHER NOTE: play all "A7sus4"'s in the verses the way it is played in}
+{c:the rythym section above.}
+
+{c:Verse 1}
+
+[Em7]  Today is [G]gonna be the day that they're [Dsus4]gonna throw it back to [A7sus4]you
+[Em7]  By now you [G]should've somehow real[Dsus4]ized what you gotta [A7sus4]do
+[Em7]I don't believe that [G]anybody [Dsus4]feels the way I [A7sus4]do
+About you [Cadd9]now      [Dsus4]         [A7sus4]
+
+{c:Verse 2}
+[Em7]   Backbeat, the [G]word is on the street that the [Dsus4]fire in your heart is[A7sus4] out
+[Em7]   I'm sure you've [G]heard it all before but you [Dsus4]never really had a [A7sus4]doubt
+[Em7]I don't believe that [G]anybody [Dsus4]feels the way I [A7sus4]do
+about you [Em7]now   [G]      [Dsus4]          [A7sus4]
+
+
+{c:Pre-chorus}
+
+{c:NOTE: the tab below is what is played by guitars 1 and 3 while guitar 2}
+{c:plays the chords above the words. The tab below is used for both the first}
+{c:and second lines of the pre-chorus}
+
+{c:h=hammer on next note without picking again with the right hand}
+{c:p=pull off to make next note without having to pick the string w/ your}
+{c:right hand again}
+
+{c:And [Cadd9]all the roads we [Dsus4]have to walk are [Em7]winding}
+                                                                               
+{sot}
+e-------3------------2h3p2----------------------------------------|
+B----------3----------------3-------------------------------------|
+G-------------0----------------2-----------------0-----------0----|
+D--------------------0------------------------0---------0h2-------|
+A---3------------------------------------0h2---------2------------|
+E-------------------------------------0---------------------------|
+{eot}
+
+And [Cadd9]all the lights that [Dsus4]lead us there are [Em7]blinding
+[Cadd9]There are many [Dsus4]things that I
+would [G]like to [Dsus4/F#]say to    [Em7]you but I d[G]on't know [A7sus4]how
+                                                                               
+{sot}
+e-------3--------3--------3---------3-----------------0-------------0---------|
+B---------3--------3--------3---------3-----------3------3--------------3-----|
+G-----------0--------0--------0---------0-----------0------0----------------0-|
+D-----------------------------------------------------------------------------|
+A---------------------------------------------------------------2-------------|
+E-----3-------2---------0---------3-----------0-------------------------------|
+{eot}
+
+                                                                               
+{sot}
+e-----------0---------------------|
+B------3-------3-------3----------|
+G--------0-------0----------------|
+D-----------------------------0---|
+A--0-----------------2----0h2-----|
+E---------------------------------|
+{eot}
+
+{c:Chorus}
+
+Because [Cadd9]maybe  [Em7]      [G]   Yo[Em7]u're gonna be the one that [Cadd9]saves me [Em7]      [G]
+And[Em7] after all[Cadd9]        [Em7]      [G]  You're m[Em7]y wonderwall [Cadd9]       [Em7]      [G]   [Em7]
+
+{c:hold Em7}
+
+{sot}
+e--3-3-3-3-3-3-3---|
+B--3-3-3-3-3-3-3---|
+G--0-0-0-0-0-0-0---|
+D--0-2-2-0-2-2-0---| 
+A--0-0-0-0-0-0-0---|
+E------------------|
+
+{eot}
+
+
+{c:Verse 3}
+Today was gonna be the day but they'll never throw it back to you
+By now you should've somehow realized what you're not to do
+I don't believe that anybody feels the way I do about you now
+
+{c:Pre-chorus}
+And all the roads that lead you there were winding
+And all the lights that light the way are blinding
+There are many things that I would like to say to you,
+but I don't know how
+
+{c:Chorus}
+
+I said maybe
+You're gonna be the one that saves me
+And after all
+You're my wonderwall
+
+{c:Outro}
+[Cadd9]         [Em7]        [G]        [Em7]        
+                                                        
+{sot}
+e--------3--0-------------3--0----|
+B--0--1----------1--0--1----------|
+G---------------------------------|
+D---------------------------------|
+A---------------------------------|
+E---------------------------------|
+{eot}
+
+END
+

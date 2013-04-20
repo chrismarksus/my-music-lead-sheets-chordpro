@@ -1,0 +1,32 @@
+{t:Let My Words Be Few}
+{st:Matt Redman}
+{define: Gaug 0 3 2 1 0 0 3}
+{gc:Capo 1}
+
+{c:Verse 1}
+[G]You are God in [Gaug]heaven
+[Em]And here am I[C] on earth
+[G]So I'll [Gaug]let my words be[Em] few [C]
+[Am7]Jesus,[Em] I am [C]so in l[D]ove with [G]You
+
+{c:Chorus}
+{soc}
+[G]And I'll stand in [F]awe of [Em]You [C] (Jesus)
+[G]Yes I'll stand in [F]awe of [Em]You   [C] (Jesus)
+[Am7]And I'l[Em]l let my [C]words be few
+[C]Jesus,[Am7] I am [C]so in [D]love with [G]You.
+{eoc}
+
+{c:Verse 2}
+[G]The simplest of all love s[Gaug]ongs
+[Em]I want to bring to[C] You
+[G]So I'll [Gaug]let my words be [Em]few   [C]
+[Am7]Jesus[Em], I am[C] so in [D]love with Yo[G]u.
+
+{c:Repeat Chorus}
+
+yeah yeah yeah...
+
+{c:Repeat Verse 1}
+
+{c:Repeat Chorus}

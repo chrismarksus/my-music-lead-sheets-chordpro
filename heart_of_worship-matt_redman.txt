@@ -1,0 +1,49 @@
+{t:The Heart Of Worship}
+{st:Matt Redman}
+{define: D 0 0 0 0 2 3 2}
+{define: A 0 0 0 2 2 2 0}
+{define: Em 0 0 2 2 0 0 0}
+{define: Asus4 0 0 0 2 2 3 0}
+{define: D/F# 0 2 X 0 2 3 2}
+{define: A2/C# 0 X 4 2 2 0 0}
+{define: A/C# 0 X 4 2 2 2 0}
+
+{c:Verse 1}
+Wh[D]en the music fa[A]des, all is stripped a[Em]way, and I simply [A7sus4]come;
+Lo[D]nging just to br[A]ing, something that's of wo[Em]rth
+That will bless your [A7sus4]heart.
+
+{c:Verse 2}
+I'll [Em]bring you mor[D/F#]e than a s[A]ong,
+For a song in its[Em]elf is not wha[D/F#]t You have required[A]     [A/C#]       [D]
+You[Em] search much d[D/F#]eeper withi[A]n
+Through the way things appe[Em]ar;
+You're looking in[D/F#]to my heart[A]
+
+{c:Chorus}
+{soc}
+I'[D]m coming back to the heart o[A2/C#]f worship
+And it's all ab[Em]out You, i[G]ts all about Y[A]ou, Jesu[D]s
+I'm [D]sorry Lord for the thing [A2/C#]I've made it,
+When it's a[Em]ll about You, al[G]l about Y[A]ou, Jes[D]us
+{eoc}
+
+{c:Verse 3}
+Ki[D]ng of endless wo[A]rth, no one could expres[Em]s, how much You de[A7sus4]serve;
+Th[D]ough I'm weak and [A]poor, all I have is Y[Em]ours, every single br[A7sus4]eath
+I'll[Em] bring you mo[D/F#]re than a so[A]ng.
+For a song in it[Em]self is not what[D/F#] You have require[A]d   [A/C#]        [D]
+Yo[Em]u search much de[D/F#]eper withi[A]n
+Through the way things appea[Em]r;
+You're looking in[D/F#]to my heart[A]
+
+{c:Repeat Chorus}
+
+{c:Repeat Chorus}
+
+{c: Sing each line then repeat line softly}
+I'll [Em]bring you mor[D/F#]e than a s[A]ong,
+I'll [Em]bring you mor[D/F#]e than a s[A]ong,
+You're looking in[D/F#]to my heart[A]
+You're looking in[D/F#]to my heart[A]
+

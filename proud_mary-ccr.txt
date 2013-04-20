@@ -1,0 +1,39 @@
+{t:Proud Mary}
+{st:Creedence Clearwater Revival}
+
+{c:Intro}
+[G] [E]        [G] [E]
+[G] [E][D][C]      [D][A]
+
+{c:Verse 1}
+[A]Left a good job in the city
+Working for the man every night and day
+And I never lost one minute of sleep
+Worryin' 'bout the way things might have been
+
+{c:Chorus}
+{soc}
+The b[E]ig wheel keeps on turnin',
+Pro[F#m]ud Mary keeps on burnin'
+Ro[A]llin', rollin', rollin' on the river
+{eoc}
+
+[G] [E]        [G] [E]
+[G] [E][D][C]      [D][A]
+
+{c:Verse 2}
+[A]Cleaned a lot of plates in Memphis
+Pumped a lot of pain in New Orleans
+But I never saw the good side of the city
+Till I hitched a ride on the Riverboat Queen
+
+{c:Repeat Chorus}
+
+{c:Verse 3}
+[A]If you come down to the river
+Bet your gonna find some people who live
+You don't have to worry, cause you have no money
+The people on the river are happy to give
+
+{c:Repeat Chorus}
+

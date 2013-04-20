@@ -1,0 +1,39 @@
+{title:Here I Am to Worship}
+{st:Tim Hughes}
+{define: D 0 0 0 0 2 3 2}
+{define: A/C# 0 0 4 2 2 2 0}
+{define: D/F# 0 2 0 0 2 3 2}
+{define: D/G 0 3 0 0 2 3 2}
+{define: Gsus2 0 3 0 2 0 3 3}
+{define: G 0 3 2 0 0 3 3}
+{define: Asus4 0 0 0 2 2 3 0}
+
+[D]Light of the [Asus4]world
+You stepped [Em7]down into darkness
+[D]Opened my [Asus4]eyes let me se[D/G]e
+[D]Beauty that [Asus4]made this hea[Em7]rt adore You
+[D]Hope of a [Asus4]life spent with [D/G]You[Gsus2]
+
+{soc}
+Here I am to [D/F#]worship
+Here I am to [A/C#]bow down
+Here I am to [D/F#]say that You're [D/G]my G[G]od
+You're altogether [D]lovely
+Altogether [A/C#]worthy
+Altogether [D/F#]wonderful t[D/G]o me[G]
+{eoc}
+
+King of all days, oh so highly exalted
+Glorious in heaven above
+Humbly You came to the earth You created
+All for love's sake became poor
+
+{c:Chorus}
+
+I'll [A]never [D]know how [G]much it cost
+To [A]see my [D]sin up[G]on that cross
+I'll [A]never [D]know how [G]much it cost
+To [A]see my [D]sin up[G]on that cross
+
+{gc:Capo 2 in E, capo the bottom 5 strings, leaving the bass E open.}
+

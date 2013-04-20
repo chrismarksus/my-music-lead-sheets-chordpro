@@ -1,0 +1,85 @@
+{t:The Old Apartment}
+{st:Barenaked Ladies}
+{define: G base-fret 1 frets 3 2 0 0 3 3}
+{define: Cadd9 base-fret 1 frets - 3 2 0 3 3}
+{c:Capo on 3rd fret}
+
+[G]Broke int[D]o the old apar[Cadd9]tment. [Cadd9]
+[G]This is whe[D]re we used to live[Cadd9].     [Cadd9]
+[G]Broken glas[D]s, broke and hun[Cadd9]gry, broken hea[Cadd9]rts and
+broken bones.
+[G]This is whe[D]re we used to live[Cadd9].     [Cadd9]
+
+{c:refrain}
+
+{soc}
+[Em]Why d[D]id you paint the wa[C]lls?
+[Em]Why d[D]id you clean the flo[C]or?
+[Em]Why d[D]id you plaster ov[C]er the h[D]ole I punched in the
+do[G]or?   This is whe[D]re we used to live[Cadd9].      [Cadd9]
+[G]Why d[D]id you keep the [Cadd9]mousetrap, why did yo[D]u keep the
+di[G]shrack?  These things use[D]d to be mine, I gu[Cadd9]ess they still
+are, I want 'm ba[D]ck.
+{eoc}
+
+[G]Broke int[D]o the old apar[Cadd9]tment. [Cadd9]
+[G]Forty-tw[D]o stairs from the stree[Cadd9]t.     [Cadd9]
+[G]Crooked la[D]nding, crooked la[Cadd9]ndlord, narrow landw[Cadd9]ay
+filled with
+[G]crooks.   This is whe[D]re we used to live[Cadd9].       [Cadd9]
+
+{c:refrain}
+
+{soc}
+[Em]Why d[D]id they pave the la[C]wn?
+[Em]Why d[D]id they change the lo[C]cks?
+[Em]Why d[D]id I have to br[C]eak it, I on[D]ly came here to
+ta[G]lk.   This is whe[D]re we used to live[Cadd9].      [Cadd9]
+[G]How i[D]s the neighbor do[Cadd9]wnstairs?  How i[D]s her temper
+th[G]is year?  I turned u[D]p your tv and sto[Cadd9]mped on the floor
+just for f[D]un.
+{eoc}
+
+{c:bridge}
+{sob}
+[Em]I kn[D]ow we don't [G]live here anymo[C]re.
+[C]We b[D]ought an old ho[G]use on the dan[C]forth.
+[Em]She lo[D]ves me and her b[G]ody keeps me [C]warm;
+[C](and) I'm ha[D]ppy
+{eob}
+
+h[G]ere.   But this is whe[D]re we used to live[Cadd9].      [Cadd9]
+[G]Broke int[D]o the old apar[Cadd9]tment.  [Cadd9]
+[G]Tore the p[D]hone out of the wal[Cadd9]l.    [Cadd9]
+[G]Only me[D]mories, fading mem[Cadd9]ories blending in[Cadd9]to dull
+
+tab[G]leaux.   I w[D]ant them ba[Cadd9]ck.   (This is wh[Cadd9]ere we
+used to live)
+[G]I w[D]ant them ba[Cadd9]ck.   (This is wh[Cadd9]ere we used to live)
+[G]I w[D]ant them ba[Cadd9]ck.   (This is wh[Cadd9]ere we used to live)
+[G]I w[D]ant them ba[Cadd9]ck.
+
+{sot}
+NOTES
+
+ Verse:
+ The verse chords are downstrokes on the first two beats of each
+ measure.
+
+ Refrain:
+ The first 10 measures are picked (through the third D chord), then
+ it starts strumming leading up to the G which is played like the
+ verse.  The G D Cadd9 D sequence is then strummed.
+
+ Also in the refrain: on the CD I have, they almost seem to let the
+ Em chord ring out over the D, so you could probably just play the
+ Em chord for the first measure and let it ring until the C chord
+ of actually playing the D.
+
+ Bridge:
+ The bridge is picked like the refrain, one chord per measure.  Note
+ that it is only 14 measures long, however.
+
+ Ending:
+ The 'I want them back' section is picked
+{eot}

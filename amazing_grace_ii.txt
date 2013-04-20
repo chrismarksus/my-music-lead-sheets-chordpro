@@ -1,0 +1,25 @@
+{t:Amazing Grace II}
+
+{c:VERSE 1}
+Amaz[G]ing grace! [D7]How [Em]sweet [C]the [G]sound 
+That saved a wretch [D]like [G]me!
+I once was lost but [C]now[G] [C]am [G]found, 
+was [Em]blind [G]but now [D7]I [G]see.
+
+{c:VERSE 2}
+[G]Twas grace that taught [D7]my [Em]heart [C]to [G]fear,
+and grace my fears [D]re[G]lieved
+How precious did that [C]grace[G] [C]ap[G]pear
+the [Em]hour [G]I first [D7]be[G]lieved
+
+{c:VERSE 3}
+[G]Through many dan[D7]gers [Em]toils [C]and [G]snares 
+I have alrea[D]dy [G]come
+Tis grace has brought me [C]safe[G] [C]thus [G]far, 
+and [Em]grace [G]will lead [D7]me [G]home
+
+{c:VERSE 4}
+[G]When we've been there [D7]ten [Em]thous[C]and [G]years, 
+bright shining as [D]the [G]sun,
+We've no less days to [C]sing[G] [C]God's [G]praise 
+than [Em]when [G]we've first [D7]be[G]gun

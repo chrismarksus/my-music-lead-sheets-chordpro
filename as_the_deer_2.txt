@@ -1,0 +1,31 @@
+{t:As The Deer 2}
+
+{c:VERSE 1}
+[C]As the de[Em]er panteth [Am]for the[Am/G] water
+So my s[F]oul longeth [G]after [C]Thee.
+[C]You al[Em]one are my he[Am]art's [Am/G]desire
+And I l[F]ong to w[G]orship T[C]hee.
+
+{c:VERSE 2}
+[Am]You alone are my str[F]ength, my sh[C]ield,
+To[F] You alone may m[Dm7]y spirit[E] yield.
+Y[C]ou al[Em]one are my he[Am]art's [Am/G]desire,
+And I[F] long t[G]o worship[C] Thee.
+
+
+{c:VERSE 3}
+You're my friend and you are my brother
+Even though You are a King.
+I love You more than any other,
+So much more than anything.
+
+{c:VERSE 4}
+I want You more than gold or silver
+Only You can satisfy.
+You alone are the real joy giver
+And the apple of my eye.
+
+{define:Am/G 0 3 x 2 2 1 0}
+
+{c:©1984, Maranatha! Music}
+{c:Words and Music by Martin Nystrom}

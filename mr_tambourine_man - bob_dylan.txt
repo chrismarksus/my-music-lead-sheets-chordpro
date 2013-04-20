@@ -1,0 +1,79 @@
+{t:Mr Tambourine Man}
+{st:Bob Dylan}
+
+{c:Original version (from 'Bringing It All Back Home')}
+
+{gc:Capo 3rd fret}
+{gc:Dropped D tuning (D-a-d-g-b-e')}
+
+{define: D 0 0 0 0 2 3 2}
+{define: Dsus4 0 0 0 0 2 3 3}
+{define: Dsus2 0 0 0 0 2 3 0}
+{define: G 0 0 2 0 0 3 3}
+{define: A 0 x 0 2 2 2 0}
+{define: A 0 2 0 2 2 2 0}
+{define: Asus4 0 x 0 2 2 3 0}
+{define: Asus4 0 2 0 2 2 3 0}
+{define: Asus2 0 x 0 2 2 0 0}
+{define: Asus2 0 2 0 2 2 0 0}
+
+{sot}
+|: D        D Dsus2 D :|
+{eot}
+
+{soc}
+[G]Hey! Mr. [A]Tambourine Man, [D]play a song for [G]me,
+I'm not [D]sleepy and there [G]is no place 
+I'm [A]going to. [Asus4]      [A]
+[G]Hey! Mr. [A]Tambourine Man, [D]play a song for [G]me,
+In the [D]jingle jangle [G]morning 
+I'll come [A]followin' [D]you.[Dsus4]      [D]  [Dsus2]      [D]
+{eoc}
+
+Though I k[G]now that evenin's e[A]mpire has r[D]eturned into [G]sand,
+Va[D]nished from my h[G]and,
+Left me bl[D]indly here to st[G]and but still 
+not sl[A]eeping[Asus4].     [A]
+My we[D]ariness am[G]azes me, I'm br[D]anded on my f[G]eet,
+I h[D]ave no one to m[G]eet
+And the a[D]ncient empty st[G]reet's too dead for 
+dr[A]eaming[Asus4].     [A]
+
+{c:Chorus}
+
+Take me on a trip upon your magic swirlin' ship,
+My senses have been stripped, my hands can't feel to grip,
+My toes too numb to step, wait only for my boot heels
+To be wanderin'.
+I'm ready to go anywhere, I'm ready for to fade
+Into my own parade, cast your dancing spell my way,
+I promise to go under it.
+
+{c:Chorus}
+
+Though you might hear laughin', spinnin', swingin' madly across the sun,
+It's not aimed at anyone, it's just escapin' on the run
+And but for the sky there are no fences facin'.
+And if you hear vague traces of skippin' reels of rhyme
+To your tambourine in time, it's just a ragged clown behind,
+I wouldn't pay it any mind, it's just a shadow you're
+Seein' that he's chasing.
+
+{c:Chorus}
+
+{c:Harmonica part 1}
+
+Then take me disappearin' through the smoke rings of my mind,
+Down the foggy ruins of time, far past the frozen leaves,
+The haunted, frightened trees, out to the windy beach,
+Far from the twisted reach of crazy sorrow.
+Yes, to dance beneath the diamond sky with one hand waving free,
+Silhouetted by the sea, circled by the circus sands,
+With all memory and fate driven deep beneath the waves,
+Let me forget about today until tomorrow.
+
+{c:Chorus}
+
+{c:Harmonica part 2}
+
+

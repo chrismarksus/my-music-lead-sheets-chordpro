@@ -1,0 +1,31 @@
+{t:Let Everything That Has Breath}
+{st:Matt Redman}
+{define: E/D# 0 X X 2 2 0 0}
+
+{c:CHORUS}
+{soc}
+[E] Let everything that,[E/D#] everything that,
+[C#m7] Everything that [A]has breath [B]praise the Lord.
+[E] Let everything that,[E/D#] everything that,
+[C#m7] Everything that [A]has breath [B]praise the Lord.[F#m7]       [B]
+{eoc}
+
+{c:VERSE 1}
+[E] Praise You in the morning,
+[E/D#] Praise You in the evening,
+[C#m7] Praise You when I'm young and when I'm o[A2]ld.
+[E] Praise You when I'm laughing,
+[E/D#] Praise You when I'm grieving,
+[C#m7] Praise You every season of the so[A2]ul.
+If[F#m7] we could see how [E/G#]much You're worth,
+Your [F#m7]power, Your might, Your [E/G#]endless love,
+Then [F#m7]surely we would [E/G#]never cease to pr[A]aise.
+
+{c:VERSE 2}
+Praise You in the heavens, joining with the angels,
+Praising You forever and a day.
+Praise You on the earth now, joining with creation,
+Calling all the nations to Your praise.
+If they could see how much You're worth,
+Your power, your might, your endless love,
+Then surely they would never cease to praise.

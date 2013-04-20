@@ -1,0 +1,45 @@
+{t:Wanted Dead Or Alive (EASY)}
+{st:Bon Jovi}
+
+{comment:VERSE 1}
+[D]It's all the same , [C]only the names wil[G]l change
+[C]And ev'ry [G]day , it[F] seems we're wastin[D]g away
+[D]Another place , [C]where the faces are so [G]cold
+[C]I'd drive all [G]night , just [F]to get back [D]home
+
+{comment:CHORUS}
+{start_of_chorus}
+[C]I'm a cow[G]boy , on [F]a steel horse I [D]ride
+[C]I'm wanted[G] , [F]dead or [D]alive
+[C]Wanted[G] , [F]dead or [D]alive
+{end_of_chorus}
+
+{comment:VERSE 2}
+[D]Sometimes I sleep , [C]sometimes is not for[G] days
+[C]and people I m[G]eet , always[F] go their separate [D]ways
+[D]Sometimes you tell the day , [C]by the bottle that you[G] drink
+[C]And times when your [G]alone , and [F]all you do is [D]think
+
+{comment:REPEAT CHORUS}
+
+{comment:SOLO}
+{sob}
+[C]Ooooh and I'm a cowbo[G]y , on a [F]street horse I [D]ride
+[C]I'm wanted (wanted) , [F]dead or [D]alive
+{eob}
+
+{comment:VERSE 3}
+[D]And I walk these streets , [C]a loaded six string on my[G] back
+[C]I play for kee[G]ps , 'cause[F] I might not make it[D] back
+[D]I been ev'ry where , [C]still I'm standig [G]tall
+[C]I've seen a milion [G]faces , and [F]I've rock them [D]all
+
+{comment:REPEAT CHORUS}
+
+{comment:OUTRO}
+[C]I'm Wanted [G](wanted) , [F]dead or [D]alive
+[C]Dead or [G]Alive , [C]Dead or [G]alive
+[C]Dead or [G]alive ,I [F]still ride[D]  (still ride)
+[C]Dead or [G]alive , [C]Dead or [G]alive
+[C]Dead or [G]alive , [C]dead or [G]alive
+[C]Dead or [G]alive , Dead or alive ...........

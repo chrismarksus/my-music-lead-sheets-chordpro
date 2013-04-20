@@ -1,0 +1,87 @@
+{t:House of the Rising Sun}
+{st:Animals}
+
+{c:VERSE 1}
+There [Am]is a [C]house in [D]New Or-[F]leans, 
+They [Am]call the [C]Rising [E]Sun [E7]
+And it's [Am]been the [C]ruin of [D]many a po' [F]girl, 
+And [Am]me, Oh [E7]God, I'm [Am]one.
+
+[C] [D] [F] [C] [E]
+
+{c:VERSE 2}
+My [Am]mother [C]was a [D]tailor [F], 
+She [Am]sewed my [C]new blue [E]jeans [E7]
+My [Am]sweetheart [C]was a [D]gambler [F]lord, 
+[Am]down in [E7]New [Am]Orleans.
+
+{c:VERSE 3}
+Now the [Am]only [C]thing a [D]gambler [F]needs, 
+Is a [Am]suitcase [C]and a [E]trunk [E7]
+And the [Am]only [C]time he's [D]satis-[F]fied, 
+Is [Am]when he's [E7]on a [Am]drunk.
+
+{c:VERSE 4}
+He [Am]fills his [C]glass up [D]to the [F]brim, 
+And he'll [Am]pass the [C]cards a-[E]round [E7]
+And the [Am]only [C]pleasure he [D]gets outa [F]life, 
+Is [Am]ramblin from [E7]town to [Am]town.
+
+{c:VERSE 5}
+Go [Am]tell my [C]baby [D]sister, [F], 
+Not to [Am]do what [C]I have [E]done [E7]
+But to [Am]shun that [C]house in [D]New Or-[F]leans, 
+They [Am]call the [E7]Rising [Am]Sun.
+
+{c:VERSE 6}
+Well it's [Am]one foot [C]on the [D]platform, [F]. . .and 
+the [Am]other foot [C]on the [E]train [E7]
+I'm [Am]goin' [C]back to [D]New Or-[F]leans, 
+to [Am]wear that [E7]ball and [Am]chain
+
+{c:VERSE 7}
+Well I'm [Am]goin' [C]back to [D]New Or-[F]leans, 
+my [Am]race is [C]almost [E]run [E7]
+I'm [Am]goin' [C]back to [D]end my [F]life, down 
+[Am]in the [E7]Rising [Am]Sun
+
+{c:VERSE 8}
+There [Am]is a [C]house in [D]New Or-[F]leans, they 
+[Am]call the [C]Rising [E]Sun And it's [E7]
+[Am]been the [C]ruin of [D]many a po' [F]girl, 
+and [Am]me, Oh [E7]God, I'm [Am]one.
+
+{gc: Arpeggio TAB}
+{sot}
+Am        C        D        F
+|-----0---|----0---|----2---|----1---|
+|----1-1--|---1-1--|---3-3--|---1-1--|
+|---2-----|--0-----|--2-----|--2-----|
+|---------|------2-|-0----0-|-3------|
+|--0----0-|-3------|--------|------0-|
+|-0-------|--------|--------|--------|
+
+Am        C        E        E7
+|-----0---|----0---|----0---|----0---|
+|----1-1--|---1-1--|---0-0--|---3-3--|
+|---2-----|--0-----|--1-----|--1-----|
+|---------|------0-|-2----2-|-2------|
+|--0----0-|-3------|--------|------2-|
+|---------|--------|--------|--------|
+
+Am        C        D        F
+|-----0---|----0---|----2---|----1---|
+|----1-1--|---1-1--|---3-3--|---1-1--|
+|---2-----|--0-----|--2-----|--2-----|
+|---------|------2-|-0----0-|-3----0-|
+|--0----0-|-3------|--------|--------|
+|-0-------|--------|--------|--------|
+
+Am        E7       Am        
+|----0----|----0---|----0---|-5------|
+|---1-1---|---3-1--|---1-1--|-5------|
+|--2------|--1-----|--2-----|-5------|
+|-2----0--|-2------|--------|--------|
+|---------|------2-|-0----0-|-0------|
+|---------|--------|--------|--------|
+{eot}

@@ -1,0 +1,48 @@
+{t:Blessed Be Your Name}
+{st:Matt Redman}
+{gc:Capo ___ fret}
+{c: Intro 4 times}
+[D]   [A]   [Dadd9]
+
+{c:Verse 1}
+[A] Blessed be[E] Your name in the [F#m7]land that is [D]plentiful
+[A]Where Your streams of [E]abundance flow
+[D]Blessed be Your name[D]
+[A](And) blessed be[E] Your name when I'm [F#m7]found in the [D]desert place
+[A]Though I walk through the [E]wilderness
+[D]Blessed be Your name[D]
+
+{c:Chorus 1}
+{soc}
+[A] Every blessing [E]You pour out I'll
+[F#m7] turn back to[D] praise
+[A] And when the darkness[E] closes in, Lord
+[B] Still I will [D]say
+{eoc}
+{c:Chorus 2}
+{soc}
+Blessed be the [A]name of the Lord[E]
+Blessed be Your [F#m7]name[D]
+Blessed be the [A]name of the Lord[E]
+Blessed be Your [F#m7]glori[E]ous [D]name
+{eoc}
+
+{c:Verse 2}
+[A] Blessed be[E] Your name when the[F#m7] sun's shining [D]down on me
+[A]When the world's "all as [E]it should be"
+[D]Blessed be Your name[D]
+[A](And) blessed be[E] Your name [F#m7]on the road marked with [D]suffering
+[A]Though there's pain in the [E]offering
+[D]Blessed be Your name[D]
+{c:Repeat Chorus and Repeat Second Chorus then Repeat Intro 3 times}
+
+{c:Bridge}
+{sob}
+You [A]give and take a[E]way
+You [F#m7]give and take a[D]way
+My [A]heart will choose to [E]say
+Lord, [F#m7]blessed be Your [D]name
+{eob}
+{c:Repeat Bridge then fade out with intro}
+
+
