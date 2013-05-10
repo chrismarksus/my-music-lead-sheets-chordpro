@@ -20,3 +20,13 @@ What's in your [Em]head in your h[C]ead, Zomb[G]ie, Zombie, Zombi[Bm]e, ie, ie, 
 It's the [Em]same old theme since [C]1916, in your [G]head, in your head they're still figh[D]tin'
 
 {c:Chorus}
+
+{c:Intro}
+{sot}
+e|--7--8--5--7--3--5--2-h3-p2--
+B|----------------------------3
+G|-----------------------------
+D|-----------------------------
+A|-----------------------------
+E|-----------------------------
+{eot}
