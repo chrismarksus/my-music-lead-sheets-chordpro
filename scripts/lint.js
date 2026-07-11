@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Lint rules enforced over every song `.chordpro` file in the repo root. See CONTRIBUTING.md
+// Lint rules enforced over every song `.chordpro` file in sheets/. See CONTRIBUTING.md
 // for what to do when one of these fails.
 //   1. parse           - file must parse as valid ChordPro (chordsheetjs ChordProParser)
 //   2. title           - must contain a {t:...} directive
@@ -15,6 +15,7 @@ const path = require('path');
 const { ChordProParser } = require('chordsheetjs');
 
 const ROOT = path.resolve(__dirname, '..');
+const SHEETS_DIR = path.join(ROOT, 'sheets');
 
 const LONG_FORM_DIRECTIVES = [
   { long: 'title:', short: 't:' },
@@ -30,14 +31,14 @@ const LONG_FORM_DIRECTIVES = [
 const FILENAME_RE = /^[a-z0-9]+(_[a-z0-9]+)*(-[a-z0-9]+(_[a-z0-9]+)*)*$/;
 
 function listSongFiles() {
-  return fs.readdirSync(ROOT)
+  return fs.readdirSync(SHEETS_DIR)
     .filter((f) => f.endsWith('.chordpro'))
     .sort();
 }
 
 function lintFile(filename) {
   const errors = [];
-  const content = fs.readFileSync(path.join(ROOT, filename), 'utf8');
+  const content = fs.readFileSync(path.join(SHEETS_DIR, filename), 'utf8');
   const lines = content.split(/\r\n|\r|\n/);
 
   const base = filename.replace(/\.chordpro$/, '');

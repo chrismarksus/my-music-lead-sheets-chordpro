@@ -37,7 +37,7 @@ npm run check
 ```
 
 `npm run lint` runs [`scripts/lint.js`](scripts/lint.js), which checks every `.chordpro` file in
-the repo root against the rules listed in that file's header comment (parse validity,
+`sheets/` against the rules listed in that file's header comment (parse validity,
 required title, banned long-form directives, balanced `{soc}`/`{eoc}` and `{sot}`/`{eot}`
 blocks, balanced chord brackets, snake_case filename). The rule list lives in one place —
 `scripts/lint.js` — rather than being duplicated here, so it can't drift out of sync with
@@ -48,8 +48,8 @@ checks repo-wide consistency rather than individual files: `INDEX.md` matches th
 files (no missing/stray rows, no title/artist drift), `{c:...see also X.chordpro}`
 cross-references between alternate arrangements point at real filenames, there are no
 byte-identical duplicate `.chordpro` files, no unrecognized stray files/directories in the repo
-root, and every `.chordpro` file is valid UTF-8 with no BOM. As with lint, the rule list lives
-in the script's header comment.
+root or in `sheets/`, and every `.chordpro` file is valid UTF-8 with no BOM. As with lint, the
+rule list lives in the script's header comment.
 
 If every file passes both checks, CI exits 0 (green). If anything fails, it exits 1 (red)
 and prints every violation as `filename:line: message` (or `filename: message` for
