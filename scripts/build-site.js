@@ -134,13 +134,42 @@ h2.subtitle { font-family: var(--font-body); font-style: italic; font-weight: 40
   font-size: 13.5px; line-height: 1.6; white-space: pre; -webkit-font-smoothing: auto;
 }
 
+.song-nav { display: flex; justify-content: space-between; gap: 12px; margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--divider); }
+.song-nav a { display: flex; flex-direction: column; text-decoration: none; color: var(--text); max-width: 46%; }
+.song-nav .next { margin-left: auto; text-align: right; align-items: flex-end; }
+.song-nav .dir { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.song-nav .nav-title { font-family: var(--font-heading); font-weight: 600; font-size: 15px; }
+.song-nav a:hover .nav-title { color: var(--accent-text); }
+
 @media (max-width: 420px) {
   main { padding: 18px 14px 56px; }
   h1.page-title { font-size: 28px; }
   h1.title { font-size: 27px; }
   .song-list .artist { max-width: 38%; }
 }
+
+@media print {
+  .site-header, .search-wrap, .az-jump, .song-nav { display: none !important; }
+  body { background: #fff; color: #000; font-size: 12pt; }
+  a { color: #000; text-decoration: none; }
+  main { max-width: 100%; margin: 0; padding: 0; }
+  h1.title { font-size: 22pt; }
+  h2.subtitle { color: #333; }
+  .song-divider { background: #999; }
+  .chord-sheet .chord { color: #000; }
+  .chord-sheet .comment { border-left-color: #999; color: #333; }
+  .chord-sheet .tab-block { border-color: #999; background: #fff; -webkit-print-color-adjust: exact; }
+  @page { margin: 1.2cm; }
+}
 `;
+
+const FAVICON_SVG = `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'>
+<rect width='64' height='64' rx='14' fill='#b68235'/>
+<ellipse cx='24' cy='46' rx='8' ry='6' transform='rotate(-15 24 46)' fill='#fdf8f0'/>
+<rect x='30' y='14' width='4' height='34' fill='#fdf8f0'/>
+<path d='M34 14 Q48 18 46 30 Q44 24 34 24 Z' fill='#fdf8f0'/>
+</svg>`;
+const FAVICON_HREF = `data:image/svg+xml,${encodeURIComponent(FAVICON_SVG)}`;
 
 const THEME_TOGGLE_ICONS = {
   sun: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>',
@@ -181,7 +210,7 @@ function listSongFiles() {
 }
 
 function escapeHtml(str) {
-  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
 // Tab blocks ({sot}...{eot} / {start_of_tab}...{end_of_tab}) are ASCII string
@@ -214,18 +243,24 @@ function slugFor(filename) {
   return filename.replace(/\.chordpro$/, '');
 }
 
-function pageShell({ title, bodyHtml, isSongPage }) {
+function pageShell({ title, bodyHtml, isSongPage, description }) {
   const stylesheetHref = isSongPage ? '../style.css' : 'style.css';
   const homeHref = isSongPage ? '../index.html' : null;
   const header = isSongPage
     ? `<a class="back" href="${homeHref}">&larr; Song list</a>`
     : `<span class="brand">Lead Sheets</span>`;
+  const desc = escapeHtml(description || 'Personal collection of ChordPro lead sheets.');
   return `<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${escapeHtml(title)}</title>
+<meta name="description" content="${desc}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="${escapeHtml(title)}">
+<meta property="og:description" content="${desc}">
+<link rel="icon" href="${FAVICON_HREF}">
 <link rel="stylesheet" href="${stylesheetHref}">
 <script>
 (function () {
@@ -317,7 +352,22 @@ ${rows}
 <nav class="az-jump" aria-label="Jump to letter">${jumpHtml}</nav>
 <p id="no-results">No songs match your search.</p>
 ${groupsHtml}`;
-  return pageShell({ title: 'Song Index', bodyHtml, isSongPage: false });
+  return pageShell({
+    title: 'Song Index',
+    bodyHtml,
+    isSongPage: false,
+    description: `${entries.length} personal chord/lyric lead sheets, searchable by title or artist.`,
+  });
+}
+
+function songNavHtml(prev, next) {
+  const prevHtml = prev
+    ? `<a href="${prev.slug}.html"><span class="dir">&larr; Prev</span><span class="nav-title">${escapeHtml(prev.title)}</span></a>`
+    : '<span></span>';
+  const nextHtml = next
+    ? `<a class="next" href="${next.slug}.html"><span class="dir">Next &rarr;</span><span class="nav-title">${escapeHtml(next.title)}</span></a>`
+    : '<span></span>';
+  return `<nav class="song-nav" aria-label="Song navigation">${prevHtml}${nextHtml}</nav>`;
 }
 
 function main() {
@@ -349,11 +399,25 @@ function main() {
       '<div class="chord-sheet">',
       '<hr class="song-divider">\n<div class="chord-sheet">'
     );
-    fs.writeFileSync(path.join(SONGS_DIR, `${slug}.html`), pageShell({ title, bodyHtml, isSongPage: true }));
-    entries.push({ title, artist, slug });
+    entries.push({ title, artist, slug, bodyHtml });
   });
 
   entries.sort((a, b) => a.title.localeCompare(b.title));
+
+  // Written after sorting so each page can link to its alphabetical
+  // neighbors (prev/next nav), letting you flip through songs in order
+  // without returning to the index each time.
+  entries.forEach((entry, i) => {
+    const prev = i > 0 ? entries[i - 1] : null;
+    const next = i < entries.length - 1 ? entries[i + 1] : null;
+    const bodyHtml = entry.bodyHtml + songNavHtml(prev, next);
+    const description = `Chords and lyrics for "${entry.title}"${entry.artist ? ` by ${entry.artist}` : ''}.`;
+    fs.writeFileSync(
+      path.join(SONGS_DIR, `${entry.slug}.html`),
+      pageShell({ title: entry.title, bodyHtml, isSongPage: true, description })
+    );
+  });
+
   fs.writeFileSync(path.join(OUT_DIR, 'index.html'), buildIndexPage(entries));
 
   // formatterCss first, CHROME_CSS second: our selectors are equally specific
