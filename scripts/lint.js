@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Lint rules enforced over every song `.txt` file in the repo root. See CONTRIBUTING.md
+// Lint rules enforced over every song `.chordpro` file in the repo root. See CONTRIBUTING.md
 // for what to do when one of these fails.
 //   1. parse           - file must parse as valid ChordPro (chordsheetjs ChordProParser)
 //   2. title           - must contain a {t:...} directive
@@ -31,7 +31,7 @@ const FILENAME_RE = /^[a-z0-9]+(_[a-z0-9]+)*(-[a-z0-9]+(_[a-z0-9]+)*)*$/;
 
 function listSongFiles() {
   return fs.readdirSync(ROOT)
-    .filter((f) => f.endsWith('.txt'))
+    .filter((f) => f.endsWith('.chordpro'))
     .sort();
 }
 
@@ -40,7 +40,7 @@ function lintFile(filename) {
   const content = fs.readFileSync(path.join(ROOT, filename), 'utf8');
   const lines = content.split(/\r\n|\r|\n/);
 
-  const base = filename.replace(/\.txt$/, '');
+  const base = filename.replace(/\.chordpro$/, '');
   if (!FILENAME_RE.test(base)) {
     errors.push(`${filename}: filename must be snake_case (lowercase letters, digits, underscores, optional hyphen-joined segments)`);
   }

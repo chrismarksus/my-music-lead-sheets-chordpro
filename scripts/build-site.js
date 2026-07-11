@@ -31,6 +31,22 @@ const CHROME_CSS = `
     --link: #6cb2ff;
   }
 }
+:root[data-theme="light"] {
+  --bg: #fff;
+  --fg: #222;
+  --muted: #666;
+  --border: #eee;
+  --chord: #b00;
+  --link: #0645ad;
+}
+:root[data-theme="dark"] {
+  --bg: #1a1a1a;
+  --fg: #e4e4e4;
+  --muted: #999;
+  --border: #333;
+  --chord: #ff6b6b;
+  --link: #6cb2ff;
+}
 body {
   font-family: system-ui, -apple-system, Segoe UI, sans-serif;
   max-width: 40em;
@@ -41,8 +57,19 @@ body {
   color: var(--fg);
 }
 a { color: var(--link); }
-header { margin-bottom: 1.5em; }
+header { margin-bottom: 1.5em; display: flex; align-items: center; }
 header a { text-decoration: none; }
+#theme-toggle {
+  margin-left: auto;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.3em 0.6em;
+  cursor: pointer;
+  color: var(--fg);
+  font-size: 0.9rem;
+  line-height: 1;
+}
 .song-list { list-style: none; padding: 0; }
 .song-list li { padding: 0.3em 0; border-bottom: 1px solid var(--border); }
 .artist { color: var(--muted); font-size: 0.9em; }
@@ -55,7 +82,7 @@ h2.subtitle { margin-top: 0.2em; color: var(--muted); font-weight: normal; }
 
 function listSongFiles() {
   return fs.readdirSync(ROOT)
-    .filter((f) => f.endsWith('.txt'))
+    .filter((f) => f.endsWith('.chordpro'))
     .sort();
 }
 
@@ -64,12 +91,12 @@ function escapeHtml(str) {
 }
 
 function slugFor(filename) {
-  return filename.replace(/\.txt$/, '');
+  return filename.replace(/\.chordpro$/, '');
 }
 
 function pageShell({ title, bodyHtml, isSongPage }) {
   const stylesheetHref = isSongPage ? '../style.css' : 'style.css';
-  const backLink = isSongPage ? '<header><a href="../index.html">&larr; Back to song list</a></header>' : '';
+  const backLink = isSongPage ? '<a href="../index.html">&larr; Back to song list</a>' : '';
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -77,12 +104,42 @@ function pageShell({ title, bodyHtml, isSongPage }) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${escapeHtml(title)}</title>
 <link rel="stylesheet" href="${stylesheetHref}">
+<script>
+(function () {
+  var stored = localStorage.getItem('theme');
+  if (stored === 'dark' || stored === 'light') {
+    document.documentElement.setAttribute('data-theme', stored);
+  }
+})();
+</script>
 </head>
 <body>
+<header>
 ${backLink}
+<button id="theme-toggle" type="button" aria-label="Toggle dark mode"></button>
+</header>
 <main>
 ${bodyHtml}
 </main>
+<script>
+(function () {
+  var root = document.documentElement;
+  var btn = document.getElementById('theme-toggle');
+  function effectiveTheme() {
+    return root.getAttribute('data-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  }
+  function render() {
+    btn.textContent = effectiveTheme() === 'dark' ? '☀️ Light' : '🌙 Dark';
+  }
+  render();
+  btn.addEventListener('click', function () {
+    var next = effectiveTheme() === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    render();
+  });
+})();
+</script>
 </body>
 </html>
 `;
