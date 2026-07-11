@@ -61,7 +61,7 @@ a:hover { color: var(--accent); }
   position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 12px;
   padding: 14px 20px; background: var(--bg); border-bottom: 1px solid var(--divider);
 }
-.site-header .back { font-family: var(--font-heading); font-weight: 600; font-size: 15px; color: var(--text); text-decoration: none; white-space: nowrap; }
+.site-header .back { font-family: var(--font-heading); font-weight: 600; font-size: 15px; color: var(--text); text-decoration: none; white-space: nowrap; margin-right: auto; }
 .site-header .back:hover { color: var(--accent-text); }
 .site-header .brand { font-family: var(--font-heading); font-weight: 600; font-size: 19px; margin-right: auto; text-decoration: none; color: var(--text); }
 #theme-toggle {
