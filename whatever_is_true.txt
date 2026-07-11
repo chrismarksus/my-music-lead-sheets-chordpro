@@ -1,5 +1,5 @@
-{title:Whatever Is True}
-{subtitle:Phillippians 4:8,9}
+{t:Whatever Is True}
+{st:Phillippians 4:8,9}
 [G]
 Whatever is [C]true  [D]
 Whatever is [G]right
@@ -13,13 +13,13 @@ Jesus You're pure
 You are loveley
 We will fix our thoughts on You
 
-{start_of_chorus}
+{soc}
 [G]Je - [C]sus ([G]Je - [C]sus), who is [G]like [C]You? (who is [G]like [C]You?)
 [G]Je - [C]sus ([G]Je - [C]sus), who is [G/D]like [D]You? (who is [G/D]like [D]You?)
 [G]Je - [C]sus ([G]Je - [C]sus), who is [G]like [C]You? (who is [G]like [C]You?)
 [G]Je - [C]sus ([G]Je - [C]sus), who is [G/D]like [D]You? (who is [G/D]like [D]You?)
 Who is [C6]like [C9]You?
-{end_of_chorus}
+{eoc}
 
-{comment:Brian Doerksen & Craig Musseau}
-{comment:(c)1991 Mercy Publishing}
+{c:Brian Doerksen & Craig Musseau}
+{c:(c)1991 Mercy Publishing}

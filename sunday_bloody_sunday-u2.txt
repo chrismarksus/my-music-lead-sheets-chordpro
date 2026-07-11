@@ -1,5 +1,5 @@
 {t:Sunday Bloody Sunday}
-{st:U2}   
+{st:U2}
 
 {c:INTRO}
 {sot}
@@ -15,7 +15,7 @@ Yes...
 [Bm]  I can't bel[D]ieve the news tod[G6]ay
 [Bm]  Oh, I can't cl[D]ose my eyes And m[G6]ake it go away
 [D] How long...      H[Em]ow long must we sing this song?
-[D] How long? How l[Em]ong... 'cause 
+[D] How long? How l[Em]ong... 'cause
 toni[Bm]ght.[D]...w[G6]e can be as one
 Ton[Bm]ight.[D]..  [G6]
 [Bm]  Broken b[D]ottles under ch[G6]ildren's feet
@@ -29,7 +29,7 @@ Ton[Bm]ight.[D]..  [G6]
 [F] Sund[Em]ay, Bloody S[D]unday
 [F]..uh [Em]let's go..  [D]
 
-{gc:(x2 veces)} 
+{gc:(x2 veces)}
 [Bm]  [D]  [G6]
 {c:VERSE 2}
 [Bm]  And the b[D]attle's just beg[G6]un
@@ -41,7 +41,7 @@ Ton[Bm]ight.[D]..  [G6]
 [Bm]  Sund[D]ay, Bloody S[G6]unday
 
 [D] How long...      H[Em]ow long must we sing this song?
-[D] How long? How l[Em]ong... 'cause 
+[D] How long? How l[Em]ong... 'cause
 toni[Bm]ght.[D]...w[G6]e can be as one
 Ton[Bm]ight.[D]..  [G6]    ....tonight
 [Bm]  Sund[D]ay, Bloody S[G6]unday
@@ -51,11 +51,11 @@ Ton[Bm]ight.[D]..  [G6]    ....tonight
 
 {gc:(x5 veces)}[Bm]  [D]  [G6]
 {c:VERSE 3}
-Wipe the tears 
-[Bm]from your e[D]yes   [G6]Wipe your 
-t[Bm]ears aw[D]ay   [G6]Oh, wipe your 
-te[Bm]ars aw[D]ay   [G6]Oh, wipe your 
-te[Bm]ars aw[D]ay   [G6] (Sunday, Bloody Sunday) Oh, wipe your 
+Wipe the tears
+[Bm]from your e[D]yes   [G6]Wipe your
+t[Bm]ears aw[D]ay   [G6]Oh, wipe your
+te[Bm]ars aw[D]ay   [G6]Oh, wipe your
+te[Bm]ars aw[D]ay   [G6] (Sunday, Bloody Sunday) Oh, wipe your
 blo[Bm]od shot ey[D]es  [G6](Sunday, Bloody Sunday)
 
 [F] Sund[Em]ay, Bloody S[D]unday (Sunday, Bloody Sund[F]ay)[Em]   [D]
@@ -75,5 +75,4 @@ blo[Bm]od shot ey[D]es  [G6](Sunday, Bloody Sunday)
 On...
 [Bm]  Sund[D]ay, Bloody S[G6]unday
 [Bm]  Sund[D]ay, Bloody S[G6]unday
-[Bm]                                    
-
+[Bm]

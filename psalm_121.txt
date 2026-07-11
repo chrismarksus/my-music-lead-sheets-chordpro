@@ -1,5 +1,5 @@
 {t:Psalm 121}
-{su:I Lift My Eyes Up}
+{st:I Lift My Eyes Up}
 [C]   I lift my [F]eyes up [C] to the [F]mountains
 [C]   Where does my [F]help [C]come [G]from?
 [C]   My help comes [F]from You, [C] Maker of [F]Heaven

@@ -16,7 +16,7 @@
 {soc}
 [C]If I h[D]ad a million d[G]ollars, We'd build a t[Em]ree fort in our y[C]ard
 [C]If I h[D]ad a million d[G]ollars,  You could h[Em]elp it wouldn't be that [C]hard
-[C]If I h[D]ad a million d[G]ollars, We could put like a li[Em]ttle refrigerator[C]in there 
+[C]If I h[D]ad a million d[G]ollars, We could put like a li[Em]ttle refrigerator[C]in there
 (We could keep snacks and beverages)
 {eoc}
 
@@ -29,7 +29,7 @@ If I had a million dollars (If I had a million dollars)
 I'd buy you John Merrick's remains (All them crazy elephant bones)
 If I had a million dollars, I'd buy your love
 
-{c:CHORUS 2} 
+{c:CHORUS 2}
 {soc}
 If I had a million dollars, We wouldn't have to walk to the store
 If I had a million dollars, We'd take a limosine cause it costs more
@@ -37,7 +37,7 @@ If I had a million dollars, We wouldn't have to eat craft dinner
 (but we would. We'd just eat more)
 {eoc}
 
-{c:VERSE 3}              
+{c:VERSE 3}
 If I had a million dollars (If I had a million dollars)
 I'd buy you a green dress (But not a real green dress, that's cruel)
 If I had a million dollars (If I had a million dollars)
@@ -46,8 +46,7 @@ If I had a million dollars (If I had a million dollars)
 I'd buy you a monkey (Haven't you always wanted a monkey?)
 If I had a million dollars, I'd buy your love
 
-{c:OUTRO}     
+{c:OUTRO}
 If I had a million dollars, If I had a million dollars
 If I had a million dollars, If I had a million dollars
 If I had a million dollars, I'd be rich
-

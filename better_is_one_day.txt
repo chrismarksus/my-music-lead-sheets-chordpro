@@ -1,4 +1,4 @@
-{title:Better Is One Day}
+{t:Better Is One Day}
 [E]How lovely is Your dwelling place
 [A]O Lord [B]Almighty
 [E]My soul longs and even faints for [B]You
@@ -7,7 +7,7 @@
 [E]I sing beneath the shadow of Your [B]wings
 
 {soc}
-[A]Better is one day in Your courts 
+[A]Better is one day in Your courts
 [B]Better is one day in Your house
 [A]Better is one day in Your courts
 [B]Than thousands elsewhere
@@ -26,5 +26,5 @@ Come once again to me
 [F#m]I will draw near to You
 [A][B]
 
-{comment:Matt Redman}
-{comment:(c)1996 Kingsway's Thankyou Music}
+{c:Matt Redman}
+{c:(c)1996 Kingsway's Thankyou Music}

@@ -1,6 +1,6 @@
-{title:You Alone}
+{t:You Alone}
 
-{gc:Intro:}  
+{gc:Intro:}
 [D][D/F#][G][A]
 
 [D]You [D/F#]are the [G]only [A]One I [D]need

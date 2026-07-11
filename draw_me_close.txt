@@ -1,4 +1,4 @@
-{title:Draw Me Close}
+{t:Draw Me Close}
 [Gm][Dm/F][Ebmaj7][Bb2/D]
 [Cm7][F7sus][F7][Bb]
 [Bb] Draw me close to you[Eb/Bb]
@@ -14,12 +14,12 @@
 [Bb/F] Help me find the way[Eb/F]
 [F]Bring me back to [Bb]you[Eb/F][F]
 
-{start_of_chorus}
+{soc}
 [Bb] You're all[F/Bb] I want[Eb2/Bb]
 [Bb] You're all[F/A] I've ev[Eb2/G]er need[F7sus]ed[F7]
 [Bb] You're all[F/Bb] I want[Eb2/Bb]
 [F7sus] Help me know [F]You are [Bb]near
-{end_of_chorus}
+{eoc}
 
-{comment:Kelly Carpenter}
-{comment:(c)1994 Mercy Publishing}
+{c:Kelly Carpenter}
+{c:(c)1994 Mercy Publishing}

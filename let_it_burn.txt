@@ -1,4 +1,4 @@
-{title:Let It Burn}
+{t:Let It Burn}
 [D]Let freedom fall
 And [Dsus]break our chains
 Let [D]freedom's fire
@@ -6,7 +6,7 @@ Come [Dsus]alive again
 
 It's passions fire
 The very flame of God
-A Comsuming fire 
+A Comsuming fire
 It's the power of love
 
 With al[G]l our hearts
@@ -17,10 +17,10 @@ Let it B[D]urn
 
 {soc}
 L[D]et it burn, Let it [Dsus]burn
-Let it [D]burn, Let it [Dsus]burn 
-Let it [D]burn, Let it [Dsus]burn 
 Let it [D]burn, Let it [Dsus]burn
-Let it b[C]urn 
+Let it [D]burn, Let it [Dsus]burn
+Let it [D]burn, Let it [Dsus]burn
+Let it b[C]urn
 {eoc}
 
 {c:David Ruis}

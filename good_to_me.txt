@@ -1,4 +1,4 @@
-{title:Good to Me}
+{t:Good to Me}
 [G]I cry [C]out for Your [Em]hand of [Em/D]mercy to [D/C]heal [C]me
 [G]I am [C]weak, I [Em]need Your [D]love to [D/C]free [C]me
 
@@ -15,5 +15,5 @@ For You are [Am7]good [G]to [D/F#]me
 For You are [C]good, for You are [G/B]good
 For You are [Am7]good [G]to [D/F#]me
 
-{comment:Craig Musseau}
-{comment:(c)1990 Mercy Publishing}
+{c:Craig Musseau}
+{c:(c)1990 Mercy Publishing}

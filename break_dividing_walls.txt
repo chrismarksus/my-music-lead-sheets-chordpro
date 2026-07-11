@@ -1,4 +1,4 @@
-{title:Break Dividing Walls}
+{t:Break Dividing Walls}
 [G]        [C2]
 [G]There is a place of com[C]manded blessing
 Where b[G]retheren in unity [D]dwell
@@ -17,14 +17,14 @@ Unto the end
 
 [G][C][G][D][C2]
 [G][C][G][D][G]
-{start_of_chorus}
+{soc}
 We will [G]break dividing walls
 We will [C]break dividing walls
 We will [G]break dividing walls in the [D]Name of Your Son
 We will [G]break dividing walls
 We will [C]break dividing walls
 And [G]we [D]will be [G]one
-{end_of_chorus}
+{eoc}
 
-{comment:David Ruis}
-{comment:(c)1994 Mercy Publishing}
+{c:David Ruis}
+{c:(c)1994 Mercy Publishing}

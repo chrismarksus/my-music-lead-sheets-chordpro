@@ -1,7 +1,7 @@
 {t:Wanted Dead Or Alive (HARD)}
 {st:Bon Jovi}
 
-{c:INTRO: } 
+{c:INTRO: }
 [D]  [Dsus4]  [D]  [C]  [G]  [C]  [G]  [F]  [D]  [D]  [D]
 
 {c:VERSE 1:}
@@ -48,7 +48,7 @@ Dead or a[D]live, dead or a[G]live,
 Dead or a[D]live, dead or a[G]live,
 Dead or a[D]live.
 
-{define: DM 0 1 3 2 0 0 X}  
+{define: DM 0 1 3 2 0 0 X}
 {define: D 0 2 3 2 0 X X}
 {define: Dsus4 0 3 3 2 0 X X}
 {define: C 0 0 1 0 2 3 X}

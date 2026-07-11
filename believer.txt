@@ -1,4 +1,4 @@
-{title:Believer}
+{t:Believer}
 [A7]I dream of tongues of fire
 [A7sus]Resting on Your people
 [C]I dream of all the [Em]miracles to come
@@ -33,5 +33,5 @@ Place the lonely in a family
 So many hopes and longings in You
 When will all the dreams come true?
 
-{comment:Matt Redman}
-{comment:(c)1996 Kingsway's Thankyou Music}
+{c:Matt Redman}
+{c:(c)1996 Kingsway's Thankyou Music}

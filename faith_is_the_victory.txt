@@ -1,18 +1,56 @@
-{t:Hungry}
-{su:Falling On My Knees}
-[C]Hungry, I come t[Am7]o You for I kn[G]ow You satis[F]fy
-[C]I am empty, b[Am7]ut I know Your lo[G]ve does not run d[F]ry
-And so I [G]wait for Y[F/A]ou so I [G/B]wait for Yo[F]u
-
+{t:Faith Is the Victory}
+Encamped along the hills of light,
+Ye Christian soldiers, rise.
+And press the battle ere the night
+Shall veil the glowing skies.
+Against the foe in vales below
+Let all our strength be hurled.
+Faith is the victory, we know,
+That overcomes the world.
 {soc}
-I'm [C]falling on my kn[Fmaj7]ees
-Off[C]ering all of [Fmaj7]me
-Jes[C]us, You're all this [Fmaj7]heart is living for[C]
+Faith is the victory! Faith is the victory!
+O glorious victory, that overcomes the world.
 {eoc}
 
-Broken, I run to You for Your arms are open wide
-I am weary, but I know Your touch restores my life
-And so I wait for You so I wait for You
+His banner over us is love,
+Our sword the Word of God.
+We tread the road the saints above
+With shouts of triumph trod.
+By faith, they like a whirlwind's breath,
+Swept on o'er every field.
+The faith by which they conquered death
+Is still our shining shield.
+{soc}
+Faith is the victory! Faith is the victory!
+O glorious victory, that overcomes the world.
+{eoc}
 
-{c:Kathryn Scott}
-{c:(c)1999 Vineyard Songs (UK/Eire)}
+On every hand the foe we find
+Drawn up in dread array.
+Let tents of ease be left behind,
+And onward to the fray.
+Salvation's helmet on each head,
+With truth all girt about,
+The earth shall tremble 'neath our tread,
+And echo with our shout.
+{soc}
+Faith is the victory! Faith is the victory!
+O glorious victory, that overcomes the world.
+{eoc}
+
+To him that overcomes the foe,
+White raiment shall be giv'n.
+Before the angels he shall know
+His name confessed in heav'n.
+Then onward from the hill of light,
+Our hearts with love aflame,
+We'll vanquish all the hosts of night,
+In Jesus' conqu'ring Name.
+{soc}
+Faith is the victory! Faith is the victory!
+O glorious victory, that overcomes the world.
+{eoc}
+
+{c:Faith Is the Victory}
+{c:Text: John H. Yates, 1891}
+{c:Tune: Ira D. Sankey}

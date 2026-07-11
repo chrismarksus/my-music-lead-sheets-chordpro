@@ -1,4 +1,4 @@
-{title:Let Everything that Has Breath}
+{t:Let Everything that Has Breath}
 {soc}
 [E]Let everything that
 [E/D#]Everything that
@@ -14,7 +14,7 @@
 
 If w[F#m7]e (they) could see how m[E/G#]uch you're worth
 Your p[F#m7]ow'r, Your might, Your en[E/G#]dless love
-Then su[F#m7]rely we would ne[E/G#]ver cease to pr[A]aise 
+Then su[F#m7]rely we would ne[E/G#]ver cease to pr[A]aise
 
 Praise You in the heavens
 Joining with the angels
@@ -23,4 +23,4 @@ Praise You on the earth now
 Joining with creation
 Calling all the nations to Your praise
 
-{comment:Matt Redman}
+{c:Matt Redman}

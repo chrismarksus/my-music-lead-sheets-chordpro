@@ -1,9 +1,9 @@
-{title: Jesus Lead On}
+{t: Jesus Lead On}
 [E][F#m][A][E]
 This is my c[F#m]ry, [A]this is my s[E]ong
 You are my gu[F#m]iding light
 [A]When the way is unk[E]nown
-And when these s[F#m]unny skies [A]turn 
+And when these s[F#m]unny skies [A]turn
 shades of g[E]ray
 I'll stay close b[F#m]y your side
 [A]As You lead the w[E]ay
@@ -17,7 +17,7 @@ Jesus lead o[D]n[A][G][E]
 {eoc}
 
 Hear now this cry, Hear now this song
-You are the guiding light for this 
+You are the guiding light for this
 journey I'm on
 And when my vision is clouded
 By the wind and the rain

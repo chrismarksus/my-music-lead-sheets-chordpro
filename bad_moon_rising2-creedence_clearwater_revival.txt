@@ -1,5 +1,6 @@
 {t:Bad Moon Risin'}
 {st:Creedence Clearwater Revival}
+{c:Alternate arrangement — see also bad_moon_rising-creedence_clearwater_revival.txt}
 
 {c:VERSE 1}
 [D]I see a [A]bad [G]moon a[D]risin'
@@ -36,4 +37,3 @@ Don't go round tonite, it's bound to take your life
 There's a bad moon on the rise
 Don't go round tonite, it's bound to take your life
 There's a bad moon on the rise
-

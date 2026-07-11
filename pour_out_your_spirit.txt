@@ -1,11 +1,11 @@
-{title:Pour Out Your Spirit}
-{start_of_chorus}
+{t:Pour Out Your Spirit}
+{soc}
 [G]   Shining forth is Your me[C]rcy, oh Lor[D]d to the [Em]poor
 The sick are [C]healed and the bl[D]ind see
 [G]  Proclaiming favor the c[C]aptives are [D]free
 'Cause the L[Em]ord pours out His [C]Spirit up[D]on our [G]land
-{comment:repeat}
-{end_of_chorus}
+{c:repeat}
+{eoc}
 
 Let the [G]battle cry re[Dm7/G]sound
 Let the [G]heaven's trumpet [Dm7/G]sound
@@ -21,5 +21,5 @@ The heavens [G]tremb[Dm7/G]le[G][Dm7/G]
 [Eb]Rising mighty in [F]power
 Great is Your [Dsus]name, oh [D]Lord
 
-{comment:Bob Branch}
-{comment:(c)1992 Mercy Publishing}
+{c:Bob Branch}
+{c:(c)1992 Mercy Publishing}

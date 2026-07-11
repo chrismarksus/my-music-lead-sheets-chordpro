@@ -3,7 +3,7 @@
 {gc:Standard Tuning}
 
 {c:Intro}
-[Cadd9]                                    
+[Cadd9]
 {c:Verse 1}
 [Cadd9]It's Christmas [Fmaj7]time,   [G]    there's no need to [Cadd9]be afraid
 At Christmas [Fmaj7]time,  we [G]let in light and we [Cadd9]banish shade
@@ -43,4 +43,4 @@ Where [Fmaj7]nothing ever [G]grows, no [Cadd9]rain or river f[Fmaj7]lows
 
 [Cadd9]Feed  [Fmaj7]the   [C]wo[Fmaj7]rld -  [C]let them [Dm7]know it's [G]Christmas time (x4)
 
-[Cadd9]                                    
+[Cadd9]

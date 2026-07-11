@@ -1,4 +1,4 @@
-{title:Mercy Is Falling}
+{t:Mercy Is Falling}
 [D]Mercy is [G]falling
 Is [D]falling, is [A]falling
 [D]Mercy, it [G]falls

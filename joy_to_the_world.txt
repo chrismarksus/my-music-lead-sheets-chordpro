@@ -1,4 +1,4 @@
-{title:Light of the World}
+{t:Light of the World}
 [E]Father of [B]lights
 [C#m]You are all that [A]I want to[B] see  [A]
 Shine on[E] me  [B][A][B]
@@ -6,7 +6,7 @@ Shine on[E] me  [B][A][B]
 [C#m]Come and pour Your [A]life over[B] me  [A]
 Over [C#m]me[B][A]
 
-{start_of_chorus}
+{soc}
 I will [E]hope in [F#m7]You for [A]You are all I[B] need
 I will [E]trust in [A]You [E]a - l[B]one  [A]
 Light of the worl[E]d,  [A] Lamb that was[E] slain  [A]
@@ -16,8 +16,8 @@ I [E]worship You, I [A]fall down[E] to my[B] knees[A]
 
 I hope in y[E]ou,
 Light of the w[B]orld
-{comment:(4x)}
-{end_of_chorus}
+{c:(4x)}
+{eoc}
 
 Spirit of God
 Come and breathe Your life into me
@@ -26,5 +26,5 @@ Light of the world
 Won't You come and shine Your light on me
 Shine on me
 
-{comment:Michael J. Pritzl}
-{comment:(c)1991 Mercy Publishing}
+{c:Michael J. Pritzl}
+{c:(c)1991 Mercy Publishing}

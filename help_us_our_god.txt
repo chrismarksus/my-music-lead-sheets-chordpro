@@ -1,5 +1,5 @@
-{title:Help Us Our God}
-{subtitle:Psalm 79:9}
+{t:Help Us Our God}
+{st:Psalm 79:9}
 [A]Help us our God
 Help us our [E]Saviour
 [D]  For the glory of Your[E] name
@@ -18,5 +18,5 @@ Help us our [D]God
 [F#m]Help [E]us [A]our [D]God [A] for Your [Esus]Name's sake [E]
 [D]Hel[A]p [E]us our [D/A]God  [A]
 
-{comment:Brian Doerksen & Cindy Rethmeier}
-{comment:1991 Mercy Publishing}
+{c:Brian Doerksen & Cindy Rethmeier}
+{c:1991 Mercy Publishing}

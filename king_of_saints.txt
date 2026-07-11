@@ -1,4 +1,4 @@
-{title:King of Saints}
+{t:King of Saints}
 [G]Great and marvelous are[C] Thy works
 [G]Lord God Almigh[C]ty
 [G]Just and true are Thy [C]ways oh Lord
@@ -19,5 +19,5 @@ All the [C]nations shall come and worship [G]before Thee
 [C]Glory hallelujah to the [G]King of saints
 {eoc}
 
-{comment:Kevin Prosch}
-{comment:(c)1987 Mercy Publishing}
+{c:Kevin Prosch}
+{c:(c)1987 Mercy Publishing}

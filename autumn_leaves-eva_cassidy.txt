@@ -1,8 +1,8 @@
 {t:Autumn Leaves}
 {st:Eva Cassidy}
-                                                                              
+
 {c:Intro}
-[Em7]      
+[Em7]
 {c:Verse 1}
 [Em7]The falling [Am7]leaves   [D7]   drift by my [GM7]window  [CM7]
 The falling [Am6]leaves [B7]   of red and gold   [Em]

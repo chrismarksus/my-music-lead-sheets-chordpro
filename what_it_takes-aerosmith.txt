@@ -1,7 +1,7 @@
 {t:What it takes}
 {st:Aerosmith}
 
-{c:Intro} 
+{c:Intro}
 [G] [D4] [Em7] [D] [C]
 
 [G]There goes my old girlfriend, there's a[D]nother diamond ring
@@ -9,7 +9,7 @@ And, uh, [Em]all those late night promi[D]ses I [C]guess they don't mean a thing
 So [G]baby, what's the story? Did y[D]ou find another man?
 Is it [Em]easy to sleep in the bed that we made?
 [D]When you [C]don't look back I guess the feelings start to fade a[D]way.
-I [G]used to feel your fire 
+I [G]used to feel your fire
 But now it's [Em]cold inside
 [D]And you're [C]back on the street like you didn't miss a beat, yeah
 
@@ -18,7 +18,7 @@ But now it's [Em]cold inside
 [A#]Tell me what it takes to let you [F]go
 [A#]Tell me how the pain's supposed to [F]go
 [A#]Tell me how it [A+]is that you can [Dm]sleep in the [Dm/C]night
-Without t[Dm/B]hinking you lost everything that was good in 
+Without t[Dm/B]hinking you lost everything that was good in
 your life to the toss of the dice?[A#]
 Tell me what it [C#]takes to let you go[F].
 {eoc}
@@ -51,6 +51,6 @@ No no no no [A#]'cause I don't wanna [C#]burn in paradi[F]se
 O[Dm]h [A#]Let go, let go, let go,
 let it go, let it go, let it go, let it go, let it go, let it go, let it go, let it go,
 let it go, let it go, let it go, let it go, let it go
-I don't wanna burn, I don't wanna burn  
+I don't wanna burn, I don't wanna burn
 
 {gc:(one million times, fading)}

@@ -5,9 +5,9 @@ You [E]are my Father in [A2]heaven
 {c:(repeat)}
 
 {soc}
-You are [E]beautiful, my sweet, sweet [A2]song 
-You are [E]beautiful, my sweet, sweet [A2]song 
-You are [E]beautiful, my sweet, sweet [A2]song 
+You are [E]beautiful, my sweet, sweet [A2]song
+You are [E]beautiful, my sweet, sweet [A2]song
+You are [E]beautiful, my sweet, sweet [A2]song
 I will sing again
 {eoc}
 

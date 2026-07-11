@@ -1,4 +1,4 @@
-{title:How Majestic Are Your Ways}
+{t:How Majestic Are Your Ways}
 [G]To the Father, [C]to the [G]Son
 [Am]To the [Em]Holy [D]Ghost
 [G]I give glory, [C]I give [G]praise
@@ -8,13 +8,13 @@ The [Em]Maker [C] of all the [D] earth
 The [Em]Awesome, [C] Eternal [D] One
 The [Em]Ruler [C] of all the [D] earth
 
-{start_of_chorus}
+{soc}
 I [G]worship [C]You  [D]
 How maj[C]estic are Your [G]ways[C], oh Lord[D]
 I [G]worship [C]You  [D]
 How maj[C]estic are Your [G]ways[C], oh Lord[D]
 How maj[C]estic are Your [Em]ways  [C]      [D]
-{end_of_chorus}
+{eoc}
 
-{comment:John Barnett}
-{comment:(c)1992 Mercy Publishing}
+{c:John Barnett}
+{c:(c)1992 Mercy Publishing}

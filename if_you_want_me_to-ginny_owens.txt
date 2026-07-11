@@ -1,14 +1,15 @@
-If You Want Me To-Ginny Owens
+{t:If You Want Me To}
+{st:Ginny Owens}
 
-(Capo 2)
-Verse:
-C2  G2	D(h/o 1st string)   Em  (3X)
-C2 walk down bass to A7 (single strum)	 Am   D  G
+{c:Capo 2}
+{c:Verse}
+C2  G2  D(h/o 1st string)   Em  (3X)
+C2 walk down bass to A7 (single strum)  Am   D  G
 
-Bridge:
+{c:Bridge}
 C    D    C  D
-Em   C	  D
-C    D    F	C (walk down bass to A)
+Em   C    D
+C    D    F  C (walk down bass to A)
 Am   Dsus D     C2    G2   D(h/o 1st string)   Em
 
 The pathway is broken

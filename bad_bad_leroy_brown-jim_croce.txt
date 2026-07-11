@@ -36,7 +36,7 @@ Well Fr[G]iday bout a week ago, L[A7]eroy shootin' dice,
 And at the e[B7]dge of the bar, Sat a g[C]irl named Doris,
 And o[D7]oh that girl looked n[G]ice.[D7]
 
-{c:Verse:5
+{c:Verse:5}
 Well he c[G]ast his eyes upon her, And the tr[A7]ouble soon began,
 And L[B7]eroy Brown learned a le[C]sson 'Bout messin',
 with the w[D7]ife of a jealous m[G]an.[D7]

@@ -1,4 +1,4 @@
-{title:I Believe in Jesus}
+{t:I Believe in Jesus}
 [E]I  [A]believe in [B]Jesus
 [E]I believe He [A]is the Son of [B]God
 [E]I believe He [A]died and [Bsus]rose  [B]again
@@ -12,5 +12,5 @@
 (Here with the power to [A]heal)
 And the [B]grace to for[E]give
 
-{comment:Marc Nelson}
-{comment:(c)1987 Mercy Publishing}
+{c:Marc Nelson}
+{c:(c)1987 Mercy Publishing}

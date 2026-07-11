@@ -27,5 +27,5 @@ And the apple of my eye.
 
 {define:Am/G 0 3 x 2 2 1 0}
 
-{c:©1984, Maranatha! Music}
+{c:Â©1984, Maranatha! Music}
 {c:Words and Music by Martin Nystrom}

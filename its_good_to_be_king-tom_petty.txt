@@ -1,7 +1,7 @@
 {t:Its Good To Be King}
 {st:Tom Petty}
 
-[Em]    [Am]    [D]   [Em]     [Em]    [Am]    [D]   [Em]         
+[Em]    [Am]    [D]   [Em]     [Em]    [Am]    [D]   [Em]
 
 {c:VERSE (0:26)}
 It's good to be [Em]king, if just for a[Am]while.
@@ -9,7 +9,7 @@ To be there in v[D]elvet. Yeah, to give 'em a s[Em]mile.
 It's good to get [Em]high, and never come d[Am]own.
 It's good to be [D]King, of your own little [Em]town.
 
-{c:FILL (0:51)}                                                                        
+{c:FILL (0:51)}
 {sot}
 e|---------------|
 B|----------0-0--|
@@ -33,7 +33,7 @@ You're out there with w[D]inners, it's good to be [Em]king.
 Y[A]eah, I'll be king when d[D]ogs get w[G]ings.
 [C]  [G]  [D]  Can I help it if I[C]  [G]  [Em]   still dr[A]eam time to time. [Asus]     [A]
 
-{c:SOLO (2:14) -}                                                                               
+{c:SOLO (2:14) -}
 {sot}
 e|------------------------------------------------------------------------|
 B|--------------------------------------------------------------12h15-12--|
@@ -46,7 +46,7 @@ E|------------------------------------------------------------------------|
 
 
 
-{gc:these bent notes are played rapidly, and with a trill}                             
+{gc:these bent notes are played rapidly, and with a trill}
 {sot}
 e|------------------------------------------------------------------------|
 B|--15b(17)r15--12--15b(17)-(17)-(17)-(17)-(17)-(17)-(17)-(17)-(17)-(17)--|
@@ -55,7 +55,7 @@ D|------------------------------------------------------------------------|
 A|------------------------------------------------------------------------|
 E|------------------------------------------------------------------------|
 {eot}
-                                                                               
+
 {sot}
 e|------------------------------------------------------------------------------|
 B|-15b(17)-15-15p12-15p12---------------15-12-------12-------12-----------------|
@@ -76,7 +76,7 @@ It's good to be k[D]ing, whatever it p[Em]ays.
 [C]  [G]  [Em]   Where I go[A] time to time. [Asus]      [A]   [Asus]      [A]   [Asus]      [A]
 
 {c:OUTRO (3:33)}
-[Em]    [Am]    [D]   [Em]    [Em]    [Am]    [D]   [Em]          
+[Em]    [Am]    [D]   [Em]    [Em]    [Am]    [D]   [Em]
 
 {gc:CHORD LEGEND}
 {sot}

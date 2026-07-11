@@ -1,4 +1,4 @@
-{title:Mercy}
+{t:Mercy}
 [D][F][Cmaj7]
 [Dm7][G] Mercy [Dm7]comes to me[G]
 Like a peace dove
@@ -8,7 +8,7 @@ Mercy comes to me
 To wash my feet
 Always a part of me, yeah
 
-{start_of_chorus}
+{soc}
 [D][G] I [D]kiss the f[G]eet of m[D]ercy [G]
 I kiss the feet of mercy
 I kiss the feet of mercy
@@ -18,7 +18,7 @@ I kiss the feet, oh, oh
 I ... I love Mercy
 I ... I love Mercy
 I ... I love Mercy, yeah
-{end_of_chorus}
+{eoc}
 
 Mercy, I anoint your feet
 Like Mary
@@ -37,4 +37,4 @@ Your Father's feet, Your Father's feet, yeah
 
 {c:Chorus}
 
-{comment:The Prayer Chain}
+{c:The Prayer Chain}

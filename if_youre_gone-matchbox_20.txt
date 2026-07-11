@@ -1,7 +1,7 @@
 {t:If Youre Gone}
 {st:Matchbox 20}
 {gc:Lead Guitar: Play 4 times}
-[A]  [E]  [D]                                                                              
+[A]  [E]  [D]
 {sot}
 e-----5----7--5-----
 b--5----5--------5--
@@ -34,7 +34,7 @@ e-------------------
 {c:Verse 2}
 [A] I bet you're hard to get [D]over
 [A] I bet the [E]room just won't [D]shine
-[A]                      [D]              
+[A]                      [D]
  I bet my hands I can stay here
  I bet you [Bm]need - more than you [E]mind
 {c:Pre Chorus}
@@ -50,7 +50,7 @@ e-------------------
  Cos there's a [Bm]little bit of something me[E]
  In everything in [Bm]you
 {gc:Instrumental solo tabbed for guitar}
-    [A]        [D]         [E]        [Bm]                                                 
+    [A]        [D]         [E]        [Bm]
 {sot}
 e---10---7--------------------------------------------
 b-----------9--7--9--10-------------------------------
@@ -59,13 +59,13 @@ d-----------------------------------------9-----7--9--
 a-----------------------------------------------------
 e-----------------------------------------------------
 {eot}
-  [E]       [A]                                                                     
+  [E]       [A]
 {sot}
 e-10--7-------------------
-b--------9--10--10--------                                                                     
+b--------9--10--10--------
 g-------------------------
 d-------------------------
-a-------------------------                                                                       
+a-------------------------
 e-------------------------
 {eot}
 {c:Pre Chorus}
@@ -80,13 +80,13 @@ e-------------------------
  If you're [A]gone - baby you need to come [D]home
  Cos there's a [Bm]little bit of something me[E]
  {gc:play intro riff until end}
-               A  E   
+               A  E
  In everything in you
 [A] Something in me[E]
  Everything [A]in
  Something in m[E]e
  In [A]you
- 
+
 {c: intro}
 {sot}
 E------------------------------------

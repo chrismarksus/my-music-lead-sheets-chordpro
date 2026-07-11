@@ -1,4 +1,4 @@
-{title:True Love}
+{t:True Love}
 [G]Jesus I [C]need to know [G]true love
 Deeper than the lov[C]e found on [Dsus]earth [D]
 [G]Take me in[C]to the King's ch[G]amber
@@ -18,5 +18,5 @@ To love you is [C]all I can [Dsus]do [D]
 [G]You have be[C]come my sole [G]passion
 [Am7]Cause my [D]love to be[G] true
 
-{comment:David Ruis}
-{comment:(c)1994 Mercy Publishing}
+{c:David Ruis}
+{c:(c)1994 Mercy Publishing}

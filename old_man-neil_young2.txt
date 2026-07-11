@@ -1,10 +1,11 @@
 {t:Old Man 2}
 {st:Neil Young}
+{c:Alternate arrangement — see also old_man-neil_young.txt}
 
 [FM7]Old man look at my life, I'm a lot like [D]you were       {gc:(x2)}
 
-[D]  [F]  [C]  [G]   
-[D]  [F]  [C]  [F]                    
+[D]  [F]  [C]  [G]
+[D]  [F]  [C]  [F]
 
 {gc:DWB: (try a quick F-G at the end of the phrase on the way back to D)}
 
@@ -23,7 +24,7 @@ That [C]makes me think of [F]two
 [F]Rollin' home to [G]you.
 
 
-[D]  [Am7]    [Em7]    [G]  [D/F#]                       
+[D]  [Am7]    [Em7]    [G]  [D/F#]
 
 {gc:DWB: (Between to D and Am7, try Dsus4->D->D9->D, pulling-off the high E from the
 
@@ -36,8 +37,8 @@ That [C]makes me think of [F]two
 [D]Oh, one look in my eyes and you can [Am7]tell that's [Em7]true.
 {eoc}
 
-[D]  [F]  [C]  [G]   
-[D]  [F]  [C]  [F]                    
+[D]  [F]  [C]  [G]
+[D]  [F]  [C]  [F]
 
 {gc:(DWB: play a quick F-G at the end of the phrase on the way back to D)}
 
@@ -53,8 +54,8 @@ Rolling home to you.
 
 Old man look at my life, I'm a lot like you were  {gc:x2 (intro chords)}
 
-[D]  [F]  [C]  [G]                              
-[D]                                    
+[D]  [F]  [C]  [G]
+[D]
 
 {define: FM7: 0 X 0 0 5 6 0}
 {define: Dsus4: 0 X 0 0 2 3 3}

@@ -1,4 +1,4 @@
-{title:Oh Lord, You're Beautiful}
+{t:Oh Lord, You're Beautiful}
 Oh [D]Lord, You're [G]beau[D]ti[A]ful
 Your [D]face is [G]all [D]I [A]seek
 For [Bm]when Your [F#]eyes
@@ -20,5 +20,5 @@ Replace the lamp
 Of my first love
 That burns with holy fear
 
-{comment:Keith Green}
-{comment:(c)1980 Birdwing Music}
+{c:Keith Green}
+{c:(c)1980 Birdwing Music}

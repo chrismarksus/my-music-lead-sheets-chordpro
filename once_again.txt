@@ -1,4 +1,4 @@
-{title:Once Again}
+{t:Once Again}
 {gc:Capo 1st fret}
 [D][A/D][G/D][D]
 [D]Jesus [A]Christ, I thi[G]nk upon Your sacrific[D]e
@@ -26,4 +26,3 @@ And [G]I'm full of pr[A]aise once again[D]
 
 {c:Matt Redman}
 {c:(c)1995 Kingsway's Thankyou Music}
-

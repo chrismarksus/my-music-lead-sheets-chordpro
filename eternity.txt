@@ -1,4 +1,4 @@
-{title:Eternity}
+{t:Eternity}
 [A] I will be yours, you will be mine[D]
 Toge[E]ther in eternity
 [A] Our hearts of love will be en[D]twined
@@ -15,5 +15,5 @@ Yes, we[D] will be with you [A][D][E]
 For[Esus]ever[E]
 [A]
 
-{comment:Brian Doerksen}
-{comment:(c)1994 Mercy/Vineyard Publishing}
+{c:Brian Doerksen}
+{c:(c)1994 Mercy/Vineyard Publishing}

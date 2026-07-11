@@ -1,7 +1,7 @@
-{title:God Is So Good}
+{t:God Is So Good}
 (And) [G]God is so [C6]good   [G]
 (And) [G]God is so [C6]good   [G]
-{comment:repeat}
+{c:repeat}
 
 [G]He rides upon the wings of the wind
 [G]He is exalted by His name Jah
@@ -19,5 +19,5 @@ And the widow's heart causes to sing
 You hear the cry of the fatherless
 And the depths of Your love who can comprehend?
 
-{comment:Kevin Prosch}
-{comment:(c)1990 Mercy Publishing}
+{c:Kevin Prosch}
+{c:(c)1990 Mercy Publishing}

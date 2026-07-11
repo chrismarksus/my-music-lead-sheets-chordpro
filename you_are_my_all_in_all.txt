@@ -1,4 +1,4 @@
-{title:You Are My All In All}
+{t:You Are My All In All}
 [G]You are my st[D]rength when I am w[Em]eak
 You are the [G]treasure that I [C]seek
 You are my [G]all [D]in [G]all[D]
@@ -18,4 +18,3 @@ You are my [G]all [D]in [G]all[D]
 
 {c:Dennis Jernigan}
 {c:(c)1991 Shepherd's Heart Music}
-

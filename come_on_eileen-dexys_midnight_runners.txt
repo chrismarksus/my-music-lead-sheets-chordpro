@@ -4,9 +4,9 @@
 {c:First 16 bars are instrumental:}
 
 {c:(fiddle) x2}
-F   C   F   Bb  Bb  F   C            
+F   C   F   Bb  Bb  F   C
 {c:(fiddle and banjo) x2  }
-C       Em      F       C   G      
+C       Em      F       C   G
 
 {c:Verse 1}
 [C]Poor old Johnny R[Em]ay
@@ -27,9 +27,9 @@ verge on [Em]dirty, Ah come [G]on Eil[A]een
 {eoc}
 
 {c:(banjo)}
-[A]       [A]          
+[A]       [A]
 {c:(fiddle and banjo)}
-[C]       [Em]      [F]       [C]   [G]       
+[C]       [Em]      [F]       [C]   [G]
 
 {c:Verse 2}
 [C]These people round [Em]here
@@ -53,7 +53,7 @@ Ah come [Em]on let's, ah come [G]on Eil[A]een
 [D] (Come on Eileen too-loo rye-[F#m]aye come on)
 {c:Backing vocals sing "Eileen too-loo rye-ay toora toora-too-loora" repeatedly}
 [G]Now you have grown, now you have shown,[D] oh Eil[A]een
-[D]Come on Eileen, these things they are [F#m]real and I know    
-how you feel       [G]Now I must say more than ever 
+[D]Come on Eileen, these things they are [F#m]real and I know
+how you feel       [G]Now I must say more than ever
 [D] things round here have [A]changed
 [D]Too-ra loo-ra [F#m]too-ra loo-rye-[G]aye[D][A]

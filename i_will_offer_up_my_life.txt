@@ -1,4 +1,4 @@
-{title:I Will Offer Up My Life}
+{t:I Will Offer Up My Life}
 [Em][D/F#][G]
 [D]I will offer up my l[G]ife in sp[A]irit and tr[D]uth
 Pouring out the oil of l[G]ove as my wor[A]ship to Y[D]ou
@@ -22,5 +22,5 @@ Opened up the gates of heaven and have beckoned me in
 What can I give, what can I bring,
 What can I sing as an offering?
 
-{comment:Matt Redman}
-{comment:(c)1996 Kingsway's Thankyou Music}
+{c:Matt Redman}
+{c:(c)1996 Kingsway's Thankyou Music}

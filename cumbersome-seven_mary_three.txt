@@ -27,7 +27,7 @@ Today or ton[E]ight...cumbers[F#]ome
 [A]No, [A]no, [F#]no, yeah[E][E][F#]
 {eoc}
 
-{gc:(instr.)}  
+{gc:(instr.)}
 [F#]  [E]  [B]  [F#]
 
 {c: VERSE 3}

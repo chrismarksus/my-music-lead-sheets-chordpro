@@ -1,4 +1,4 @@
-{title:We Fall Down}
+{t:We Fall Down}
 [E][D/E][E][D]
 [E]We fall down
 We [B]lay our [C#m]crowns

@@ -1,12 +1,12 @@
-{title:We Believe in You}
+{t:We Believe in You}
 [Em][D][Em][D][Em]
 Come [Em]down from Your holy mountain
 Like [D]fire on the land
 Come [Em]down from Your holy mountain
 And [D]take our hand
-{comment:repeat}
+{c:repeat}
 
-{start_of_chorus}
+{soc}
 [G] 'Cause [D]we believe in [C]You
 [D]That Your word is [G]true
 [D]That You died and [C]rose [G/B]a  -  [C]gain
@@ -14,9 +14,9 @@ And [D]take our hand
 [D]Covers all our [G]sin
 [D]We believe You'll [C]come [G/B]a  -  [C]gain
 Jesus come again
-{end_of_chorus}
+{eoc}
 
 [Em][D][Em][D][Em]
 
-{comment:John Barnett}
-{comment:(c)1994 Mercy Publishing}
+{c:John Barnett}
+{c:(c)1994 Mercy Publishing}

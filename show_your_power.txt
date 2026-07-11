@@ -1,4 +1,4 @@
-{title:Show Your Power}
+{t:Show Your Power}
 [G][Am][G][D]
 Well [G]He is the Lord and [C]He reigns on [G]high
 [D]He is the [G]Lord
@@ -10,11 +10,11 @@ Who is [G]like unto Him never [C]ending in [G]days
 And [G]He comes in power when we [C]call on His [G]name
 [D]He is the [G]Lord
 
-{start_of_chorus}
+{soc}
 Show Your [G]po[C]wer
 Oh [G]Lord our [D]God
-{comment:(3x)}
-{end_of_chorus}
+{c:(3x)}
+{eoc}
 
 Your gospel oh Lord is the hope for our nation
 You are the Lord

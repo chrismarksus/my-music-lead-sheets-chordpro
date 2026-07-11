@@ -2,12 +2,12 @@
 {st:Young Neil}
 
 {c:INTRO}
-[D]  [D/C]  [D/B]  [D/Bb]  
+[D]  [D/C]  [D/B]  [D/Bb]
 [C]  [Esus4]  [E]  [A7]
 
 {c:VERSE 1}
-[D]I caught you knocking at my [D/C]cellar door,                    
-[D/B]I love you, baby, can I ha[D/Bb]ve some more?                    
+[D]I caught you knocking at my [D/C]cellar door,
+[D/B]I love you, baby, can I ha[D/Bb]ve some more?
 [C]Ooo[F]ooo the damage [Esus4]done.     [E]
 
 {c:VERSE 2}
@@ -26,5 +26,4 @@ A little part of it in everyone,
 But every junkie's like a settin' sun.
 
 {c:OUTRO}
-[D]  [D/C]  [D/B]  [D/Bb]  
-
+[D]  [D/C]  [D/B]  [D/Bb]

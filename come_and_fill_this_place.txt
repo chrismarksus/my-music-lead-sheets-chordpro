@@ -17,10 +17,10 @@ As it is in H[A]eaven
 {eoc}
 
 Let your healing flow
-{C:repeat}
+{c:repeat}
 
 Come revive us now
-{C:repeat}
+{c:repeat}
 
 {c:Brent Helming}
 {c:(c)1996 Mercy/Vineyard Publishing}

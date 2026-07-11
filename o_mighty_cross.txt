@@ -1,4 +1,4 @@
-{title:O, Mighty Cross}
+{t:O, Mighty Cross}
 O, [G7sus]mighty [C]cross, live [G/C]lifted [Cmaj7/E]high
 The Lord of [Dm7]life raised there to [G7sus]die[G]
 His [C/E]sacrif[F]ice on [G]Calva[Am7]ry
@@ -19,5 +19,5 @@ The stripes He bore, have brought me peace
 His sacrifice on Calvary
 Has made the mighty cross a tree of life to me
 
-{comment:David Baroni & John Chisum}
-{comment:(c)1994 Integrity's Praise! Music}
+{c:David Baroni & John Chisum}
+{c:(c)1994 Integrity's Praise! Music}

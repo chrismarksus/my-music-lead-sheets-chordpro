@@ -23,20 +23,20 @@
 
 {soc}
 [G]Hey! Mr. [A]Tambourine Man, [D]play a song for [G]me,
-I'm not [D]sleepy and there [G]is no place 
+I'm not [D]sleepy and there [G]is no place
 I'm [A]going to. [Asus4]      [A]
 [G]Hey! Mr. [A]Tambourine Man, [D]play a song for [G]me,
-In the [D]jingle jangle [G]morning 
+In the [D]jingle jangle [G]morning
 I'll come [A]followin' [D]you.[Dsus4]      [D]  [Dsus2]      [D]
 {eoc}
 
 Though I k[G]now that evenin's e[A]mpire has r[D]eturned into [G]sand,
 Va[D]nished from my h[G]and,
-Left me bl[D]indly here to st[G]and but still 
+Left me bl[D]indly here to st[G]and but still
 not sl[A]eeping[Asus4].     [A]
 My we[D]ariness am[G]azes me, I'm br[D]anded on my f[G]eet,
 I h[D]ave no one to m[G]eet
-And the a[D]ncient empty st[G]reet's too dead for 
+And the a[D]ncient empty st[G]reet's too dead for
 dr[A]eaming[Asus4].     [A]
 
 {c:Chorus}
@@ -75,5 +75,3 @@ Let me forget about today until tomorrow.
 {c:Chorus}
 
 {c:Harmonica part 2}
-
-

@@ -1,5 +1,6 @@
-{title:Here I Am to Worship}
+{t:Here I Am to Worship}
 {st:Tim Hughes}
+{c:Alternate arrangement — see also here_i_am_to_worship.txt and here_i_am_to_worship2.txt}
 {define: D 0 0 0 0 2 3 2}
 {define: A/C# 0 0 4 2 2 2 0}
 {define: D/F# 0 2 0 0 2 3 2}
@@ -36,4 +37,3 @@ I'll [A]never [D]know how [G]much it cost
 To [A]see my [D]sin up[G]on that cross
 
 {gc:Capo 2 in E, capo the bottom 5 strings, leaving the bass E open.}
-

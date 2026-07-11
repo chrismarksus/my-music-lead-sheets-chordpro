@@ -22,7 +22,7 @@ You're the swimming pool, on an August day.
 And You're the perfect thing to say.
 
 {c:VERSE 2}
-	 D                    E
+  D                    E
 And you play it coy, but it's kinda cute.
              G               A            D
 Ah, When you smile at me you know exactly what you do.
@@ -42,11 +42,11 @@ You're every line, you're every word, you're everything.
 {eoc}
 
 {c:VERSE 3}
-	 D                          E
+  D                          E
 You're a carousel, you're a wishing well,
         G            A        D
 And you light me up, when you ring my bell.
-	 D                    E
+  D                    E
 You're a mystery, you're from outer space,
              G            A    D
 You're every minute of my everyday.
@@ -56,7 +56,7 @@ You're every minute of my everyday.
 And I can't believe, uh that I'm your man,
       G               A           D
 And I get to kiss you baby just because I can.
-	 D                       E
+  D                       E
 Whatever comes our way, ah we'll see it through,
         G                    A        D
 And you know that's what our love can do.
@@ -94,7 +94,7 @@ It's you, it's you, You make me sing.
              F#                  A              A   C#  E
 You're every line, you're every word, you're everything.
          A                B                          E
-YouÕre every song. And I sing Along, cause youÕre my everything.
+Youâ€™re every song. And I sing Along, cause youâ€™re my everything.
 {eoc}
 
 {c:OUTRO}

@@ -1,4 +1,4 @@
-{title:Sweet Mercies}
+{t:Sweet Mercies}
 [C] It's our confession, Lord, that [F]we are [C]weak
 [F]So very w[C]eak, but [G7sus]you are [C]strong
 And though we've nothing, Lord, to [F]lay at your [C]feet
@@ -17,5 +17,5 @@ By your [G7sus]Spirit now, [G]Lord we cry
 [C]Shower them down Lord, as we pray"[G7sus]
 {eoc}
 
-{comment:David Ruis}
-{comment:(c)1995 Mercy/Vineyard Publishing}
+{c:David Ruis}
+{c:(c)1995 Mercy/Vineyard Publishing}

@@ -1,4 +1,4 @@
-{title:When I Look into Your Holiness}
+{t:When I Look into Your Holiness}
 When I [C]look into Your holi[F]ness
 When I [C]gaze into Your l[Em7]ovelin[F]ess
 [G7]When all [Em]things [C]that [Em]surround [C]become [F]shadows

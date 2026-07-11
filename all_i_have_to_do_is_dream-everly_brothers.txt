@@ -1,5 +1,5 @@
-{title:All I have to do is dream}
-{subtitle:Everly Brothers}
+{t:All I have to do is dream}
+{st:Everly Brothers}
 
 {c:VERSE 1}
 When [C]I want [Am]you [Dm7] in my a[G7]rms

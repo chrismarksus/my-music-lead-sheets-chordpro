@@ -1,5 +1,5 @@
-{title:Wonderful Tonight}
-{subtitle:Eric Clapton}
+{t:Wonderful Tonight}
+{st:Eric Clapton}
 
 {c:Intro:}
 [G]          [D/F#]                [C/E]                [D]
@@ -9,7 +9,7 @@
 wear.
 [G]She puts on her [D/F#]make-up,[C/E] and brushes her [D]long blonde hair.
 [C]And then she [D]asks me,[G] do I [D/F#]look all [Em]right,
-And I say [C]yes, you look [D7]wonderful to[G]night      
+And I say [C]yes, you look [D7]wonderful to[G]night
 
 {c:repeat Into}
 
