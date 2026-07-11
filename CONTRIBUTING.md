@@ -105,6 +105,12 @@ other.
 `chordsheetjs`'s `HtmlDivFormatter`) into a `_site/` directory: one page per song plus an
 `index.html` song list. `_site/` is gitignored — it's a build artifact, never committed.
 
+`index.html` has a live search box (vanilla JS, no dependencies) that filters the song list
+by title/artist substring match as you type. It relies on `data-title`/`data-artist`
+attributes written on each `<li>` at build time — if you add a new metadata field to search
+on, extend both the `entries` extraction in `main()` and the `data-*` attributes in
+`buildIndexPage()`.
+
 ```
 npm run build-site
 ```
