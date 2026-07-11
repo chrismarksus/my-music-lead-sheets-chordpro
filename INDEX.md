@@ -16,7 +16,7 @@
 | Ancient of Days |  | [ancient_of_days.chordpro](ancient_of_days.chordpro) |
 | Angels Dancing |  | [angels_dancing.chordpro](angels_dancing.chordpro) |
 | Angels From the Realms of Glory |  | [angels_from_realms.chordpro](angels_from_realms.chordpro) |
-| annies song | John Denver | [annies_song-john_denver.chordpro](annies_song-john_denver.chordpro) |
+| Annie's Song | John Denver | [annies_song-john_denver.chordpro](annies_song-john_denver.chordpro) |
 | Another Drink |  | [another_drink.chordpro](another_drink.chordpro) |
 | Apostle's Creed |  | [apostles_creed.chordpro](apostles_creed.chordpro) |
 | Arms of Love |  | [arms_of_love.chordpro](arms_of_love.chordpro) |
@@ -55,7 +55,7 @@
 | Create in Me a Clean Heart | Psalm 51:10-12 | [create_in_me.chordpro](create_in_me.chordpro) |
 | Crown Him With Many Crowns |  | [crown_him_with_many.chordpro](crown_him_with_many.chordpro) |
 | Crowns Down |  | [crowns_down.chordpro](crowns_down.chordpro) |
-| CUMBERSOME | Seven Mary Three | [cumbersome-seven_mary_three.chordpro](cumbersome-seven_mary_three.chordpro) |
+| Cumbersome | Seven Mary Three | [cumbersome-seven_mary_three.chordpro](cumbersome-seven_mary_three.chordpro) |
 | Daniel's Prayer |  | [daniels_prayer.chordpro](daniels_prayer.chordpro) |
 | Danny's Song | Kenny Loggins | [dannys_song-kenny-loggins.chordpro](dannys_song-kenny-loggins.chordpro) |
 | Day Tripper | Beatles | [day_tripper-beatles.chordpro](day_tripper-beatles.chordpro) |
@@ -75,7 +75,7 @@
 | Faithful God |  | [faithful_god.chordpro](faithful_god.chordpro) |
 | Faithful One |  | [faithful_one.chordpro](faithful_one.chordpro) |
 | Father of Lights |  | [father_of_lights.chordpro](father_of_lights.chordpro) |
-| FREE FALLIN | Tom Petty | [free_fallin-tom_petty.chordpro](free_fallin-tom_petty.chordpro) |
+| Free Fallin' | Tom Petty | [free_fallin-tom_petty.chordpro](free_fallin-tom_petty.chordpro) |
 | Glorify |  | [glorify.chordpro](glorify.chordpro) |
 | Glory and Honor |  | [glory_and_honor.chordpro](glory_and_honor.chordpro) |
 | God Is So Good |  | [god_is_so_good.chordpro](god_is_so_good.chordpro) |
@@ -127,7 +127,7 @@
 | I Worship You |  | [i_worship_you.chordpro](i_worship_you.chordpro) |
 | I Worship You Almighty God |  | [i_worship_you_almighty.chordpro](i_worship_you_almighty.chordpro) |
 | I Would Do Anything |  | [i_would_do_anything.chordpro](i_would_do_anything.chordpro) |
-| IF I HAD A MILLION DOLLARS | Barenaked Ladies | [if_i_had_a_million_dollars-barenaked_ladies.chordpro](if_i_had_a_million_dollars-barenaked_ladies.chordpro) |
+| If I Had a Million Dollars | Barenaked Ladies | [if_i_had_a_million_dollars-barenaked_ladies.chordpro](if_i_had_a_million_dollars-barenaked_ladies.chordpro) |
 | If You Want Me To | Ginny Owens | [if_you_want_me_to-ginny_owens.chordpro](if_you_want_me_to-ginny_owens.chordpro) |
 | If Youre Gone | Matchbox 20 | [if_youre_gone-matchbox_20.chordpro](if_youre_gone-matchbox_20.chordpro) |
 | In Christ Alone |  | [christ_alone.chordpro](christ_alone.chordpro) |
