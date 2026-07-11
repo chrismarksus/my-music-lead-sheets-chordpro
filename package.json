@@ -2,9 +2,11 @@
   "name": "my-music-lead-sheets-chordpro",
   "version": "1.0.0",
   "private": true,
-  "description": "Personal ChordPro lead sheet collection with CI linting",
+  "description": "Personal ChordPro lead sheet collection with CI linting, consistency checks, and a generated GitHub Pages site",
   "scripts": {
-    "lint": "node scripts/lint.js"
+    "lint": "node scripts/lint.js",
+    "check": "node scripts/check-consistency.js",
+    "build-site": "node scripts/build-site.js"
   },
   "repository": {
     "type": "git",

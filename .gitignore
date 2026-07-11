@@ -7,3 +7,6 @@ Thumbs.db
 
 # Node tooling (CI lint script dependencies)
 node_modules/
+
+# Generated site build (built by CI, deployed to GitHub Pages, never committed)
+_site/
