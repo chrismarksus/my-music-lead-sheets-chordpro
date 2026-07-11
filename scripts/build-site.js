@@ -113,6 +113,7 @@ h2.subtitle { font-family: var(--font-body); font-style: italic; font-weight: 40
 
 .chord-sheet { font-size: 17px; line-height: 1.9; }
 .chord-sheet .paragraph { margin-bottom: 22px; }
+.chord-sheet .paragraph.chorus { padding-left: 14px; border-left: 2px solid var(--divider); }
 .chord-sheet .row { display: flex; flex-wrap: wrap; }
 .chord-sheet .column { display: flex; flex-direction: column; padding-right: 0.35em; }
 .chord-sheet .chord { font-family: var(--font-heading); font-weight: 600; font-size: 0.88em; color: var(--accent-text); min-height: 1.3em; }
