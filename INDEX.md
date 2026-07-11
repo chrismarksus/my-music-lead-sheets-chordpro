@@ -24,7 +24,7 @@
 | As The Deer 2 |  | [as_the_deer_2.chordpro](sheets/as_the_deer_2.chordpro) |
 | At the Cross |  | [at_the_cross.chordpro](sheets/at_the_cross.chordpro) |
 | Autumn Leaves | Eva Cassidy | [autumn_leaves-eva_cassidy.chordpro](sheets/autumn_leaves-eva_cassidy.chordpro) |
-| Baby Its Cold Outside-Dean Martin | Dean Martin | [baby_its_cold_outside-dean_martin.chordpro](sheets/baby_its_cold_outside-dean_martin.chordpro) |
+| Baby It's Cold Outside | Dean Martin | [baby_its_cold_outside-dean_martin.chordpro](sheets/baby_its_cold_outside-dean_martin.chordpro) |
 | Bad Moon Risin' | Creedence Clearwater Revival | [bad_moon_rising2-creedence_clearwater_revival.chordpro](sheets/bad_moon_rising2-creedence_clearwater_revival.chordpro) |
 | Bad Moon Rising | Creedence Clearwater Revival | [bad_moon_rising-creedence_clearwater_revival.chordpro](sheets/bad_moon_rising-creedence_clearwater_revival.chordpro) |
 | Bad, Bad Leroy Brown | Jim Croce | [bad_bad_leroy_brown-jim_croce.chordpro](sheets/bad_bad_leroy_brown-jim_croce.chordpro) |
