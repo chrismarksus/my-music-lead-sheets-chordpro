@@ -13,23 +13,44 @@ const OUT_DIR = path.join(ROOT, '_site');
 const SONGS_DIR = path.join(OUT_DIR, 'songs');
 
 const CHROME_CSS = `
+:root {
+  --bg: #fff;
+  --fg: #222;
+  --muted: #666;
+  --border: #eee;
+  --chord: #b00;
+  --link: #0645ad;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --fg: #e4e4e4;
+    --muted: #999;
+    --border: #333;
+    --chord: #ff6b6b;
+    --link: #6cb2ff;
+  }
+}
 body {
   font-family: system-ui, -apple-system, Segoe UI, sans-serif;
   max-width: 40em;
   margin: 2em auto;
   padding: 0 1em;
   line-height: 1.5;
+  background: var(--bg);
+  color: var(--fg);
 }
+a { color: var(--link); }
 header { margin-bottom: 1.5em; }
 header a { text-decoration: none; }
 .song-list { list-style: none; padding: 0; }
-.song-list li { padding: 0.3em 0; border-bottom: 1px solid #eee; }
-.artist { color: #666; font-size: 0.9em; }
+.song-list li { padding: 0.3em 0; border-bottom: 1px solid var(--border); }
+.artist { color: var(--muted); font-size: 0.9em; }
 h1.title { margin-bottom: 0; }
-h2.subtitle { margin-top: 0.2em; color: #666; font-weight: normal; }
+h2.subtitle { margin-top: 0.2em; color: var(--muted); font-weight: normal; }
 .chord-sheet { font-family: ui-monospace, Menlo, Consolas, monospace; white-space: pre-wrap; }
 .chord-sheet .row { display: flex; flex-wrap: wrap; }
-.chord-sheet .chord { color: #b00; font-weight: bold; }
+.chord-sheet .chord { color: var(--chord); font-weight: bold; }
 `;
 
 function listSongFiles() {
