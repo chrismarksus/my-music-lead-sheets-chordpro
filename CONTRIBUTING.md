@@ -111,6 +111,22 @@ attributes written on each `<li>` at build time — if you add a new metadata fi
 on, extend both the `entries` extraction in `main()` and the `data-*` attributes in
 `buildIndexPage()`.
 
+### Chord diagrams
+
+[`scripts/chord-diagrams.js`](scripts/chord-diagrams.js) resolves each chord name a song
+uses (via `song.getChords()`) to a guitar fingering from
+[`@tombatossals/chords-db`](https://www.npmjs.com/package/@tombatossals/chords-db) and
+renders it as an inline SVG. `build-site.js` uses this to add, per song page:
+
+- a "chords in this song" strip near the top of the page (one diagram per unique chord)
+- a hover/focus/tap tooltip on every chord occurrence in the lyrics, showing that chord's
+  diagram
+
+Chord names that don't resolve — exotic alterations, malformed annotations, anything outside
+`chords-db`'s vocabulary — are silently skipped (no diagram, no tooltip); this is intentional,
+not a bug to chase. `chords-db` is a devDependency used only at build time, like
+`chordsheetjs`; nothing from it ships to `_site/` beyond the generated SVG markup.
+
 ```
 npm run build-site
 ```

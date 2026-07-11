@@ -18,6 +18,7 @@
 const fs = require('fs');
 const path = require('path');
 const { ChordProParser, HtmlDivFormatter } = require('chordsheetjs');
+const { buildChordDiagrams } = require('./chord-diagrams');
 
 const ROOT = path.resolve(__dirname, '..');
 const SHEETS_DIR = path.join(ROOT, 'sheets');
@@ -116,12 +117,40 @@ h1.title { font-family: var(--font-heading); font-weight: 600; font-size: 32px; 
 h2.subtitle { font-family: var(--font-body); font-style: italic; font-weight: 400; font-size: 16px; color: var(--muted); margin: 4px 0 20px; }
 .song-divider { height: 1px; border: 0; background: var(--divider); margin: 0 0 22px; }
 
+.chord-diagrams { display: flex; flex-wrap: wrap; gap: 14px; margin: 0 0 22px; }
+.chord-diagram-card {
+  display: flex; flex-direction: column; align-items: center; gap: 4px; width: 62px;
+  padding: 8px 4px 6px; border: 1px solid var(--divider); border-radius: 6px; background: var(--surface);
+}
+.chord-diagram-card .chord-diagram-name { font-family: var(--font-heading); font-weight: 600; font-size: 13px; color: var(--accent-text); }
+svg.chord-diagram { display: block; width: 54px; height: auto; overflow: visible; }
+.chord-diagram-string { stroke: var(--muted); stroke-width: 1; }
+.chord-diagram-fret { stroke: var(--divider); stroke-width: 1; }
+.chord-diagram-nut { stroke: var(--text); stroke-width: 3; }
+.chord-diagram-barre { fill: var(--accent); opacity: 0.28; }
+.chord-diagram-dot { fill: var(--accent-text); }
+.chord-diagram-finger { fill: var(--surface); font-size: 8px; font-family: var(--font-body); }
+.chord-diagram-mark { stroke: var(--muted); stroke-width: 1.4; fill: none; }
+.chord-diagram-basefret { fill: var(--muted); font-size: 8px; font-family: var(--font-body); }
+
 .chord-sheet { font-size: 17px; line-height: 1.9; }
 .chord-sheet .paragraph { margin-bottom: 22px; }
 .chord-sheet .paragraph.chorus { padding-left: 14px; border-left: 2px solid var(--divider); }
 .chord-sheet .row { display: flex; flex-wrap: wrap; }
 .chord-sheet .column { display: flex; flex-direction: column; padding-right: 0.35em; }
 .chord-sheet .chord { font-family: var(--font-heading); font-weight: 600; font-size: 0.88em; color: var(--accent-text); min-height: 1.3em; }
+.chord-sheet .chord.has-diagram {
+  position: relative; cursor: pointer; text-decoration: underline dotted; text-underline-offset: 3px;
+  text-decoration-color: var(--divider);
+}
+.chord-sheet .chord-tooltip {
+  display: none; position: absolute; z-index: 20; bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%);
+  background: var(--surface); border: 1px solid var(--divider); border-radius: 8px; padding: 8px 6px 6px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18); white-space: normal;
+}
+.chord-sheet .chord.has-diagram:hover .chord-tooltip,
+.chord-sheet .chord.has-diagram:focus .chord-tooltip,
+.chord-sheet .chord.has-diagram.tooltip-open .chord-tooltip { display: block; }
 .chord-sheet .lyrics { white-space: pre; }
 .chord-sheet .comment { display: block; font-style: italic; color: var(--muted); font-size: 0.85em; margin: 10px 0; padding: 6px 10px; border-left: 2px solid var(--divider); }
 
@@ -159,6 +188,7 @@ h2.subtitle { font-family: var(--font-body); font-style: italic; font-weight: 40
   .chord-sheet .chord { color: #000; }
   .chord-sheet .comment { border-left-color: #999; color: #333; }
   .chord-sheet .tab-block { border-color: #999; background: #fff; -webkit-print-color-adjust: exact; }
+  .chord-sheet .chord-tooltip { display: none !important; }
   @page { margin: 1.2cm; }
 }
 `;
@@ -203,6 +233,26 @@ const SEARCH_SCRIPT = `<script>
 })();
 </script>`;
 
+// :hover/:focus alone cover mouse and keyboard, but touch devices don't hover -
+// tapping a chord toggles its tooltip open, tapping elsewhere closes it.
+const CHORD_TOOLTIP_SCRIPT = `<script>
+(function () {
+  var chords = Array.prototype.slice.call(document.querySelectorAll('.chord.has-diagram'));
+  if (!chords.length) return;
+  chords.forEach(function (el) {
+    el.addEventListener('click', function (e) {
+      var wasOpen = el.classList.contains('tooltip-open');
+      chords.forEach(function (c) { c.classList.remove('tooltip-open'); });
+      if (!wasOpen) el.classList.add('tooltip-open');
+      e.stopPropagation();
+    });
+  });
+  document.addEventListener('click', function () {
+    chords.forEach(function (c) { c.classList.remove('tooltip-open'); });
+  });
+})();
+</script>`;
+
 function listSongFiles() {
   return fs.readdirSync(SHEETS_DIR)
     .filter((f) => f.endsWith('.chordpro'))
@@ -241,6 +291,29 @@ function injectTabs(html, tabs) {
 
 function slugFor(filename) {
   return filename.replace(/\.chordpro$/, '');
+}
+
+function buildChordDiagramsStrip(chordNames, diagrams) {
+  const cards = chordNames
+    .filter((name) => diagrams[name])
+    .map(
+      (name) =>
+        `<div class="chord-diagram-card"><span class="chord-diagram-name">${escapeHtml(name)}</span>${diagrams[name]}</div>`
+    )
+    .join('\n');
+  if (!cards) return '';
+  return `<div class="chord-diagrams">\n${cards}\n</div>`;
+}
+
+// Wraps each rendered <div class="chord">Name</div> that has a known diagram
+// with a hover/focus/tap tooltip containing that chord's diagram. Chords
+// without a resolved diagram (see chord-diagrams.js) are left untouched.
+function injectChordTooltips(html, diagrams) {
+  return html.replace(/<div class="chord">([^<]*)<\/div>/g, (match, name) => {
+    const svg = diagrams[name];
+    if (!svg) return match;
+    return `<div class="chord has-diagram" tabindex="0">${name}<span class="chord-tooltip">${svg}</span></div>`;
+  });
 }
 
 function pageShell({ title, bodyHtml, isSongPage, description }) {
@@ -299,7 +372,7 @@ ${bodyHtml}
   });
 })();
 </script>
-${isSongPage ? '' : SEARCH_SCRIPT}
+${isSongPage ? CHORD_TOOLTIP_SCRIPT : SEARCH_SCRIPT}
 </body>
 </html>
 `;
@@ -394,10 +467,13 @@ function main() {
     // <h2 class="subtitle"> when present) ahead of the chord sheet, so we
     // only need to splice in the divider rather than render our own heading
     // (which would duplicate the formatter's).
-    const chordSheetHtml = injectTabs(new HtmlDivFormatter().format(song), tabs);
+    const chordNames = song.getChords();
+    const diagrams = buildChordDiagrams(chordNames);
+    const diagramsStrip = buildChordDiagramsStrip(chordNames, diagrams);
+    const chordSheetHtml = injectChordTooltips(injectTabs(new HtmlDivFormatter().format(song), tabs), diagrams);
     const bodyHtml = chordSheetHtml.replace(
       '<div class="chord-sheet">',
-      '<hr class="song-divider">\n<div class="chord-sheet">'
+      `<hr class="song-divider">\n${diagramsStrip}\n<div class="chord-sheet">`
     );
     entries.push({ title, artist, slug, bodyHtml });
   });

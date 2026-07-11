@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/chrismarksus/my-music-lead-sheets-chordpro#readme",
   "devDependencies": {
+    "@tombatossals/chords-db": "^0.5.1",
     "chordsheetjs": "^15.5.2"
   }
 }
-
