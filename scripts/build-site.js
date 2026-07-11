@@ -55,7 +55,7 @@ h2.subtitle { margin-top: 0.2em; color: var(--muted); font-weight: normal; }
 
 function listSongFiles() {
   return fs.readdirSync(ROOT)
-    .filter((f) => f.endsWith('.txt'))
+    .filter((f) => f.endsWith('.chordpro'))
     .sort();
 }
 
@@ -64,7 +64,7 @@ function escapeHtml(str) {
 }
 
 function slugFor(filename) {
-  return filename.replace(/\.txt$/, '');
+  return filename.replace(/\.chordpro$/, '');
 }
 
 function pageShell({ title, bodyHtml, isSongPage }) {

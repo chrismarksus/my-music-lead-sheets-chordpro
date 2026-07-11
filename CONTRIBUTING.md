@@ -14,10 +14,10 @@ when it fails.
   can't have a line break in the middle of it — the ChordPro parser reads directives
   line-by-line.
 - **Filenames are snake_case**, optionally with hyphen-joined segments for disambiguation,
-  e.g. `song_title.txt` or `song_title-artist_name.txt`.
+  e.g. `song_title.chordpro` or `song_title-artist_name.chordpro`.
 - **Multiple arrangements cross-reference each other.** If you have
-  `amazing_grace.txt` and `amazing_grace_ii.txt`, each should carry a
-  `{c:Alternate arrangement — see also X.txt}` comment pointing at the other.
+  `amazing_grace.chordpro` and `amazing_grace_ii.chordpro`, each should carry a
+  `{c:Alternate arrangement — see also X.chordpro}` comment pointing at the other.
 - **Never reflow or trim whitespace inside `{sot}`/`{eot}` blocks** — those are ASCII guitar
   tab diagrams; the spacing is the content.
 - **`INDEX.md` is generated, not hand-edited.** Regenerate it whenever you add, rename, or
@@ -36,7 +36,7 @@ npm run lint
 npm run check
 ```
 
-`npm run lint` runs [`scripts/lint.js`](scripts/lint.js), which checks every `.txt` file in
+`npm run lint` runs [`scripts/lint.js`](scripts/lint.js), which checks every `.chordpro` file in
 the repo root against the rules listed in that file's header comment (parse validity,
 required title, banned long-form directives, balanced `{soc}`/`{eoc}` and `{sot}`/`{eot}`
 blocks, balanced chord brackets, snake_case filename). The rule list lives in one place —
@@ -45,10 +45,10 @@ what the code actually checks.
 
 `npm run check` runs [`scripts/check-consistency.js`](scripts/check-consistency.js), which
 checks repo-wide consistency rather than individual files: `INDEX.md` matches the actual
-files (no missing/stray rows, no title/artist drift), `{c:...see also X.txt}`
+files (no missing/stray rows, no title/artist drift), `{c:...see also X.chordpro}`
 cross-references between alternate arrangements point at real filenames, there are no
-byte-identical duplicate `.txt` files, no unrecognized stray files/directories in the repo
-root, and every `.txt` file is valid UTF-8 with no BOM. As with lint, the rule list lives
+byte-identical duplicate `.chordpro` files, no unrecognized stray files/directories in the repo
+root, and every `.chordpro` file is valid UTF-8 with no BOM. As with lint, the rule list lives
 in the script's header comment.
 
 If every file passes both checks, CI exits 0 (green). If anything fails, it exits 1 (red)
@@ -78,25 +78,25 @@ Read the failing line from the Actions log or the PR check annotation — it's i
 | `unbalanced {soc}/{eoc}` or `{sot}/{eot}` blocks | You opened a block without closing it (or vice versa) — add the missing tag. |
 | `unbalanced [ ] chord brackets on this line` | A `[Chord]` is missing its `[` or `]` on that line. |
 | `filename must be snake_case` | Rename the file to lowercase, underscore-separated words (hyphen-joined segments are OK for `song-artist` disambiguation). |
-| `INDEX.md: missing a row linking to X.txt` | Add a row for `X.txt` to `INDEX.md`. |
-| `INDEX.md:N: links to X.txt, which does not exist` | Fix or remove that row — the file it points at is gone or renamed. |
-| `INDEX.md:N: title/artist "..." doesn't match X.txt's {t:.../st:...}` | Someone edited the file's title/subtitle without regenerating `INDEX.md` (or vice versa) — make them match. |
-| `cross-reference points at X.txt, which does not exist` | Fix the `{c:...see also X.txt}` comment — the referenced file was renamed or removed. |
-| `X.txt: byte-identical to Y.txt` | Likely an accidental duplicate — remove one, or add a `{c:}` cross-reference if they're intentionally meant to be identical starting points. |
+| `INDEX.md: missing a row linking to X.chordpro` | Add a row for `X.chordpro` to `INDEX.md`. |
+| `INDEX.md:N: links to X.chordpro, which does not exist` | Fix or remove that row — the file it points at is gone or renamed. |
+| `INDEX.md:N: title/artist "..." doesn't match X.chordpro's {t:.../st:...}` | Someone edited the file's title/subtitle without regenerating `INDEX.md` (or vice versa) — make them match. |
+| `cross-reference points at X.chordpro, which does not exist` | Fix the `{c:...see also X.chordpro}` comment — the referenced file was renamed or removed. |
+| `X.chordpro: byte-identical to Y.chordpro` | Likely an accidental duplicate — remove one, or add a `{c:}` cross-reference if they're intentionally meant to be identical starting points. |
 | `stray file/directory in repo root` | Remove it, or add it to `KNOWN_ROOT_FILES`/`KNOWN_ROOT_DIRS` in `scripts/check-consistency.js` if it's meant to be there. |
 | `not valid UTF-8` / `has a UTF-8 byte-order mark` | Re-save the file as plain UTF-8 without a BOM. |
 
 ## Adding a new song
 
 1. Copy the structure of an existing file for conventions.
-2. Name it `snake_case.txt`, adding a `-artist_name` segment only if needed to disambiguate.
+2. Name it `snake_case.chordpro`, adding a `-artist_name` segment only if needed to disambiguate.
 3. Run `npm run lint` before committing.
 4. Regenerate `INDEX.md`.
 
 ## Adding an alternate arrangement
 
-Name it with an `_ii` or trailing number suffix (e.g. `bad_moon_rising2-...txt`), and add a
-`{c:Alternate arrangement — see also X.txt}` comment in **both** files pointing at each
+Name it with an `_ii` or trailing number suffix (e.g. `bad_moon_rising2-...chordpro`), and add a
+`{c:Alternate arrangement — see also X.chordpro}` comment in **both** files pointing at each
 other.
 
 ## Site generation
@@ -116,12 +116,7 @@ step, not something the workflow can do for itself).
 
 ## Roadmap
 
-Phase 1 (CI lint) and phase 2 (repo consistency scanning + HTML site generation on GitHub
-Pages) are both implemented.
-
-Phase 3 (planned, not started): **migrate from `.txt` to a standard ChordPro extension**
-(`.cho` or `.chordpro`). The collection currently uses `.txt` deliberately, but adopting a
-standard extension would improve interop with ChordPro tooling/apps that key off file
-extension. Would require updating `scripts/lint.js` and `scripts/check-consistency.js`'s
-file-matching globs, `scripts/build-site.js`, the `INDEX.md` generator, and renaming every
-file (with `{c:...see also X}` cross-reference comments updated to match).
+Phase 1 (CI lint), phase 2 (repo consistency scanning + HTML site generation on GitHub
+Pages), and phase 3 (migration from `.txt` to the standard `.chordpro` extension for
+better interop with ChordPro tooling/apps that key off file extension) are all
+implemented.

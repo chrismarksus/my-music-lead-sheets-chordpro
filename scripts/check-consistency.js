@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 // Repo consistency checks that go beyond per-file linting (see scripts/lint.js for that).
 // See CONTRIBUTING.md for what to do when one of these fails.
-//   1. index-missing   - every .txt file in the repo root must have a row in INDEX.md
+//   1. index-missing   - every .chordpro file in the repo root must have a row in INDEX.md
 //   2. index-stray     - every file linked from INDEX.md must exist in the repo root
 //   3. index-drift     - a song's {t:}/{st:} directives must match its INDEX.md row
-//   4. cross-ref       - {c:...see also X.txt...} comments must point at real filenames
-//   5. duplicate       - no two .txt files may have byte-identical content
+//   4. cross-ref       - {c:...see also X.chordpro...} comments must point at real filenames
+//   5. duplicate       - no two .chordpro files may have byte-identical content
 //   6. stray-file      - no unrecognized files/directories in the repo root
-//   7. encoding        - every .txt file must be valid UTF-8 with no BOM
+//   7. encoding        - every .chordpro file must be valid UTF-8 with no BOM
 'use strict';
 
 const fs = require('fs');
@@ -29,7 +29,7 @@ const KNOWN_ROOT_DIRS = new Set(['scripts', '.github', 'node_modules', '.git']);
 
 function listSongFiles() {
   return fs.readdirSync(ROOT)
-    .filter((f) => f.endsWith('.txt'))
+    .filter((f) => f.endsWith('.chordpro'))
     .sort();
 }
 
@@ -89,7 +89,7 @@ function checkCrossReferences(files, errors) {
     const content = fs.readFileSync(path.join(ROOT, f), 'utf8');
     const lines = content.split(/\r\n|\r|\n/);
     lines.forEach((line, idx) => {
-      const m = line.match(/\{c:[^}]*see also\s+([A-Za-z0-9_.-]+\.txt)/i);
+      const m = line.match(/\{c:[^}]*see also\s+([A-Za-z0-9_.-]+\.chordpro)/i);
       if (m && !fileSet.has(m[1])) {
         errors.push(`${f}:${idx + 1}: cross-reference points at ${m[1]}, which does not exist`);
       }
@@ -117,7 +117,7 @@ function checkStrayFiles(errors) {
       }
       return;
     }
-    if (entry.name.endsWith('.txt')) return;
+    if (entry.name.endsWith('.chordpro')) return;
     if (KNOWN_ROOT_FILES.has(entry.name)) return;
     errors.push(`stray file in repo root: ${entry.name}`);
   });
