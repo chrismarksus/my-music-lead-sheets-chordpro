@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Builds a static HTML site (into _site/, gitignored) from the ChordPro song files in the
-// repo root: one page per song plus an index. Run via `npm run build-site`; deployed to
+// Builds a static HTML site (into _site/, gitignored) from the ChordPro song files in
+// sheets/: one page per song plus an index. Run via `npm run build-site`; deployed to
 // GitHub Pages by .github/workflows/pages.yml on every push to master.
 //
 // Redesign notes (Classical-derived look, phone/tablet-first):
@@ -9,6 +9,10 @@
 //  - Index groups songs under A–Z letter headers with a jump strip, per request.
 //  - Search still matches title + artist only; behavior unchanged, markup restyled.
 //  - Light/dark toggle kept, restyled to the new palette.
+//  - Tab blocks ({sot}...{eot}) are pulled out before chordsheetjs parses and
+//    re-injected as a monospace plate after formatting, so ASCII string
+//    diagrams stay aligned instead of running through the chord/lyric column
+//    layout in the body serif font.
 'use strict';
 
 const fs = require('fs');
@@ -16,6 +20,7 @@ const path = require('path');
 const { ChordProParser, HtmlDivFormatter } = require('chordsheetjs');
 
 const ROOT = path.resolve(__dirname, '..');
+const SHEETS_DIR = path.join(ROOT, 'sheets');
 const OUT_DIR = path.join(ROOT, '_site');
 const SONGS_DIR = path.join(OUT_DIR, 'songs');
 
@@ -120,6 +125,15 @@ h2.subtitle { font-family: var(--font-body); font-style: italic; font-weight: 40
 .chord-sheet .lyrics { white-space: pre; }
 .chord-sheet .comment { display: block; font-style: italic; color: var(--muted); font-size: 0.85em; margin: 10px 0; padding: 6px 10px; border-left: 2px solid var(--divider); }
 
+.chord-sheet .tab { display: block; margin: 4px 0 22px; }
+.chord-sheet .tab-label { display: block; font-family: var(--font-heading); font-weight: 600; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-text); margin: 0 0 6px; }
+.chord-sheet .tab-block {
+  display: block; margin: 0; overflow-x: auto; padding: 14px 16px;
+  border: 1px solid var(--divider); border-radius: 4px; background: var(--surface); color: var(--text);
+  font-family: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+  font-size: 13.5px; line-height: 1.6; white-space: pre; -webkit-font-smoothing: auto;
+}
+
 @media (max-width: 420px) {
   main { padding: 18px 14px 56px; }
   h1.page-title { font-size: 28px; }
@@ -161,13 +175,39 @@ const SEARCH_SCRIPT = `<script>
 </script>`;
 
 function listSongFiles() {
-  return fs.readdirSync(ROOT)
+  return fs.readdirSync(SHEETS_DIR)
     .filter((f) => f.endsWith('.chordpro'))
     .sort();
 }
 
 function escapeHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+// Tab blocks ({sot}...{eot} / {start_of_tab}...{end_of_tab}) are ASCII string
+// diagrams — chordsheetjs's chord/lyric column layout would re-flow their
+// spacing and break alignment. Pull each block out before parsing (leaving a
+// placeholder comment tag chordsheetjs passes through untouched), then swap
+// the placeholder for a monospace block after formatting.
+function extractTabs(content) {
+  const tabs = [];
+  const replaced = content.replace(
+    /\{(?:sot|start_of_tab)\}[ \t]*\r?\n([\s\S]*?)\r?\n?\{(?:eot|end_of_tab)\}/gi,
+    (match, body) => {
+      const token = `__TAB_BLOCK_${tabs.length}__`;
+      tabs.push(body.replace(/\n$/, ''));
+      return `{comment: ${token}}`;
+    },
+  );
+  return { replaced, tabs };
+}
+
+function injectTabs(html, tabs) {
+  if (!tabs.length) return html;
+  return html.replace(/<div class="comment">__TAB_BLOCK_(\d+)__<\/div>/g, (match, idx) => {
+    const body = tabs[Number(idx)];
+    return `<div class="tab"><span class="tab-label">Tab</span><pre class="tab-block">${escapeHtml(body)}</pre></div>`;
+  });
 }
 
 function slugFor(filename) {
@@ -288,7 +328,8 @@ function main() {
   const entries = [];
 
   files.forEach((filename) => {
-    const content = fs.readFileSync(path.join(ROOT, filename), 'utf8');
+    const rawContent = fs.readFileSync(path.join(SHEETS_DIR, filename), 'utf8');
+    const { replaced: content, tabs } = extractTabs(rawContent);
     let song;
     try {
       song = new ChordProParser().parse(content);
@@ -303,7 +344,7 @@ function main() {
     // <h2 class="subtitle"> when present) ahead of the chord sheet, so we
     // only need to splice in the divider rather than render our own heading
     // (which would duplicate the formatter's).
-    const chordSheetHtml = new HtmlDivFormatter().format(song);
+    const chordSheetHtml = injectTabs(new HtmlDivFormatter().format(song), tabs);
     const bodyHtml = chordSheetHtml.replace(
       '<div class="chord-sheet">',
       '<hr class="song-divider">\n<div class="chord-sheet">'
