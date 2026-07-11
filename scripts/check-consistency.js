@@ -22,6 +22,7 @@ const KNOWN_ROOT_FILES = new Set([
   'CONTRIBUTING.md',
   'INDEX.md',
   'NOTICE.md',
+  'README.md',
   'package.json',
   'package-lock.json',
   '.gitignore',
