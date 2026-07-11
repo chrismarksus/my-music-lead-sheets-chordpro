@@ -70,8 +70,21 @@ header a { text-decoration: none; }
   font-size: 0.9rem;
   line-height: 1;
 }
+#song-search {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5em;
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--fg);
+  margin-bottom: 0.5em;
+}
+#no-results { display: none; color: var(--muted); }
 .song-list { list-style: none; padding: 0; }
 .song-list li { padding: 0.3em 0; border-bottom: 1px solid var(--border); }
+.song-list li.hidden { display: none; }
 .artist { color: var(--muted); font-size: 0.9em; }
 h1.title { margin-bottom: 0; }
 h2.subtitle { margin-top: 0.2em; color: var(--muted); font-weight: normal; }
@@ -79,6 +92,28 @@ h2.subtitle { margin-top: 0.2em; color: var(--muted); font-weight: normal; }
 .chord-sheet .row { display: flex; flex-wrap: wrap; }
 .chord-sheet .chord { color: var(--chord); font-weight: bold; }
 `;
+
+const SEARCH_SCRIPT = `<script>
+(function () {
+  var input = document.getElementById('song-search');
+  var items = Array.prototype.slice.call(document.querySelectorAll('#song-list li'));
+  var countEl = document.getElementById('song-count');
+  var noResultsEl = document.getElementById('no-results');
+  var total = items.length;
+  function filter() {
+    var q = input.value.trim().toLowerCase();
+    var visible = 0;
+    items.forEach(function (li) {
+      var match = !q || li.dataset.title.indexOf(q) !== -1 || li.dataset.artist.indexOf(q) !== -1;
+      li.classList.toggle('hidden', !match);
+      if (match) visible++;
+    });
+    countEl.textContent = q ? (visible + ' of ' + total + ' songs.') : (total + ' songs.');
+    noResultsEl.style.display = visible === 0 ? 'block' : 'none';
+  }
+  input.addEventListener('input', filter);
+})();
+</script>`;
 
 function listSongFiles() {
   return fs.readdirSync(ROOT)
@@ -140,6 +175,7 @@ ${bodyHtml}
   });
 })();
 </script>
+${isSongPage ? '' : SEARCH_SCRIPT}
 </body>
 </html>
 `;
@@ -147,11 +183,18 @@ ${bodyHtml}
 
 function buildIndexPage(entries) {
   const rows = entries
-    .map(({ title, artist, slug }) => `<li><a href="songs/${slug}.html">${escapeHtml(title)}</a>${artist ? ` &mdash; <span class="artist">${escapeHtml(artist)}</span>` : ''}</li>`)
+    .map(({ title, artist, slug }) => `<li data-title="${escapeHtml(title.toLowerCase())}" data-artist="${escapeHtml(artist.toLowerCase())}"><a href="songs/${slug}.html">${escapeHtml(title)}</a>${artist ? ` &mdash; <span class="artist">${escapeHtml(artist)}</span>` : ''}</li>`)
     .join('\n');
+  const bodyHtml = `<h1>Song Index</h1>
+<input type="search" id="song-search" placeholder="Search by title or artist&hellip;" aria-label="Search songs by title or artist">
+<p id="song-count">${entries.length} songs.</p>
+<p id="no-results">No songs match your search.</p>
+<ul class="song-list" id="song-list">
+${rows}
+</ul>`;
   return pageShell({
     title: 'Song Index',
-    bodyHtml: `<h1>Song Index</h1>\n<p>${entries.length} songs.</p>\n<ul class="song-list">\n${rows}\n</ul>`,
+    bodyHtml,
     isSongPage: false,
   });
 }
