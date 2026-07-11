@@ -1,0 +1,23 @@
+{
+  "name": "my-music-lead-sheets-chordpro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal ChordPro lead sheet collection with CI linting",
+  "scripts": {
+    "lint": "node scripts/lint.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrismarksus/my-music-lead-sheets-chordpro.git"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chrismarksus/my-music-lead-sheets-chordpro/issues"
+  },
+  "homepage": "https://github.com/chrismarksus/my-music-lead-sheets-chordpro#readme",
+  "devDependencies": {
+    "chordsheetjs": "^15.5.2"
+  }
+}
+
