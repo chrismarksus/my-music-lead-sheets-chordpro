@@ -24,6 +24,20 @@ const ROOT = path.resolve(__dirname, '..');
 const SHEETS_DIR = path.join(ROOT, 'sheets');
 const OUT_DIR = path.join(ROOT, '_site');
 const SONGS_DIR = path.join(OUT_DIR, 'songs');
+const SPOTIFY_LINKS_PATH = path.join(ROOT, 'data', 'spotify-links.json');
+
+// Only "high" confidence matches (title + artist both verified against the Spotify result)
+// get linked from the site — see scripts/fetch-spotify-links.js. Lower-confidence and
+// unverified matches are left out rather than risk linking the wrong recording.
+function loadSpotifyLinks() {
+  if (!fs.existsSync(SPOTIFY_LINKS_PATH)) return {};
+  const data = JSON.parse(fs.readFileSync(SPOTIFY_LINKS_PATH, 'utf8'));
+  const links = {};
+  for (const [filename, entry] of Object.entries(data)) {
+    if (entry.confidence === 'high' && entry.track?.url) links[filename] = entry.track.url;
+  }
+  return links;
+}
 
 const CHROME_CSS = `
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
@@ -115,6 +129,14 @@ ul.song-list { list-style: none; margin: 0; padding: 0; }
 
 h1.title { font-family: var(--font-heading); font-weight: 600; font-size: 32px; line-height: 1.15; letter-spacing: -0.01em; margin: 6px 0 0; }
 h2.subtitle { font-family: var(--font-body); font-style: italic; font-weight: 400; font-size: 16px; color: var(--muted); margin: 4px 0 20px; }
+.spotify-link { margin: -10px 0 20px; }
+.spotify-link a {
+  display: inline-flex; align-items: center; gap: 6px; font-family: var(--font-heading);
+  font-weight: 600; font-size: 14px; text-decoration: none; color: var(--accent-text);
+  border: 1px solid var(--divider); border-radius: 999px; padding: 5px 12px 5px 10px;
+}
+.spotify-link a:hover { border-color: var(--accent); }
+.spotify-link svg { width: 14px; height: 14px; flex: none; fill: currentColor; }
 .song-divider { height: 1px; border: 0; background: var(--divider); margin: 0 0 22px; }
 
 .chord-diagrams { display: flex; flex-wrap: wrap; gap: 14px; margin: 0 0 22px; }
@@ -178,7 +200,7 @@ svg.chord-diagram { display: block; width: 54px; height: auto; overflow: visible
 }
 
 @media print {
-  .site-header, .search-wrap, .az-jump, .song-nav { display: none !important; }
+  .site-header, .search-wrap, .az-jump, .song-nav, .spotify-link { display: none !important; }
   body { background: #fff; color: #000; font-size: 12pt; }
   a { color: #000; text-decoration: none; }
   main { max-width: 100%; margin: 0; padding: 0; }
@@ -448,6 +470,7 @@ function main() {
   fs.mkdirSync(SONGS_DIR, { recursive: true });
 
   const files = listSongFiles();
+  const spotifyLinks = loadSpotifyLinks();
   const entries = [];
 
   files.forEach((filename) => {
@@ -471,9 +494,13 @@ function main() {
     const diagrams = buildChordDiagrams(chordNames);
     const diagramsStrip = buildChordDiagramsStrip(chordNames, diagrams);
     const chordSheetHtml = injectChordTooltips(injectTabs(new HtmlDivFormatter().format(song), tabs), diagrams);
+    const spotifyUrl = spotifyLinks[filename];
+    const spotifyLinkHtml = spotifyUrl
+      ? `<p class="spotify-link"><a href="${escapeHtml(spotifyUrl)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.42 1.56-.299.421-1.02.599-1.559.3z"/></svg>Listen on Spotify</a></p>`
+      : '';
     const bodyHtml = chordSheetHtml.replace(
       '<div class="chord-sheet">',
-      `<hr class="song-divider">\n${diagramsStrip}\n<div class="chord-sheet">`
+      `<hr class="song-divider">\n${spotifyLinkHtml}\n${diagramsStrip}\n<div class="chord-sheet">`
     );
     entries.push({ title, artist, slug, bodyHtml });
   });

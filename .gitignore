@@ -10,3 +10,10 @@ node_modules/
 
 # Generated site build (built by CI, deployed to GitHub Pages, never committed)
 _site/
+
+# Spotify API credentials (see scripts/fetch-spotify-links.js), never committed
+.env
+
+# Transient review output from fetch-spotify-links.js, regenerated each run
+# (data/spotify-links.json itself IS committed — it's the build input for build-site.js)
+data/artist-suggestions.md

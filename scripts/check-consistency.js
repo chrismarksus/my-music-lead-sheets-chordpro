@@ -26,9 +26,11 @@ const KNOWN_ROOT_FILES = new Set([
   'package.json',
   'package-lock.json',
   '.gitignore',
+  '.env',
+  '.env.example',
 ]);
 
-const KNOWN_ROOT_DIRS = new Set(['sheets', 'scripts', '.github', 'node_modules', '.git']);
+const KNOWN_ROOT_DIRS = new Set(['sheets', 'scripts', '.github', 'node_modules', '.git', 'data']);
 
 function listSongFiles() {
   return fs.readdirSync(SHEETS_DIR)

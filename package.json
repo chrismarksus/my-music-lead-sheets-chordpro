@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "node scripts/lint.js",
     "check": "node scripts/check-consistency.js",
-    "build-site": "node scripts/build-site.js"
+    "build-site": "node scripts/build-site.js",
+    "fetch-spotify-links": "node scripts/fetch-spotify-links.js"
   },
   "repository": {
     "type": "git",
