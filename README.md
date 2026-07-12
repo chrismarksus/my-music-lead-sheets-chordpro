@@ -22,6 +22,7 @@ themselves are not licensed for redistribution.
 | `scripts/check-consistency.js` | Repo-wide checks (`INDEX.md` accuracy, cross-references, duplicates, stray files, encoding) |
 | `scripts/build-site.js` | Renders every song to HTML into `_site/` (gitignored build output) |
 | `scripts/fetch-spotify-links.js` | Looks up a Spotify track match per song into `data/spotify-links.json`, which `build-site.js` uses to add a "Listen on Spotify" link |
+| `scripts/spotify-status-report.js` | Writes a local-only `data/spotify-status.html` maintenance dashboard (coverage, diff vs. the last run, arrangement-pair mismatches) — never published |
 | `.github/workflows/lint.yml` | Runs lint + consistency check on every push/PR |
 | `.github/workflows/pages.yml` | Builds the site and deploys it to GitHub Pages on push to `master` |
 
@@ -52,6 +53,17 @@ npm run fetch-spotify-links
 This also writes `data/artist-suggestions.md` (gitignored, regenerated each run): songs
 with no `{st:}` artist where a title search found a plausible track, for you to review
 before manually adding a `{st:}` line.
+
+## Checking coverage
+
+`npm run spotify-status` (also run automatically at the end of `fetch-spotify-links`) writes
+`data/spotify-status.html` — a local-only dashboard, gitignored and never part of the
+published site. Open it in a browser to see: coverage counts, which songs changed status
+since the last fetch run, alternate-arrangement pairs whose link status disagrees, and a
+searchable table of all songs with "pending re-verification" / "low-trust" flags called out.
+It reads the live `{st:}` from each `.chordpro` file rather than trusting
+`data/spotify-links.json`'s stored artist, so it stays accurate even right after a manual
+edit or an `apply-artist-suggestions.js` backfill, before the next fetch re-verifies it.
 
 ## Adding a song
 

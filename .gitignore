@@ -14,6 +14,9 @@ _site/
 # Spotify API credentials (see scripts/fetch-spotify-links.js), never committed
 .env
 
-# Transient review output from fetch-spotify-links.js, regenerated each run
-# (data/spotify-links.json itself IS committed — it's the build input for build-site.js)
+# Transient review output from fetch-spotify-links.js / spotify-status-report.js,
+# regenerated each run (data/spotify-links.json itself IS committed — it's the build input
+# for build-site.js). spotify-status.html is a local maintenance dashboard, never published.
 data/artist-suggestions.md
+data/spotify-links.previous.json
+data/spotify-status.html

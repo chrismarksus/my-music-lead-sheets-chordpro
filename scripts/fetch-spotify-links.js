@@ -17,6 +17,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { execFileSync } = require('child_process');
 
 const ROOT = path.resolve(__dirname, '..');
 const SHEETS_DIR = path.join(ROOT, 'sheets');
@@ -191,7 +192,13 @@ async function main() {
   }
 
   fs.mkdirSync(DATA_DIR, { recursive: true });
-  fs.writeFileSync(path.join(DATA_DIR, 'spotify-links.json'), `${JSON.stringify(results, null, 2)}\n`);
+  const linksPath = path.join(DATA_DIR, 'spotify-links.json');
+  // Rotate the previous run's data before overwriting, so spotify-status-report.js can
+  // diff "what changed since last time" — see scripts/spotify-status-report.js.
+  if (fs.existsSync(linksPath)) {
+    fs.copyFileSync(linksPath, path.join(DATA_DIR, 'spotify-links.previous.json'));
+  }
+  fs.writeFileSync(linksPath, `${JSON.stringify(results, null, 2)}\n`);
 
   const suggestionsLines = [
     '# Spotify artist suggestions',
@@ -214,6 +221,8 @@ async function main() {
       `${counts.unverified} unverified (no artist to check against), ${counts.none} no match.`
   );
   console.log(`Wrote data/spotify-links.json and data/artist-suggestions.md (${artistSuggestions.length} suggestions).`);
+
+  execFileSync('node', [path.join(__dirname, 'spotify-status-report.js')], { stdio: 'inherit' });
 }
 
 main().catch((e) => {
