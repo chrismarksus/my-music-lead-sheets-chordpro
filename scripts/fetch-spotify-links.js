@@ -21,7 +21,22 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const SHEETS_DIR = path.join(ROOT, 'sheets');
 const DATA_DIR = path.join(ROOT, 'data');
-const REQUEST_DELAY_MS = 120;
+const REQUEST_DELAY_MS = 250;
+const FETCH_TIMEOUT_MS = 10000;
+const MAX_RETRIES = 4;
+const MAX_RETRY_AFTER_MS = 30000;
+
+// Node's fetch has no default timeout — a stalled TCP connection (rare, but seen against
+// Spotify's API) hangs the whole script forever. Bound every request explicitly.
+async function fetchWithTimeout(url, options) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  try {
+    return await fetch(url, { ...options, signal: controller.signal });
+  } finally {
+    clearTimeout(timer);
+  }
+}
 
 function loadEnvFile() {
   const envPath = path.join(ROOT, '.env');
@@ -57,7 +72,7 @@ function sleep(ms) {
 }
 
 async function getAccessToken(clientId, clientSecret) {
-  const res = await fetch('https://accounts.spotify.com/api/token', {
+  const res = await fetchWithTimeout('https://accounts.spotify.com/api/token', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded',
@@ -72,13 +87,22 @@ async function getAccessToken(clientId, clientSecret) {
   return json.access_token;
 }
 
-async function runQuery(token, q) {
+async function runQuery(token, q, attempt = 0) {
   const url = `https://api.spotify.com/v1/search?${new URLSearchParams({ q, type: 'track', limit: '5' })}`;
-  const res = await fetch(url, { headers: { Authorization: `Bearer ${token}` } });
+  const res = await fetchWithTimeout(url, { headers: { Authorization: `Bearer ${token}` } });
   if (res.status === 429) {
     const retryAfter = Number(res.headers.get('retry-after') || '2') * 1000;
+    // A short retry-after is normal rate-limit backoff, worth honoring. A long one (seen:
+    // ~16 hours after a burst of full-collection runs) means the app is in an extended
+    // penalty window — sleeping through that would hang the script for hours, so fail fast
+    // instead and let the caller retry the whole run later.
+    if (attempt >= MAX_RETRIES || retryAfter > MAX_RETRY_AFTER_MS) {
+      throw new Error(
+        `search failed for query "${q}": rate-limited, retry-after ${Math.round(retryAfter / 1000)}s`
+      );
+    }
     await sleep(retryAfter);
-    return runQuery(token, q);
+    return runQuery(token, q, attempt + 1);
   }
   if (!res.ok) {
     throw new Error(`search failed for query "${q}": ${res.status} ${await res.text()}`);
@@ -140,7 +164,8 @@ async function main() {
   const artistSuggestions = [];
   const counts = { high: 0, low: 0, unverified: 0, none: 0 };
 
-  for (const filename of files) {
+  for (const [i, filename] of files.entries()) {
+    if (i > 0 && i % 50 === 0) console.log(`fetch-spotify-links: ${i}/${files.length}...`);
     const content = fs.readFileSync(path.join(SHEETS_DIR, filename), 'utf8');
     const title = extractDirective(content, 't');
     const artist = extractDirective(content, 'st');
