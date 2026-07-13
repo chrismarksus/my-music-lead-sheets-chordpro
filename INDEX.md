@@ -103,7 +103,7 @@
 | Holy Is the Lord on High | Vineyard Music | [holy_is_the_lord_on_high.chordpro](sheets/holy_is_the_lord_on_high.chordpro) |
 | Holy Unto You | Kadosh L'cha | [holy_unto_you.chordpro](sheets/holy_unto_you.chordpro) |
 | Holy, Holy, Holy | Shane & Shane | [holy_holy_holy.chordpro](sheets/holy_holy_holy.chordpro) |
-| Holy, Holy, Holy | Hymn | [holy_holy_holy_hymn.chordpro](sheets/holy_holy_holy_hymn.chordpro) |
+| Holy, Holy, Holy | Traditional | [holy_holy_holy_hymn.chordpro](sheets/holy_holy_holy_hymn.chordpro) |
 | Hosanna | Hillsong Worship, Brooke Ligertwood | [hosanna.chordpro](sheets/hosanna.chordpro) |
 | Hosanna | Holy, Holy, Holy | [hosanna_holy_holy_holy.chordpro](sheets/hosanna_holy_holy_holy.chordpro) |
 | House at Pooh Corner/Return to Pooh Corner | Kenny Loggins | [house_at_pooh_corner-kenny_loggins.chordpro](sheets/house_at_pooh_corner-kenny_loggins.chordpro) |
@@ -217,7 +217,7 @@
 | Save Us Oh God | Isaiah 56:7 | [save_us_oh_god.chordpro](sheets/save_us_oh_god.chordpro) |
 | Seek Ye First | Maranatha! Praise Band | [seek_ye_first.chordpro](sheets/seek_ye_first.chordpro) |
 | Shout to the Lord | Hillsong | [shout_to_the_lord-hillsongs.chordpro](sheets/shout_to_the_lord-hillsongs.chordpro) |
-| Shout to the Lord | Joshua 6:20 | [shout_to_the_lord.chordpro](sheets/shout_to_the_lord.chordpro) |
+| Shout to the Lord | Hillsong | [shout_to_the_lord.chordpro](sheets/shout_to_the_lord.chordpro) |
 | Shout to the North | Joshua David Harris | [shout_to_the_north.chordpro](sheets/shout_to_the_north.chordpro) |
 | Show Your Power | Petra | [show_your_power.chordpro](sheets/show_your_power.chordpro) |
 | Silent Night | ByErik ヵ | [silent_night.chordpro](sheets/silent_night.chordpro) |
