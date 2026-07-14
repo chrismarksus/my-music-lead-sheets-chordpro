@@ -7,10 +7,9 @@
 //
 // Reads data/spotify-links.json (written by fetch-spotify-links.js) for match/confidence
 // data, but reads each .chordpro file directly for the *current* {st:} artist — that can
-// drift from what's recorded in spotify-links.json (e.g. right after
-// scripts/apply-artist-suggestions.js backfills a file, before the next fetch re-verifies
-// it), so "pending re-verification" is tracked as its own metric rather than silently
-// showing stale data as current.
+// drift from what's recorded in spotify-links.json (e.g. right after a manual {st:} edit,
+// before the next fetch re-verifies it), so "pending re-verification" is tracked as its own
+// metric rather than silently showing stale data as current.
 //
 // Diffs against data/spotify-links.previous.json when fetch-spotify-links.js has left one
 // (it rotates the previous run's snapshot there before overwriting spotify-links.json).
