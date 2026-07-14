@@ -68,6 +68,23 @@ function normalize(str) {
     .trim();
 }
 
+// Some {st:} values aren't an artist at all — a scripture reference or an arrangement note
+// (this repo's convention for songs where no specific recording is being credited; see
+// scripts/apply-artist-suggestions.js). Feeding that text into a free-text Spotify query
+// alongside the title is actively harmful: Spotify's search blends loose relevance with
+// track popularity, so a mostly-meaningless query can surface a wildly unrelated but
+// popular track (seen: "A Strangely Dominant Version" + a hymn title matched a 2025 viral
+// pop song). Treat these the same as "no artist" rather than searching on them.
+const BIBLE_BOOK_RE = /\b(genesis|exodus|leviticus|numbers|deuteronomy|joshua|judges|ruth|samuel|kings|chronicles|ezra|nehemiah|esther|job|psalms?|proverbs|ecclesiastes|song of (?:songs|solomon)|isaiah|jeremiah|lamentations|ezekiel|daniel|hosea|joel|amos|obadiah|jonah|micah|nahum|habakkuk|zephaniah|haggai|zechariah|malachi|matthew|mark|luke|john|acts|romans|corinthians|galatians|ephesians|phil+ippians|colossians|thessalonians|timothy|titus|philemon|hebrews|james|peter|revelation)\b/i;
+const NON_ARTIST_WORD_RE = /\b(version|reading|verses|arrangement|ending|intro|outro|bridge|medley|adapted)\b/i;
+
+function isJunkArtist(artist) {
+  if (!artist) return false;
+  if (BIBLE_BOOK_RE.test(artist) && /\d/.test(artist)) return true;
+  if (NON_ARTIST_WORD_RE.test(artist)) return true;
+  return false;
+}
+
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -114,12 +131,15 @@ async function runQuery(token, q, attempt = 0) {
 
 // Field-filtered search (track:"..." artist:"...") is precise but brittle — it can miss
 // real matches on titling quirks. Fall back to a plain free-text query before giving up.
+// A known-junk artist (see isJunkArtist) is dropped entirely rather than fed into either
+// query — it can't help the field filter match, and it actively hurts the free-text one.
 async function searchTrack(token, title, artist) {
-  const filtered = artist ? `track:"${title}" artist:"${artist}"` : `track:"${title}"`;
+  const realArtist = artist && !isJunkArtist(artist) ? artist : '';
+  const filtered = realArtist ? `track:"${title}" artist:"${realArtist}"` : `track:"${title}"`;
   let items = await runQuery(token, filtered);
   if (!items.length) {
     await sleep(REQUEST_DELAY_MS);
-    items = await runQuery(token, artist ? `${title} ${artist}` : title);
+    items = await runQuery(token, realArtist ? `${title} ${realArtist}` : title);
   }
   return items;
 }
@@ -180,11 +200,12 @@ async function main() {
       results[filename] = { title, artist, confidence: 'error' };
       continue;
     }
-    const { confidence, track } = pickMatch(items, artist);
+    const hasRealArtist = artist && !isJunkArtist(artist);
+    const { confidence, track } = pickMatch(items, hasRealArtist ? artist : '');
     counts[confidence] = (counts[confidence] || 0) + 1;
     results[filename] = { title, artist, confidence, track: track || null };
 
-    if (!artist && confidence === 'unverified' && track) {
+    if (!hasRealArtist && confidence === 'unverified' && track) {
       artistSuggestions.push({ filename, title, matchedArtists: track.artists, url: track.url });
     }
 

@@ -557,20 +557,15 @@
   "come_jazzy_and_fill.chordpro": {
     "title": "Come and Fill Me Up",
     "artist": "A Strangely Dominant Version",
-    "confidence": "low",
+    "confidence": "unverified",
     "track": {
-      "name": "Soda Pop",
+      "name": "Come and Fill Me Up - Live",
       "artists": [
-        "Saja Boys",
-        "Andrew Choi",
-        "Neckwav",
-        "Danny Chung",
-        "KEVIN WOO",
-        "samUIL Lee",
-        "KPop Demon Hunters Cast"
+        "Craig Musseau",
+        "Vineyard Worship"
       ],
-      "url": "https://open.spotify.com/track/4K8wTS6UZD7lQE8H7BpoXc",
-      "id": "4K8wTS6UZD7lQE8H7BpoXc"
+      "url": "https://open.spotify.com/track/3SUarEjF0nSGa73qNocJ0R",
+      "id": "3SUarEjF0nSGa73qNocJ0R"
     }
   },
   "come_now_is_the_time.chordpro": {
