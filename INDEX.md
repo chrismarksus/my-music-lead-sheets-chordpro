@@ -4,7 +4,7 @@
 
 | Title | Artist / Notes | File |
 |---|---|---|
-| A Whiter Shade of Pale | Keith Reid and Gary Brooker (Procul Harum) | [whiter_shade_of_pale-procul_harum.chordpro](sheets/whiter_shade_of_pale-procul_harum.chordpro) |
+| A Whiter Shade of Pale | Keith Reid and Gary Brooker (Procol Harum) | [whiter_shade_of_pale-procul_harum.chordpro](sheets/whiter_shade_of_pale-procul_harum.chordpro) |
 | All Creatures Of Our God And King | Lifetree Kids ? | [all_creatures.chordpro](sheets/all_creatures.chordpro) |
 | All Heaven Declares | Steven Moctezuma | [all_heaven_declares.chordpro](sheets/all_heaven_declares.chordpro) |
 | All I have to do is dream | Everly Brothers | [all_i_have_to_do_is_dream-everly_brothers.chordpro](sheets/all_i_have_to_do_is_dream-everly_brothers.chordpro) |
@@ -105,7 +105,7 @@
 | Holy, Holy, Holy | Shane & Shane | [holy_holy_holy.chordpro](sheets/holy_holy_holy.chordpro) |
 | Holy, Holy, Holy | Traditional | [holy_holy_holy_hymn.chordpro](sheets/holy_holy_holy_hymn.chordpro) |
 | Hosanna | Hillsong Worship, Brooke Ligertwood | [hosanna.chordpro](sheets/hosanna.chordpro) |
-| Hosanna | Holy, Holy, Holy | [hosanna_holy_holy_holy.chordpro](sheets/hosanna_holy_holy_holy.chordpro) |
+| Hosanna | Hillsong UNITED, Brooke Ligertwood | [hosanna_holy_holy_holy.chordpro](sheets/hosanna_holy_holy_holy.chordpro) |
 | House at Pooh Corner/Return to Pooh Corner | Kenny Loggins | [house_at_pooh_corner-kenny_loggins.chordpro](sheets/house_at_pooh_corner-kenny_loggins.chordpro) |
 | House of the Rising Sun | Animals | [house_of_the_rising_sun-animals.chordpro](sheets/house_of_the_rising_sun-animals.chordpro) |
 | How Majestic Are Your Ways | Vineyard Music | [how_majestic.chordpro](sheets/how_majestic.chordpro) |
@@ -129,7 +129,7 @@
 | I Would Do Anything | Foster The People | [i_would_do_anything.chordpro](sheets/i_would_do_anything.chordpro) |
 | If I Had a Million Dollars | Barenaked Ladies | [if_i_had_a_million_dollars-barenaked_ladies.chordpro](sheets/if_i_had_a_million_dollars-barenaked_ladies.chordpro) |
 | If You Want Me To | Ginny Owens | [if_you_want_me_to-ginny_owens.chordpro](sheets/if_you_want_me_to-ginny_owens.chordpro) |
-| If Youre Gone | Matchbox 20 | [if_youre_gone-matchbox_20.chordpro](sheets/if_youre_gone-matchbox_20.chordpro) |
+| If Youre Gone | Matchbox Twenty | [if_youre_gone-matchbox_20.chordpro](sheets/if_youre_gone-matchbox_20.chordpro) |
 | In Christ Alone | Passion, Kristian Stanfill | [christ_alone.chordpro](sheets/christ_alone.chordpro) |
 | In the Secret | Shane & Shane | [in_the_secret.chordpro](sheets/in_the_secret.chordpro) |
 | Invitacion Fountain | Jeremy Riddle, Robbie Reider, Vineyard Worship | [invitacion_fountain.chordpro](sheets/invitacion_fountain.chordpro) |
@@ -236,13 +236,13 @@
 | The Heart Of Worship | Matt Redman | [heart_of_worship-matt_redman.chordpro](sheets/heart_of_worship-matt_redman.chordpro) |
 | The Heart of Worship | Matt Redman | [the_heart_of_worship.chordpro](sheets/the_heart_of_worship.chordpro) |
 | The Lord Reigns | Gateway Worship, Thomas Miller | [the_lord_reigns.chordpro](sheets/the_lord_reigns.chordpro) |
-| The Needle And The Damage Done | Young Neil | [the_needle_and_the_damage_done-young_neil.chordpro](sheets/the_needle_and_the_damage_done-young_neil.chordpro) |
+| The Needle And The Damage Done | Neil Young | [the_needle_and_the_damage_done-young_neil.chordpro](sheets/the_needle_and_the_damage_done-young_neil.chordpro) |
 | The Old Apartment | Barenaked Ladies | [the_old_apartment-barenaked_ladies.chordpro](sheets/the_old_apartment-barenaked_ladies.chordpro) |
 | The Old Rugged Cross | Alan Jackson | [old_rugged_cross.chordpro](sheets/old_rugged_cross.chordpro) |
 | The Solid Rock | Grace Community Church | [the_solid_rock.chordpro](sheets/the_solid_rock.chordpro) |
 | The Victory Is the Lord's | Vineyard Music, Jeremy Sinott | [victory_is_the_lords.chordpro](sheets/victory_is_the_lords.chordpro) |
 | There Is a Redeemer | Keith Green | [there_is_a_redeemer.chordpro](sheets/there_is_a_redeemer.chordpro) |
-| There Is No One Like You | ending | [violets_strength_1e.chordpro](sheets/violets_strength_1e.chordpro) |
+| There Is No One Like You | The Violet Burning | [violets_strength_1e.chordpro](sheets/violets_strength_1e.chordpro) |
 | There Must Be More | Queen, Michael Jackson | [there_must_be_more.chordpro](sheets/there_must_be_more.chordpro) |
 | Therefore We Lift Our Hearts In Praise | Crowder | [therefore_we_lift.chordpro](sheets/therefore_we_lift.chordpro) |
 | Theyll Know We Are Christians | Jars Of Clay | [theyll_know_we_are_christians-jars_of_clay.chordpro](sheets/theyll_know_we_are_christians-jars_of_clay.chordpro) |
@@ -280,7 +280,7 @@
 | You Are Lord | Parachute Band | [you_are_lord.chordpro](sheets/you_are_lord.chordpro) |
 | You Are Mighty | Maverick City Music, Nick Day, Odell Bunton Jr. | [you_are_mighty.chordpro](sheets/you_are_mighty.chordpro) |
 | You Are My All In All | Walkers to Heaven | [you_are_my_all_in_all.chordpro](sheets/you_are_my_all_in_all.chordpro) |
-| You Are My King | Amazing Love | [you_are_my_king.chordpro](sheets/you_are_my_king.chordpro) |
+| You Are My King | Chris Tomlin | [you_are_my_king.chordpro](sheets/you_are_my_king.chordpro) |
 | You Are So Good To Me | Third Day | [you_are_so_good.chordpro](sheets/you_are_so_good.chordpro) |
 | You Are the One I Love | Don Moen, Lenny LeBlanc | [you_are_the_one_i_love.chordpro](sheets/you_are_the_one_i_love.chordpro) |
 | You Are Worthy of My Praise | Sonicflood | [youre_worthy_of_my.chordpro](sheets/youre_worthy_of_my.chordpro) |

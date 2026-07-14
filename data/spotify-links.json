@@ -443,8 +443,8 @@
       "artists": [
         "Matt Redman"
       ],
-      "url": "https://open.spotify.com/track/14HrSWGYPCDwqAcVFUYKsq",
-      "id": "14HrSWGYPCDwqAcVFUYKsq"
+      "url": "https://open.spotify.com/track/51ndwDACfzlvfOYnwp4ryn",
+      "id": "51ndwDACfzlvfOYnwp4ryn"
     }
   },
   "blessed_is_the_king.chordpro": {
@@ -452,13 +452,13 @@
     "artist": "The Triumphal Entry Song",
     "confidence": "low",
     "track": {
-      "name": "Blessed Is the Man",
+      "name": "My Tribute / Bless His Holy Name",
       "artists": [
-        "Kabaka Pyramid",
-        "Chronixx"
+        "Travis Cottrell",
+        "Brooke Voland"
       ],
-      "url": "https://open.spotify.com/track/6mMGMZOus1jVywM2g26PN9",
-      "id": "6mMGMZOus1jVywM2g26PN9"
+      "url": "https://open.spotify.com/track/3ifw3kmhgNnEuoaKEjzyYS",
+      "id": "3ifw3kmhgNnEuoaKEjzyYS"
     }
   },
   "break_dividing_walls.chordpro": {
@@ -559,13 +559,18 @@
     "artist": "A Strangely Dominant Version",
     "confidence": "low",
     "track": {
-      "name": "Precious Jesus - Live",
+      "name": "Soda Pop",
       "artists": [
-        "Saved By Grace Music",
-        "Beaty Bass"
+        "Saja Boys",
+        "Andrew Choi",
+        "Neckwav",
+        "Danny Chung",
+        "KEVIN WOO",
+        "samUIL Lee",
+        "KPop Demon Hunters Cast"
       ],
-      "url": "https://open.spotify.com/track/1Dv93NYMLw7270WjTqn4kY",
-      "id": "1Dv93NYMLw7270WjTqn4kY"
+      "url": "https://open.spotify.com/track/4K8wTS6UZD7lQE8H7BpoXc",
+      "id": "4K8wTS6UZD7lQE8H7BpoXc"
     }
   },
   "come_now_is_the_time.chordpro": {
@@ -1378,8 +1383,8 @@
   },
   "hosanna_holy_holy_holy.chordpro": {
     "title": "Hosanna",
-    "artist": "Holy, Holy, Holy",
-    "confidence": "low",
+    "artist": "Hillsong UNITED, Brooke Ligertwood",
+    "confidence": "high",
     "track": {
       "name": "Hosanna",
       "artists": [
@@ -1687,8 +1692,8 @@
   },
   "if_youre_gone-matchbox_20.chordpro": {
     "title": "If Youre Gone",
-    "artist": "Matchbox 20",
-    "confidence": "low",
+    "artist": "Matchbox Twenty",
+    "confidence": "high",
     "track": {
       "name": "If You're Gone",
       "artists": [
@@ -1782,15 +1787,7 @@
   "its_good_to_be_king-tom_petty.chordpro": {
     "title": "Its Good To Be King",
     "artist": "Tom Petty",
-    "confidence": "high",
-    "track": {
-      "name": "It's Good To Be King",
-      "artists": [
-        "Tom Petty"
-      ],
-      "url": "https://open.spotify.com/track/1c0flvMImhKMuiZIc0VzEb",
-      "id": "1c0flvMImhKMuiZIc0VzEb"
-    }
+    "confidence": "error"
   },
   "jesus_blood.chordpro": {
     "title": "Jesus' Blood",
@@ -2813,12 +2810,13 @@
     "artist": "Revelation 7:10,12",
     "confidence": "low",
     "track": {
-      "name": "Salvation Belongs To Our Lord",
+      "name": "Salvation Belongs To You - Live From Passion 2024",
       "artists": [
-        "Petra"
+        "Passion",
+        "Kristian Stanfill"
       ],
-      "url": "https://open.spotify.com/track/2TQmFax3Q3aTL7ZdcQp5QR",
-      "id": "2TQmFax3Q3aTL7ZdcQp5QR"
+      "url": "https://open.spotify.com/track/21YqSmQdOvrToR08TFYwJc",
+      "id": "21YqSmQdOvrToR08TFYwJc"
     }
   },
   "save_us_oh_god.chordpro": {
@@ -2957,12 +2955,12 @@
     "artist": "U2",
     "confidence": "high",
     "track": {
-      "name": "Sunday Bloody Sunday",
+      "name": "Sunday Bloody Sunday - Remastered 2008",
       "artists": [
         "U2"
       ],
-      "url": "https://open.spotify.com/track/6Pztn1vmTohZrFICkaDOEa",
-      "id": "6Pztn1vmTohZrFICkaDOEa"
+      "url": "https://open.spotify.com/track/6C4LXC9UFH1IKiHYOp0BiJ",
+      "id": "6C4LXC9UFH1IKiHYOp0BiJ"
     }
   },
   "sweet_mercies.chordpro": {
@@ -3101,8 +3099,8 @@
   },
   "the_needle_and_the_damage_done-young_neil.chordpro": {
     "title": "The Needle And The Damage Done",
-    "artist": "Young Neil",
-    "confidence": "low",
+    "artist": "Neil Young",
+    "confidence": "high",
     "track": {
       "name": "The Needle and the Damage Done",
       "artists": [
@@ -3299,15 +3297,16 @@
   },
   "violets_strength_1e.chordpro": {
     "title": "There Is No One Like You",
-    "artist": "ending",
+    "artist": "The Violet Burning",
     "confidence": "low",
     "track": {
-      "name": "There is None Like You",
+      "name": "Nobody",
       "artists": [
-        "Steffany Gretzinger"
+        "Draylin Young",
+        "James Wilson"
       ],
-      "url": "https://open.spotify.com/track/4Ow50QTrMjUKHVEIZQVKpc",
-      "id": "4Ow50QTrMjUKHVEIZQVKpc"
+      "url": "https://open.spotify.com/track/6EoSAUOtUvCoQnhpPxstk6",
+      "id": "6EoSAUOtUvCoQnhpPxstk6"
     }
   },
   "wanted_dead_or_alive-bon_jovi-hard.chordpro": {
@@ -3482,8 +3481,8 @@
   },
   "whiter_shade_of_pale-procul_harum.chordpro": {
     "title": "A Whiter Shade of Pale",
-    "artist": "Keith Reid and Gary Brooker (Procul Harum)",
-    "confidence": "low",
+    "artist": "Keith Reid and Gary Brooker (Procol Harum)",
+    "confidence": "high",
     "track": {
       "name": "A Whiter Shade of Pale - Original Single Version",
       "artists": [
@@ -3654,8 +3653,8 @@
   },
   "you_are_my_king.chordpro": {
     "title": "You Are My King",
-    "artist": "Amazing Love",
-    "confidence": "low",
+    "artist": "Chris Tomlin",
+    "confidence": "high",
     "track": {
       "name": "You Are My King (Amazing Love) - Spotify Singles",
       "artists": [
