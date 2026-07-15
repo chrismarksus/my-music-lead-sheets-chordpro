@@ -229,15 +229,34 @@ svg.chord-diagram { display: block; width: 54px; height: auto; overflow: visible
 .song-nav .nav-title { font-family: var(--font-heading); font-weight: 600; font-size: 15px; }
 .song-nav a:hover .nav-title { color: var(--accent-text); }
 
+main.has-autoscroll { padding-bottom: 104px; }
+.autoscroll-bar {
+  position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%); z-index: 15;
+  display: flex; align-items: center; gap: 12px; background: var(--surface);
+  border: 1px solid var(--divider); border-radius: 999px; padding: 8px 16px 8px 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+}
+#autoscroll-toggle {
+  flex: none; width: 36px; height: 36px; display: inline-flex; align-items: center; justify-content: center;
+  background: var(--accent); color: #fff; border: none; border-radius: 50%; cursor: pointer;
+}
+#autoscroll-toggle:hover { opacity: 0.88; }
+#autoscroll-toggle svg { width: 16px; height: 16px; }
+.autoscroll-speed { display: flex; align-items: center; gap: 8px; }
+#autoscroll-speed-range { width: 88px; accent-color: var(--accent); }
+#autoscroll-speed-label { font-family: var(--font-heading); font-weight: 600; font-size: 13px; color: var(--muted); min-width: 24px; }
+
 @media (max-width: 420px) {
   main { padding: 18px 14px 56px; }
   h1.page-title { font-size: 28px; }
   h1.title { font-size: 27px; }
   .song-list .artist { max-width: 38%; }
+  .autoscroll-bar { bottom: 12px; padding: 6px 12px 6px 6px; gap: 8px; }
+  #autoscroll-speed-range { width: 68px; }
 }
 
 @media print {
-  .site-header, .search-wrap, .az-jump, .genre-filter, .song-nav, .spotify-link { display: none !important; }
+  .site-header, .search-wrap, .az-jump, .genre-filter, .song-nav, .spotify-link, .autoscroll-bar { display: none !important; }
   body { background: #fff; color: #000; font-size: 12pt; }
   a { color: #000; text-decoration: none; }
   main { max-width: 100%; margin: 0; padding: 0; }
@@ -347,6 +366,91 @@ const SPOTIFY_EMBED_SCRIPT = `<script>
 })();
 </script>`;
 
+const AUTOSCROLL_ICONS = {
+  play: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>',
+  pause: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>',
+};
+
+// Scrolls the page at a steady rate via requestAnimationFrame (frame-rate independent,
+// unlike a setInterval + fixed-pixel step). Speed is a 1-10 dial persisted in
+// localStorage; any manual wheel/touch scroll outside the control bar cancels playback,
+// since at that point the reader has taken over.
+const AUTOSCROLL_SCRIPT = `<script>
+(function () {
+  var bar = document.querySelector('.autoscroll-bar');
+  if (!bar) return;
+  var toggleBtn = document.getElementById('autoscroll-toggle');
+  var range = document.getElementById('autoscroll-speed-range');
+  var speedLabel = document.getElementById('autoscroll-speed-label');
+  var ICONS = ${JSON.stringify(AUTOSCROLL_ICONS)};
+  var PX_PER_SEC_PER_UNIT = 7;
+  var scrolling = false;
+  var rafId = null;
+  var lastTime = null;
+  var stored = parseFloat(localStorage.getItem('autoscroll-speed'));
+  var speed = isNaN(stored) ? 3 : Math.min(10, Math.max(1, stored));
+
+  range.value = String(speed);
+  speedLabel.textContent = speed + '×';
+  toggleBtn.innerHTML = ICONS.play;
+
+  function atBottom() {
+    return window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 1;
+  }
+
+  function step(timestamp) {
+    if (!scrolling) return;
+    if (lastTime != null) {
+      var dt = (timestamp - lastTime) / 1000;
+      window.scrollBy(0, speed * PX_PER_SEC_PER_UNIT * dt);
+      if (atBottom()) {
+        stop();
+        return;
+      }
+    }
+    lastTime = timestamp;
+    rafId = requestAnimationFrame(step);
+  }
+
+  function start() {
+    if (atBottom()) return;
+    scrolling = true;
+    lastTime = null;
+    toggleBtn.innerHTML = ICONS.pause;
+    toggleBtn.setAttribute('aria-label', 'Pause auto-scroll');
+    rafId = requestAnimationFrame(step);
+  }
+
+  function stop() {
+    scrolling = false;
+    if (rafId != null) cancelAnimationFrame(rafId);
+    rafId = null;
+    toggleBtn.innerHTML = ICONS.play;
+    toggleBtn.setAttribute('aria-label', 'Start auto-scroll');
+  }
+
+  toggleBtn.addEventListener('click', function () {
+    if (scrolling) stop(); else start();
+  });
+
+  range.addEventListener('input', function () {
+    speed = parseFloat(range.value);
+    localStorage.setItem('autoscroll-speed', String(speed));
+    speedLabel.textContent = speed + '×';
+  });
+
+  ['wheel', 'touchstart'].forEach(function (evt) {
+    window.addEventListener(evt, function (e) {
+      if (scrolling && !bar.contains(e.target)) stop();
+    }, { passive: true });
+  });
+
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden && scrolling) stop();
+  });
+})();
+</script>`;
+
 function listSongFiles() {
   return fs.readdirSync(SHEETS_DIR)
     .filter((f) => f.endsWith('.chordpro'))
@@ -417,6 +521,15 @@ function pageShell({ title, bodyHtml, isSongPage, description }) {
     ? `<a class="back" href="${homeHref}">&larr; Song list</a>`
     : `<span class="brand">Lead Sheets</span>`;
   const desc = escapeHtml(description || 'Personal collection of ChordPro lead sheets.');
+  const autoscrollBar = isSongPage
+    ? `<div class="autoscroll-bar" role="group" aria-label="Auto-scroll controls">
+<button id="autoscroll-toggle" type="button" aria-label="Start auto-scroll"></button>
+<div class="autoscroll-speed">
+<input type="range" id="autoscroll-speed-range" min="1" max="10" step="1" value="3" aria-label="Auto-scroll speed">
+<span id="autoscroll-speed-label">3&times;</span>
+</div>
+</div>`
+    : '';
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -443,9 +556,10 @@ function pageShell({ title, bodyHtml, isSongPage, description }) {
 ${header}
 <button id="theme-toggle" type="button" aria-label="Toggle dark mode"></button>
 </header>
-<main>
+<main${isSongPage ? ' class="has-autoscroll"' : ''}>
 ${bodyHtml}
 </main>
+${autoscrollBar}
 <script>
 (function () {
   var root = document.documentElement;
@@ -466,7 +580,7 @@ ${bodyHtml}
   });
 })();
 </script>
-${isSongPage ? `${CHORD_TOOLTIP_SCRIPT}\n${SPOTIFY_EMBED_SCRIPT}` : SEARCH_SCRIPT}
+${isSongPage ? `${CHORD_TOOLTIP_SCRIPT}\n${SPOTIFY_EMBED_SCRIPT}\n${AUTOSCROLL_SCRIPT}` : SEARCH_SCRIPT}
 </body>
 </html>
 `;
