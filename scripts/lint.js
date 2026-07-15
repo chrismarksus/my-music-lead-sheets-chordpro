@@ -8,6 +8,7 @@
 //   5. bracket-balance - [ and ] must balance on each line (outside {sot}/{eot} blocks)
 //   6. filename        - filename must be snake_case segments, optionally hyphen-joined
 //                        (e.g. song_title-artist_name.txt)
+//   7. genre           - must contain a {meta: genre ...} directive with a value from GENRES
 'use strict';
 
 const fs = require('fs');
@@ -16,6 +17,12 @@ const { ChordProParser } = require('chordsheetjs');
 
 const ROOT = path.resolve(__dirname, '..');
 const SHEETS_DIR = path.join(ROOT, 'sheets');
+
+// Keep in sync with GENRES in scripts/build-site.js (drives the site's genre filter pills).
+const GENRES = [
+  'Worship/CCM', 'Hymn', 'Rock', 'Pop', 'Folk/Singer-Songwriter',
+  'Country', 'Jazz/Standards', 'R&B/Soul', 'Christmas',
+];
 
 const LONG_FORM_DIRECTIVES = [
   { long: 'title:', short: 't:' },
@@ -48,6 +55,13 @@ function lintFile(filename) {
 
   if (!/\{t:[^}]*\}/.test(content)) {
     errors.push(`${filename}: missing required {t:...} title directive`);
+  }
+
+  const genreMatch = content.match(/\{meta:\s*genre\s+([^}]+)\}/i);
+  if (!genreMatch) {
+    errors.push(`${filename}: missing required {meta: genre ...} directive`);
+  } else if (!GENRES.includes(genreMatch[1].trim())) {
+    errors.push(`${filename}: unrecognized genre "${genreMatch[1].trim()}" (must be one of: ${GENRES.join(', ')})`);
   }
 
   lines.forEach((line, idx) => {

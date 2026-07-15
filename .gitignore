@@ -4,6 +4,7 @@ Thumbs.db
 *~
 *.bak
 *.swp
+.claude/
 
 # Node tooling (CI lint script dependencies)
 node_modules/
