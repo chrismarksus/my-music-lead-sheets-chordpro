@@ -26,6 +26,14 @@ const OUT_DIR = path.join(ROOT, '_site');
 const SONGS_DIR = path.join(OUT_DIR, 'songs');
 const SPOTIFY_LINKS_PATH = path.join(ROOT, 'data', 'spotify-links.json');
 
+// Keep in sync with GENRES in scripts/lint.js. Order here is display order for the index
+// page's filter pills — worship-adjacent genres first (this collection's overwhelming
+// majority), then secular genres roughly by how common they are in the collection.
+const GENRES = [
+  'Worship/CCM', 'Hymn', 'Christmas', 'Rock', 'Pop', 'Folk/Singer-Songwriter',
+  'Country', 'Jazz/Standards', 'R&B/Soul',
+];
+
 // Only "high" confidence matches (title + artist both verified against the Spotify result)
 // get linked from the site — see scripts/fetch-spotify-links.js. Lower-confidence and
 // unverified matches are left out rather than risk linking the wrong recording.
@@ -115,6 +123,18 @@ h1.page-title { font-family: var(--font-heading); font-weight: 600; font-size: 3
 .az-jump a:hover { background: rgba(182, 130, 53, 0.14); color: var(--accent-text); }
 .az-jump span { color: var(--muted); opacity: 0.4; }
 
+.genre-filter { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 18px; }
+.genre-filter button {
+  font-family: var(--font-body); font-size: 12.5px; font-weight: 600; color: var(--muted);
+  background: var(--surface); border: 1px solid var(--divider); border-radius: 999px;
+  padding: 5px 12px; cursor: pointer;
+}
+.genre-filter button:hover { border-color: var(--accent); color: var(--accent-text); }
+.genre-filter button[aria-pressed="true"] {
+  background: rgba(182, 130, 53, 0.16); border-color: var(--accent); color: var(--accent-text);
+}
+.genre-filter button .n { opacity: 0.7; font-weight: 400; }
+
 .letter-group { scroll-margin-top: 130px; margin-bottom: 6px; }
 .letter-group h2 {
   font-family: var(--font-heading); font-weight: 600; font-size: 15px; color: var(--accent-text);
@@ -126,11 +146,18 @@ ul.song-list { list-style: none; margin: 0; padding: 0; }
 .song-list li.hidden { display: none; }
 .song-list a { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 13px 2px; text-decoration: none; color: var(--text); }
 .song-list a:hover .title { color: var(--accent-text); }
+.song-list .title-wrap { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .song-list .title { font-family: var(--font-heading); font-weight: 600; font-size: 18px; }
+.song-list .genre { color: var(--muted); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.04em; }
 .song-list .artist { color: var(--muted); font-size: 13.5px; text-align: right; flex: none; max-width: 45%; }
 
 h1.title { font-family: var(--font-heading); font-weight: 600; font-size: 32px; line-height: 1.15; letter-spacing: -0.01em; margin: 6px 0 0; }
 h2.subtitle { font-family: var(--font-body); font-style: italic; font-weight: 400; font-size: 16px; color: var(--muted); margin: 4px 0 20px; }
+.genre-badge {
+  margin: -12px 0 20px; display: inline-block; font-family: var(--font-body); font-size: 11.5px;
+  font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent-text);
+  background: rgba(182, 130, 53, 0.14); border-radius: 999px; padding: 4px 12px;
+}
 .spotify-link { margin: -10px 0 20px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
 .spotify-link a {
   display: inline-flex; align-items: center; gap: 6px; font-family: var(--font-heading);
@@ -229,12 +256,13 @@ main.has-autoscroll { padding-bottom: 104px; }
 }
 
 @media print {
-  .site-header, .search-wrap, .az-jump, .song-nav, .spotify-link, .autoscroll-bar { display: none !important; }
+  .site-header, .search-wrap, .az-jump, .genre-filter, .song-nav, .spotify-link, .autoscroll-bar { display: none !important; }
   body { background: #fff; color: #000; font-size: 12pt; }
   a { color: #000; text-decoration: none; }
   main { max-width: 100%; margin: 0; padding: 0; }
   h1.title { font-size: 22pt; }
   h2.subtitle { color: #333; }
+  .genre-badge { display: none; }
   .song-divider { background: #999; }
   .chord-sheet .chord { color: #000; }
   .chord-sheet .comment { border-left-color: #999; color: #333; }
@@ -262,14 +290,18 @@ const SEARCH_SCRIPT = `<script>
   var input = document.getElementById('song-search');
   var items = Array.prototype.slice.call(document.querySelectorAll('#song-list li'));
   var groups = Array.prototype.slice.call(document.querySelectorAll('.letter-group'));
+  var genreButtons = Array.prototype.slice.call(document.querySelectorAll('.genre-filter button'));
   var countEl = document.getElementById('song-count');
   var noResultsEl = document.getElementById('no-results');
   var total = items.length;
+  var activeGenre = null;
   function filter() {
     var q = input.value.trim().toLowerCase();
     var visible = 0;
     items.forEach(function (li) {
-      var match = !q || li.dataset.title.indexOf(q) !== -1 || li.dataset.artist.indexOf(q) !== -1;
+      var matchesText = !q || li.dataset.title.indexOf(q) !== -1 || li.dataset.artist.indexOf(q) !== -1;
+      var matchesGenre = !activeGenre || li.dataset.genre === activeGenre;
+      var match = matchesText && matchesGenre;
       li.classList.toggle('hidden', !match);
       if (match) visible++;
     });
@@ -277,10 +309,18 @@ const SEARCH_SCRIPT = `<script>
       var anyVisible = g.querySelector('li:not(.hidden)');
       g.style.display = anyVisible ? '' : 'none';
     });
-    countEl.textContent = q ? (visible + ' of ' + total + ' songs.') : (total + ' songs.');
+    countEl.textContent = (q || activeGenre) ? (visible + ' of ' + total + ' songs.') : (total + ' songs.');
     noResultsEl.style.display = visible === 0 ? 'block' : 'none';
   }
   input.addEventListener('input', filter);
+  genreButtons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var g = btn.dataset.genre;
+      activeGenre = activeGenre === g ? null : g;
+      genreButtons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.genre === activeGenre)); });
+      filter();
+    });
+  });
 })();
 </script>`;
 
@@ -569,7 +609,7 @@ function buildIndexPage(entries) {
   const groupsHtml = present
     .map((letter) => {
       const rows = byLetter.get(letter)
-        .map(({ title, artist, slug }) => `<li data-title="${escapeHtml(title.toLowerCase())}" data-artist="${escapeHtml(artist.toLowerCase())}"><a href="songs/${slug}.html"><span class="title">${escapeHtml(title)}</span>${artist ? `<span class="artist">${escapeHtml(artist)}</span>` : ''}</a></li>`)
+        .map(({ title, artist, genre, slug }) => `<li data-title="${escapeHtml(title.toLowerCase())}" data-artist="${escapeHtml(artist.toLowerCase())}" data-genre="${escapeHtml(genre)}"><a href="songs/${slug}.html"><span class="title-wrap"><span class="title">${escapeHtml(title)}</span>${genre ? `<span class="genre">${escapeHtml(genre)}</span>` : ''}</span>${artist ? `<span class="artist">${escapeHtml(artist)}</span>` : ''}</a></li>`)
         .join('\n');
       const anchorId = letter === '#' ? 'num' : letter;
       return `<section class="letter-group" id="letter-${anchorId}">
@@ -585,11 +625,20 @@ ${rows}
   // every row across groups (ids aren't unique here, which is harmless for
   // a read-only selector but flag if you add code relying on getElementById).
 
+  // Only render a pill for genres actually present in the collection, in GENRES order,
+  // so an empty bucket (e.g. no Country songs yet) doesn't show up as a dead filter.
+  const genreCounts = new Map();
+  entries.forEach((e) => genreCounts.set(e.genre, (genreCounts.get(e.genre) || 0) + 1));
+  const genreFilterHtml = GENRES.filter((g) => genreCounts.has(g))
+    .map((g) => `<button type="button" data-genre="${escapeHtml(g)}" aria-pressed="false">${escapeHtml(g)} <span class="n">${genreCounts.get(g)}</span></button>`)
+    .join('\n');
+
   const bodyHtml = `<h1 class="page-title">Song Index</h1>
 <div class="search-wrap">
 <input type="search" id="song-search" placeholder="Search by title or artist&hellip;" aria-label="Search songs by title or artist">
 <p id="song-count">${entries.length} songs.</p>
 </div>
+<div class="genre-filter" role="group" aria-label="Filter by genre">${genreFilterHtml}</div>
 <nav class="az-jump" aria-label="Jump to letter">${jumpHtml}</nav>
 <p id="no-results">No songs match your search.</p>
 ${groupsHtml}`;
@@ -597,7 +646,7 @@ ${groupsHtml}`;
     title: 'Song Index',
     bodyHtml,
     isSongPage: false,
-    description: `${entries.length} personal chord/lyric lead sheets, searchable by title or artist.`,
+    description: `${entries.length} personal chord/lyric lead sheets, searchable by title or artist and filterable by genre.`,
   });
 }
 
@@ -632,6 +681,7 @@ function main() {
     const slug = slugFor(filename);
     const title = song.title || filename;
     const artist = song.subtitle || '';
+    const genre = song.metadata.getSingle('genre') || '';
     // HtmlDivFormatter's own output already includes <h1 class="title"> (and
     // <h2 class="subtitle"> when present) ahead of the chord sheet, so we
     // only need to splice in the divider rather than render our own heading
@@ -644,11 +694,12 @@ function main() {
     const spotifyLinkHtml = spotify
       ? `<p class="spotify-link"><a href="${escapeHtml(spotify.url)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.42 1.56-.299.421-1.02.599-1.559.3z"/></svg>Listen on Spotify</a><button type="button" class="spotify-play-btn" data-track-id="${escapeHtml(spotify.id)}">&#9654; Play preview</button></p><div class="spotify-embed" hidden></div>`
       : '';
+    const genreBadgeHtml = genre ? `<p class="genre-badge">${escapeHtml(genre)}</p>` : '';
     const bodyHtml = chordSheetHtml.replace(
       '<div class="chord-sheet">',
-      `<hr class="song-divider">\n${spotifyLinkHtml}\n${diagramsStrip}\n<div class="chord-sheet">`
+      `${genreBadgeHtml}<hr class="song-divider">\n${spotifyLinkHtml}\n${diagramsStrip}\n<div class="chord-sheet">`
     );
-    entries.push({ title, artist, slug, bodyHtml });
+    entries.push({ title, artist, genre, slug, bodyHtml });
   });
 
   entries.sort((a, b) => a.title.localeCompare(b.title));
