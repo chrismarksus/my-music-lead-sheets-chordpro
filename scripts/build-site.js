@@ -80,7 +80,7 @@ const CHROME_CSS = `
 body {
   margin: 0; background: var(--bg); color: var(--text);
   font-family: var(--font-body); font-size: 17px; line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased; overflow-x: hidden;
 }
 a { color: var(--link); text-underline-offset: 3px; }
 a:hover { color: var(--accent); }
@@ -387,6 +387,7 @@ const AUTOSCROLL_SCRIPT = `<script>
   var scrolling = false;
   var rafId = null;
   var lastTime = null;
+  var pxRemainder = 0;
   var stored = parseFloat(localStorage.getItem('autoscroll-speed'));
   var speed = isNaN(stored) ? 3 : Math.min(10, Math.max(1, stored));
 
@@ -402,7 +403,12 @@ const AUTOSCROLL_SCRIPT = `<script>
     if (!scrolling) return;
     if (lastTime != null) {
       var dt = (timestamp - lastTime) / 1000;
-      window.scrollBy(0, speed * PX_PER_SEC_PER_UNIT * dt);
+      pxRemainder += speed * PX_PER_SEC_PER_UNIT * dt;
+      var delta = Math.floor(pxRemainder);
+      if (delta > 0) {
+        window.scrollBy(0, delta);
+        pxRemainder -= delta;
+      }
       if (atBottom()) {
         stop();
         return;
@@ -416,6 +422,7 @@ const AUTOSCROLL_SCRIPT = `<script>
     if (atBottom()) return;
     scrolling = true;
     lastTime = null;
+    pxRemainder = 0;
     toggleBtn.innerHTML = ICONS.pause;
     toggleBtn.setAttribute('aria-label', 'Pause auto-scroll');
     rafId = requestAnimationFrame(step);
