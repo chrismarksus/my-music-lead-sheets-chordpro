@@ -69,8 +69,8 @@ function normalize(str) {
 }
 
 // Some {st:} values aren't an artist at all — a scripture reference or an arrangement note
-// (this repo's convention for songs where no specific recording is being credited; see
-// scripts/apply-artist-suggestions.js). Feeding that text into a free-text Spotify query
+// (this repo's convention for songs where no specific recording is being credited).
+// Feeding that text into a free-text Spotify query
 // alongside the title is actively harmful: Spotify's search blends loose relevance with
 // track popularity, so a mostly-meaningless query can surface a wildly unrelated but
 // popular track (seen: "A Strangely Dominant Version" + a hymn title matched a 2025 viral

@@ -63,7 +63,7 @@ since the last fetch run, alternate-arrangement pairs whose link status disagree
 searchable table of all songs with "pending re-verification" / "low-trust" flags called out.
 It reads the live `{st:}` from each `.chordpro` file rather than trusting
 `data/spotify-links.json`'s stored artist, so it stays accurate even right after a manual
-edit or an `apply-artist-suggestions.js` backfill, before the next fetch re-verifies it.
+edit, before the next fetch re-verifies it.
 
 ## Adding a song
 

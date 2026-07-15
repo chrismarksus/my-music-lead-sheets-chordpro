@@ -1,30 +1,4 @@
 {
-  "all_creatures.chordpro": {
-    "title": "All Creatures Of Our God And King",
-    "artist": "Lifetree Kids ?",
-    "confidence": "high",
-    "track": {
-      "name": "All Creatures of Our God and King",
-      "artists": [
-        "Lifetree Kids"
-      ],
-      "url": "https://open.spotify.com/track/2Uonogzw4lsTMSsko0k5Zr",
-      "id": "2Uonogzw4lsTMSsko0k5Zr"
-    }
-  },
-  "all_heaven_declares.chordpro": {
-    "title": "All Heaven Declares",
-    "artist": "Steven Moctezuma",
-    "confidence": "high",
-    "track": {
-      "name": "All Heaven Declares",
-      "artists": [
-        "Steven Moctezuma"
-      ],
-      "url": "https://open.spotify.com/track/0kM2NaJO4iKTVzrdV7k93f",
-      "id": "0kM2NaJO4iKTVzrdV7k93f"
-    }
-  },
   "all_i_have_to_do_is_dream-everly_brothers.chordpro": {
     "title": "All I have to do is dream",
     "artist": "Everly Brothers",
@@ -36,48 +10,6 @@
       ],
       "url": "https://open.spotify.com/track/7dblNGnRXEBrVJunazs2U5",
       "id": "7dblNGnRXEBrVJunazs2U5"
-    }
-  },
-  "all_that_i_need.chordpro": {
-    "title": "All That I Need",
-    "artist": "Maverick City Music, Dante Bowe, GRAHAM",
-    "confidence": "high",
-    "track": {
-      "name": "All That I Need",
-      "artists": [
-        "Maverick City Music",
-        "Dante Bowe",
-        "GRAHAM"
-      ],
-      "url": "https://open.spotify.com/track/1kzAFWCNQybyRL6h5ACTNz",
-      "id": "1kzAFWCNQybyRL6h5ACTNz"
-    }
-  },
-  "amazing_grace.chordpro": {
-    "title": "Amazing Grace",
-    "artist": "CeCe Winans",
-    "confidence": "high",
-    "track": {
-      "name": "Amazing Grace",
-      "artists": [
-        "CeCe Winans"
-      ],
-      "url": "https://open.spotify.com/track/6XlUFokQc6VZMjdVyS2nv6",
-      "id": "6XlUFokQc6VZMjdVyS2nv6"
-    }
-  },
-  "amazing_grace_ii.chordpro": {
-    "title": "Amazing Grace II",
-    "artist": "Traditional, Iain Farrington ?",
-    "confidence": "high",
-    "track": {
-      "name": "III. Amazing Grace (Arr. I. Farrington for Organ)",
-      "artists": [
-        "Traditional",
-        "Iain Farrington"
-      ],
-      "url": "https://open.spotify.com/track/725q7NIW624bKifvD2NT5l",
-      "id": "725q7NIW624bKifvD2NT5l"
     }
   },
   "american_girl-tom_petty.chordpro": {
@@ -119,32 +51,6 @@
       "id": "5QJWFrY960z8fEE9WA6FdY"
     }
   },
-  "angels_dancing.chordpro": {
-    "title": "Angels Dancing",
-    "artist": "Isaiah Robin",
-    "confidence": "high",
-    "track": {
-      "name": "Angels Dancing",
-      "artists": [
-        "Isaiah Robin"
-      ],
-      "url": "https://open.spotify.com/track/4hpnm21sUO41irozeIMbON",
-      "id": "4hpnm21sUO41irozeIMbON"
-    }
-  },
-  "angels_from_realms.chordpro": {
-    "title": "Angels From the Realms of Glory",
-    "artist": "Eric Nordhoff",
-    "confidence": "high",
-    "track": {
-      "name": "Angels From The Realms Of Glory",
-      "artists": [
-        "Eric Nordhoff"
-      ],
-      "url": "https://open.spotify.com/track/3J7ntRLan3qorcv5kw8dYy",
-      "id": "3J7ntRLan3qorcv5kw8dYy"
-    }
-  },
   "annies_song-john_denver.chordpro": {
     "title": "Annie's Song",
     "artist": "John Denver",
@@ -156,72 +62,6 @@
       ],
       "url": "https://open.spotify.com/track/4J0DbyODwZJcmIAiTSJfMF",
       "id": "4J0DbyODwZJcmIAiTSJfMF"
-    }
-  },
-  "another_drink.chordpro": {
-    "title": "Another Drink",
-    "artist": "Marshmello, Kelsea Ballerini",
-    "confidence": "high",
-    "track": {
-      "name": "Another Drink",
-      "artists": [
-        "Marshmello",
-        "Kelsea Ballerini"
-      ],
-      "url": "https://open.spotify.com/track/3OeZBIb1CsV2rrNNVeiglf",
-      "id": "3OeZBIb1CsV2rrNNVeiglf"
-    }
-  },
-  "apostles_creed.chordpro": {
-    "title": "Apostle's Creed",
-    "artist": "Liturgical Folk",
-    "confidence": "high",
-    "track": {
-      "name": "Apostles Creed",
-      "artists": [
-        "Liturgical Folk"
-      ],
-      "url": "https://open.spotify.com/track/2kAK6kfEWxSefFCJb2Jpx8",
-      "id": "2kAK6kfEWxSefFCJb2Jpx8"
-    }
-  },
-  "arms_of_love.chordpro": {
-    "title": "Arms of Love",
-    "artist": "Joshua David Harris",
-    "confidence": "high",
-    "track": {
-      "name": "Arms of Love",
-      "artists": [
-        "Joshua David Harris"
-      ],
-      "url": "https://open.spotify.com/track/3RX2nU0NjUpInSpWQJarJP",
-      "id": "3RX2nU0NjUpInSpWQJarJP"
-    }
-  },
-  "arms_of_my_father.chordpro": {
-    "title": "Arms of My Father",
-    "artist": "Antioch Music",
-    "confidence": "high",
-    "track": {
-      "name": "Arms of My Father",
-      "artists": [
-        "Antioch Music"
-      ],
-      "url": "https://open.spotify.com/track/1xUoJGgB5cIBF1DOOoGA34",
-      "id": "1xUoJGgB5cIBF1DOOoGA34"
-    }
-  },
-  "as_the_deer_2.chordpro": {
-    "title": "As The Deer 2",
-    "artist": "Maranatha! Praise Band",
-    "confidence": "high",
-    "track": {
-      "name": "As The Deer",
-      "artists": [
-        "Maranatha! Praise Band"
-      ],
-      "url": "https://open.spotify.com/track/6A7feaFHKxavHAHIVE6aws",
-      "id": "6A7feaFHKxavHAHIVE6aws"
     }
   },
   "at_the_cross.chordpro": {
@@ -302,112 +142,6 @@
       "id": "20OFwXhEXf12DzwXmaV7fj"
     }
   },
-  "be_exalted.chordpro": {
-    "title": "Be Exalted, O God",
-    "artist": "Jeff Hamlin",
-    "confidence": "high",
-    "track": {
-      "name": "Be Exalted, O God",
-      "artists": [
-        "Jeff Hamlin"
-      ],
-      "url": "https://open.spotify.com/track/1PuHpl3o097lgJ38zzN0cz",
-      "id": "1PuHpl3o097lgJ38zzN0cz"
-    }
-  },
-  "be_magnified.chordpro": {
-    "title": "Be Magnified",
-    "artist": "Cody Carnes",
-    "confidence": "high",
-    "track": {
-      "name": "Christ Be Magnified",
-      "artists": [
-        "Cody Carnes"
-      ],
-      "url": "https://open.spotify.com/track/0WfYGGL9NugwFZPWKLdz4N",
-      "id": "0WfYGGL9NugwFZPWKLdz4N"
-    }
-  },
-  "be_unto_your_name.chordpro": {
-    "title": "Be Unto Your Name",
-    "artist": "Travis Cottrell, Angela Cruz",
-    "confidence": "high",
-    "track": {
-      "name": "Be Unto Your Name",
-      "artists": [
-        "Travis Cottrell",
-        "Angela Cruz"
-      ],
-      "url": "https://open.spotify.com/track/7e0DsjBJfabuwceuNg6Lv2",
-      "id": "7e0DsjBJfabuwceuNg6Lv2"
-    }
-  },
-  "before_you.chordpro": {
-    "title": "Before You",
-    "artist": "Lewis Capaldi",
-    "confidence": "high",
-    "track": {
-      "name": "Before You Go",
-      "artists": [
-        "Lewis Capaldi"
-      ],
-      "url": "https://open.spotify.com/track/2gMXnyrvIjhVBUZwvLZDMP",
-      "id": "2gMXnyrvIjhVBUZwvLZDMP"
-    }
-  },
-  "behold_the_lamb.chordpro": {
-    "title": "Behold The Lamb Of God",
-    "artist": "Hillsong Worship",
-    "confidence": "high",
-    "track": {
-      "name": "Behold The Lamb Of God",
-      "artists": [
-        "Hillsong Worship"
-      ],
-      "url": "https://open.spotify.com/track/5t6jLnmvxlpPcKz3E2ChUX",
-      "id": "5t6jLnmvxlpPcKz3E2ChUX"
-    }
-  },
-  "believer.chordpro": {
-    "title": "Believer",
-    "artist": "Imagine Dragons",
-    "confidence": "high",
-    "track": {
-      "name": "Believer",
-      "artists": [
-        "Imagine Dragons"
-      ],
-      "url": "https://open.spotify.com/track/0pqnGHJpmpxLKifKRmU6WP",
-      "id": "0pqnGHJpmpxLKifKRmU6WP"
-    }
-  },
-  "better_is_one_day.chordpro": {
-    "title": "Better Is One Day",
-    "artist": "Kutless",
-    "confidence": "high",
-    "track": {
-      "name": "Better Is One Day",
-      "artists": [
-        "Kutless"
-      ],
-      "url": "https://open.spotify.com/track/5kWmmScSHeCDygSgi66s6E",
-      "id": "5kWmmScSHeCDygSgi66s6E"
-    }
-  },
-  "better_than.chordpro": {
-    "title": "Better Than",
-    "artist": "Coi Leray, YoungBoy Never Broke Again",
-    "confidence": "high",
-    "track": {
-      "name": "Better Than Yours (feat. Youngboy Never Broke Again)",
-      "artists": [
-        "Coi Leray",
-        "YoungBoy Never Broke Again"
-      ],
-      "url": "https://open.spotify.com/track/7Cu72sNXv5n9vbHcXbSmgp",
-      "id": "7Cu72sNXv5n9vbHcXbSmgp"
-    }
-  },
   "blessed_be_the_name2.chordpro": {
     "title": "Blessed Be the Name",
     "artist": "Matt Redman",
@@ -419,19 +153,6 @@
       ],
       "url": "https://open.spotify.com/track/14HrSWGYPCDwqAcVFUYKsq",
       "id": "14HrSWGYPCDwqAcVFUYKsq"
-    }
-  },
-  "blessed_be_the_name_of_the_lord.chordpro": {
-    "title": "Blessed Be the Name of the Lord",
-    "artist": "Don Moen",
-    "confidence": "high",
-    "track": {
-      "name": "Blessed Be the Name of the Lord",
-      "artists": [
-        "Don Moen"
-      ],
-      "url": "https://open.spotify.com/track/1hsOOlSndgwH68ECWR9e5D",
-      "id": "1hsOOlSndgwH68ECWR9e5D"
     }
   },
   "blessed_be_your_name.chordpro": {
@@ -461,45 +182,6 @@
       "id": "3ifw3kmhgNnEuoaKEjzyYS"
     }
   },
-  "break_dividing_walls.chordpro": {
-    "title": "Break Dividing Walls",
-    "artist": "David Ruis",
-    "confidence": "high",
-    "track": {
-      "name": "Break Dividing Walls",
-      "artists": [
-        "David Ruis"
-      ],
-      "url": "https://open.spotify.com/track/2YYZ1cSvqq4BCf0ti08gfN",
-      "id": "2YYZ1cSvqq4BCf0ti08gfN"
-    }
-  },
-  "breathe.chordpro": {
-    "title": "Breathe",
-    "artist": "Pink Floyd",
-    "confidence": "high",
-    "track": {
-      "name": "Breathe (In the Air)",
-      "artists": [
-        "Pink Floyd"
-      ],
-      "url": "https://open.spotify.com/track/2ctvdKmETyOzPb2GiJJT53",
-      "id": "2ctvdKmETyOzPb2GiJJT53"
-    }
-  },
-  "cares_chorus.chordpro": {
-    "title": "Cares Chorus",
-    "artist": "Good News Guys",
-    "confidence": "high",
-    "track": {
-      "name": "Cares Chorus",
-      "artists": [
-        "Good News Guys"
-      ],
-      "url": "https://open.spotify.com/track/2U0IQ1XtVbN5uQlwzajtQz",
-      "id": "2U0IQ1XtVbN5uQlwzajtQz"
-    }
-  },
   "cecilia-paul_simon.chordpro": {
     "title": "Cecilia",
     "artist": "Paul Simon",
@@ -511,47 +193,6 @@
       ],
       "url": "https://open.spotify.com/track/3qpPNU7fjD3OtSKifFWvc3",
       "id": "3qpPNU7fjD3OtSKifFWvc3"
-    }
-  },
-  "christ_alone.chordpro": {
-    "title": "In Christ Alone",
-    "artist": "Passion, Kristian Stanfill",
-    "confidence": "high",
-    "track": {
-      "name": "In Christ Alone - Live",
-      "artists": [
-        "Passion",
-        "Kristian Stanfill"
-      ],
-      "url": "https://open.spotify.com/track/6aRwLqDf1bN3lI2gMd6wXp",
-      "id": "6aRwLqDf1bN3lI2gMd6wXp"
-    }
-  },
-  "come_and_fill_me_up.chordpro": {
-    "title": "Come and Fill Me Up",
-    "artist": "Craig Musseau, Vineyard Worship",
-    "confidence": "high",
-    "track": {
-      "name": "Come and Fill Me Up - Live",
-      "artists": [
-        "Craig Musseau",
-        "Vineyard Worship"
-      ],
-      "url": "https://open.spotify.com/track/3SUarEjF0nSGa73qNocJ0R",
-      "id": "3SUarEjF0nSGa73qNocJ0R"
-    }
-  },
-  "come_and_fill_this_place.chordpro": {
-    "title": "Come and Fill This Place",
-    "artist": "Al Denson",
-    "confidence": "high",
-    "track": {
-      "name": "Come And Fill This Place - From This Day On Album Version",
-      "artists": [
-        "Al Denson"
-      ],
-      "url": "https://open.spotify.com/track/32U5gtvem1s0MGILAV1jrc",
-      "id": "32U5gtvem1s0MGILAV1jrc"
     }
   },
   "come_jazzy_and_fill.chordpro": {
@@ -568,19 +209,6 @@
       "id": "3SUarEjF0nSGa73qNocJ0R"
     }
   },
-  "come_now_is_the_time.chordpro": {
-    "title": "Come, Now Is the Time to Worship",
-    "artist": "Brian Doerksen",
-    "confidence": "high",
-    "track": {
-      "name": "Come Now is the Time to Worship",
-      "artists": [
-        "Brian Doerksen"
-      ],
-      "url": "https://open.spotify.com/track/4EbfDgnBzBu2JKBnImn547",
-      "id": "4EbfDgnBzBu2JKBnImn547"
-    }
-  },
   "come_on_eileen-dexys_midnight_runners.chordpro": {
     "title": "Come On Eileen",
     "artist": "Dexy's Midnight Runners",
@@ -592,32 +220,6 @@
       ],
       "url": "https://open.spotify.com/track/3MrWxJaD2AT0W9DjWF64Vm",
       "id": "3MrWxJaD2AT0W9DjWF64Vm"
-    }
-  },
-  "come_thou_almighty_king.chordpro": {
-    "title": "Come, Thou Almighty King",
-    "artist": "Rev. Timothy Wright",
-    "confidence": "high",
-    "track": {
-      "name": "Come Thou Almighty King",
-      "artists": [
-        "Rev. Timothy Wright"
-      ],
-      "url": "https://open.spotify.com/track/5oXlU3gXVu99ZsQnI44Zfp",
-      "id": "5oXlU3gXVu99ZsQnI44Zfp"
-    }
-  },
-  "come_thou_long_expected.chordpro": {
-    "title": "Come, Thou Long Expected Jesus",
-    "artist": "Laura Story",
-    "confidence": "high",
-    "track": {
-      "name": "Come Thou Long Expected Jesus",
-      "artists": [
-        "Laura Story"
-      ],
-      "url": "https://open.spotify.com/track/6xQucpY9ELAnkaQH5Fjtxs",
-      "id": "6xQucpY9ELAnkaQH5Fjtxs"
     }
   },
   "comfortably_numb-pink_floyd.chordpro": {
@@ -646,33 +248,6 @@
       "id": "4GHcyv6GQFRWafpsZUFpj0"
     }
   },
-  "crown_him_with_many.chordpro": {
-    "title": "Crown Him With Many Crowns",
-    "artist": "Shane & Shane",
-    "confidence": "high",
-    "track": {
-      "name": "Crown Him with Many Crowns",
-      "artists": [
-        "Shane & Shane"
-      ],
-      "url": "https://open.spotify.com/track/2vi5d92TOdC4juHcf04v0C",
-      "id": "2vi5d92TOdC4juHcf04v0C"
-    }
-  },
-  "crowns_down.chordpro": {
-    "title": "Crowns Down",
-    "artist": "Gateway Worship, Josh Baldwin",
-    "confidence": "high",
-    "track": {
-      "name": "Crowns Down - Live",
-      "artists": [
-        "Gateway Worship",
-        "Josh Baldwin"
-      ],
-      "url": "https://open.spotify.com/track/6I8T8GS5oMRuxgFzxnOkBG",
-      "id": "6I8T8GS5oMRuxgFzxnOkBG"
-    }
-  },
   "cumbersome-seven_mary_three.chordpro": {
     "title": "Cumbersome",
     "artist": "Seven Mary Three",
@@ -684,19 +259,6 @@
       ],
       "url": "https://open.spotify.com/track/6u1yKoh00WaoSpNp46RzKF",
       "id": "6u1yKoh00WaoSpNp46RzKF"
-    }
-  },
-  "daniels_prayer.chordpro": {
-    "title": "Daniel's Prayer",
-    "artist": "Sight & Sound Theatres",
-    "confidence": "high",
-    "track": {
-      "name": "Daniel's Prayer",
-      "artists": [
-        "Sight & Sound Theatres"
-      ],
-      "url": "https://open.spotify.com/track/4Ovpe4yzzRFG7yOjUGW630",
-      "id": "4Ovpe4yzzRFG7yOjUGW630"
     }
   },
   "dannys_song-kenny-loggins.chordpro": {
@@ -723,34 +285,6 @@
       ],
       "url": "https://open.spotify.com/track/3hNUYt4dMM9RhcWmty8oKF",
       "id": "3hNUYt4dMM9RhcWmty8oKF"
-    }
-  },
-  "days_of_my_youth.chordpro": {
-    "title": "Days of my Youth",
-    "artist": "Kui Lee",
-    "confidence": "high",
-    "track": {
-      "name": "The Days of My Youth",
-      "artists": [
-        "Kui Lee"
-      ],
-      "url": "https://open.spotify.com/track/2KMoEbYal1XfywXD2h2nme",
-      "id": "2KMoEbYal1XfywXD2h2nme"
-    }
-  },
-  "did_you_feel_the_mts.chordpro": {
-    "title": "Did You Feel the Mountains",
-    "artist": "UPPERROOM, Elyssa Figueroa, Meredith Mauldin",
-    "confidence": "high",
-    "track": {
-      "name": "Did You Feel The Mountains Tremble - Live",
-      "artists": [
-        "UPPERROOM",
-        "Elyssa Figueroa",
-        "Meredith Mauldin"
-      ],
-      "url": "https://open.spotify.com/track/07vnUFFXet852l5lXjMVXm",
-      "id": "07vnUFFXet852l5lXjMVXm"
     }
   },
   "do_they_know_its_christmas-barenaked_ladies.chordpro": {
@@ -790,32 +324,6 @@
       ],
       "url": "https://open.spotify.com/track/6ci70PFY04KxK9oFOceqMw",
       "id": "6ci70PFY04KxK9oFOceqMw"
-    }
-  },
-  "eternity.chordpro": {
-    "title": "Eternity",
-    "artist": "Alex Warren",
-    "confidence": "high",
-    "track": {
-      "name": "Eternity",
-      "artists": [
-        "Alex Warren"
-      ],
-      "url": "https://open.spotify.com/track/6wHpLMmp98aHcV8L1JFrj8",
-      "id": "6wHpLMmp98aHcV8L1JFrj8"
-    }
-  },
-  "every_move_i_make.chordpro": {
-    "title": "Every Move I Make",
-    "artist": "Shout Praises Kids ?",
-    "confidence": "high",
-    "track": {
-      "name": "Every Move I Make",
-      "artists": [
-        "Shout Praises Kids"
-      ],
-      "url": "https://open.spotify.com/track/1A4b0yTvOC3fP4PAQcvPuJ",
-      "id": "1A4b0yTvOC3fP4PAQcvPuJ"
     }
   },
   "every_rose_has_its_thorn-poison.chordpro": {
@@ -870,85 +378,6 @@
       "id": "3qTknis4EvnLanqzkaaIap"
     }
   },
-  "faith_is_the_victory.chordpro": {
-    "title": "Faith Is the Victory",
-    "artist": "Praise and Harmony",
-    "confidence": "high",
-    "track": {
-      "name": "Faith Is the Victory",
-      "artists": [
-        "Praise and Harmony"
-      ],
-      "url": "https://open.spotify.com/track/14buHIzmELtCubQbWlUmap",
-      "id": "14buHIzmELtCubQbWlUmap"
-    }
-  },
-  "faithful_father.chordpro": {
-    "title": "Faithful Father",
-    "artist": "Tres Dei",
-    "confidence": "high",
-    "track": {
-      "name": "Faithful Father",
-      "artists": [
-        "Tres Dei"
-      ],
-      "url": "https://open.spotify.com/track/7ghR4R7yoWG1kOttS4FfT2",
-      "id": "7ghR4R7yoWG1kOttS4FfT2"
-    }
-  },
-  "faithful_god.chordpro": {
-    "title": "Faithful God",
-    "artist": "I AM THEY",
-    "confidence": "high",
-    "track": {
-      "name": "Faithful God",
-      "artists": [
-        "I AM THEY"
-      ],
-      "url": "https://open.spotify.com/track/0OZGzrcnmOC56TJGQ2E3yu",
-      "id": "0OZGzrcnmOC56TJGQ2E3yu"
-    }
-  },
-  "faithful_one.chordpro": {
-    "title": "Faithful One",
-    "artist": "Saint Lewis, Brothers McClurg",
-    "confidence": "high",
-    "track": {
-      "name": "Faithful One",
-      "artists": [
-        "Saint Lewis",
-        "Brothers McClurg"
-      ],
-      "url": "https://open.spotify.com/track/21D3BX2nU10udBU9Bxk11C",
-      "id": "21D3BX2nU10udBU9Bxk11C"
-    }
-  },
-  "father_of_lights.chordpro": {
-    "title": "Father of Lights",
-    "artist": "Mercy Culture Worship",
-    "confidence": "high",
-    "track": {
-      "name": "Father of Lights + Be Exalted / He’s Above It All + Victory Is Mine + GIANT - Live",
-      "artists": [
-        "Mercy Culture Worship"
-      ],
-      "url": "https://open.spotify.com/track/0Cixn4SxihmnQxn7pjLv8w",
-      "id": "0Cixn4SxihmnQxn7pjLv8w"
-    }
-  },
-  "fire_of_god.chordpro": {
-    "title": "Lamb of God",
-    "artist": "Vertical Worship ?",
-    "confidence": "high",
-    "track": {
-      "name": "Lamb of God",
-      "artists": [
-        "Vertical Worship"
-      ],
-      "url": "https://open.spotify.com/track/065JpMm3wBounTRtaoqVyS",
-      "id": "065JpMm3wBounTRtaoqVyS"
-    }
-  },
   "free_fallin-tom_petty.chordpro": {
     "title": "Free Fallin'",
     "artist": "Tom Petty",
@@ -960,45 +389,6 @@
       ],
       "url": "https://open.spotify.com/track/5tVA6TkbaAH9QMITTQRrNv",
       "id": "5tVA6TkbaAH9QMITTQRrNv"
-    }
-  },
-  "glorify.chordpro": {
-    "title": "Glorify",
-    "artist": "Jordan Feliz",
-    "confidence": "high",
-    "track": {
-      "name": "Glorify",
-      "artists": [
-        "Jordan Feliz"
-      ],
-      "url": "https://open.spotify.com/track/40jbAp6vAlk9j2KIiGNgvE",
-      "id": "40jbAp6vAlk9j2KIiGNgvE"
-    }
-  },
-  "glory_and_honor.chordpro": {
-    "title": "Glory and Honor",
-    "artist": "Acappella",
-    "confidence": "high",
-    "track": {
-      "name": "Glory and Honor",
-      "artists": [
-        "Acappella"
-      ],
-      "url": "https://open.spotify.com/track/0IgFmyrPtYSIheZzLXIH5O",
-      "id": "0IgFmyrPtYSIheZzLXIH5O"
-    }
-  },
-  "god_is_so_good.chordpro": {
-    "title": "God Is So Good",
-    "artist": "Good News Guys",
-    "confidence": "high",
-    "track": {
-      "name": "God Is So Good",
-      "artists": [
-        "Good News Guys"
-      ],
-      "url": "https://open.spotify.com/track/1ZykOXbYb4RE9kROGiHxQ8",
-      "id": "1ZykOXbYb4RE9kROGiHxQ8"
     }
   },
   "god_of_wonders.chordpro": {
@@ -1014,34 +404,6 @@
       "id": "0TkFpOjGJCjmXJyDHC56Sh"
     }
   },
-  "good_to_me.chordpro": {
-    "title": "Good to Me",
-    "artist": "Mykfresh, 2RawQua, BigXthaPlug",
-    "confidence": "high",
-    "track": {
-      "name": "Good To Me",
-      "artists": [
-        "Mykfresh",
-        "2RawQua",
-        "BigXthaPlug"
-      ],
-      "url": "https://open.spotify.com/track/09fNbO1PnafsvOIANvJCZS",
-      "id": "09fNbO1PnafsvOIANvJCZS"
-    }
-  },
-  "grace_dance.chordpro": {
-    "title": "Grace Dance",
-    "artist": "M27AJI",
-    "confidence": "high",
-    "track": {
-      "name": "Grace Dance (This Christmas)",
-      "artists": [
-        "M27AJI"
-      ],
-      "url": "https://open.spotify.com/track/1D0yylVyUoh7sEfT7jO9Jl",
-      "id": "1D0yylVyUoh7sEfT7jO9Jl"
-    }
-  },
   "great_is_thy_faithfulness.chordpro": {
     "title": "Great is Thy Faithfulness",
     "artist": "The Worship Initiative, Shane & Shane",
@@ -1054,97 +416,6 @@
       ],
       "url": "https://open.spotify.com/track/73ZGW3v5caUFBsHSkQQfpX",
       "id": "73ZGW3v5caUFBsHSkQQfpX"
-    }
-  },
-  "greater_grace.chordpro": {
-    "title": "Greater Grace",
-    "artist": "Jordan May",
-    "confidence": "high",
-    "track": {
-      "name": "GREATER GRACE",
-      "artists": [
-        "Jordan May"
-      ],
-      "url": "https://open.spotify.com/track/6BQjj5MJJLYYnXZDG4ngJz",
-      "id": "6BQjj5MJJLYYnXZDG4ngJz"
-    }
-  },
-  "hail_to_the_king.chordpro": {
-    "title": "Hail To The King",
-    "artist": "Avenged Sevenfold",
-    "confidence": "high",
-    "track": {
-      "name": "Hail to the King",
-      "artists": [
-        "Avenged Sevenfold"
-      ],
-      "url": "https://open.spotify.com/track/5anCkDvJ17aznvK5TED5uo",
-      "id": "5anCkDvJ17aznvK5TED5uo"
-    }
-  },
-  "hall_assemble.chordpro": {
-    "title": "We Shall Assemble",
-    "artist": "Praise and Harmony",
-    "confidence": "high",
-    "track": {
-      "name": "We Shall Assemble",
-      "artists": [
-        "Praise and Harmony"
-      ],
-      "url": "https://open.spotify.com/track/5pSoqFCzjtkjOBJZ5LWY0X",
-      "id": "5pSoqFCzjtkjOBJZ5LWY0X"
-    }
-  },
-  "hands_of_kindness.chordpro": {
-    "title": "Hands of Kindness",
-    "artist": "Delirious?",
-    "confidence": "high",
-    "track": {
-      "name": "Hands of Kindness",
-      "artists": [
-        "Delirious?"
-      ],
-      "url": "https://open.spotify.com/track/42gFx55LR0awsFPX8TYuq0",
-      "id": "42gFx55LR0awsFPX8TYuq0"
-    }
-  },
-  "hark_the_herald.chordpro": {
-    "title": "Hark, the Herald Angels Sing",
-    "artist": "Vince Guaraldi Trio",
-    "confidence": "high",
-    "track": {
-      "name": "Hark, The Herald Angels Sing",
-      "artists": [
-        "Vince Guaraldi Trio"
-      ],
-      "url": "https://open.spotify.com/track/3WneO6zhskTAI00NpB11Nf",
-      "id": "3WneO6zhskTAI00NpB11Nf"
-    }
-  },
-  "have_thine_own_way.chordpro": {
-    "title": "Have Thine Own Way, Lord",
-    "artist": "The Worship Team",
-    "confidence": "high",
-    "track": {
-      "name": "Have Thine Own Way Lord",
-      "artists": [
-        "The Worship Team"
-      ],
-      "url": "https://open.spotify.com/track/7BVIzwjUbO9oJ2hUVxPzEV",
-      "id": "7BVIzwjUbO9oJ2hUVxPzEV"
-    }
-  },
-  "he_is_lord.chordpro": {
-    "title": "He Is Lord",
-    "artist": "Elevation Worship",
-    "confidence": "high",
-    "track": {
-      "name": "He Is Lord",
-      "artists": [
-        "Elevation Worship"
-      ],
-      "url": "https://open.spotify.com/track/2z31Jwh0os8TRIoX9PtfXc",
-      "id": "2z31Jwh0os8TRIoX9PtfXc"
     }
   },
   "he_know_my_name.chordpro": {
@@ -1200,20 +471,6 @@
       "id": "2Cg6FXKNsP1JV4Nzoz2six"
     }
   },
-  "here_i_am_to_worship2.chordpro": {
-    "title": "Here I Am to Worship",
-    "artist": "Hillsong Worship, Reuben Morgan",
-    "confidence": "high",
-    "track": {
-      "name": "Here I Am To Worship - Live",
-      "artists": [
-        "Hillsong Worship",
-        "Reuben Morgan"
-      ],
-      "url": "https://open.spotify.com/track/2gW5KYoHRLD99ojMzqYDw7",
-      "id": "2gW5KYoHRLD99ojMzqYDw7"
-    }
-  },
   "here_i_am_to_worship3.chordpro": {
     "title": "Here I Am to Worship",
     "artist": "Tim Hughes",
@@ -1238,73 +495,6 @@
       ],
       "url": "https://open.spotify.com/track/6xzuBc71jeLySWPc8sUJwV",
       "id": "6xzuBc71jeLySWPc8sUJwV"
-    }
-  },
-  "his_love.chordpro": {
-    "title": "His Love",
-    "artist": "Wiseman",
-    "confidence": "high",
-    "track": {
-      "name": "His Love",
-      "artists": [
-        "Wiseman"
-      ],
-      "url": "https://open.spotify.com/track/4BUT0yo6X5ses2O7O9YSwM",
-      "id": "4BUT0yo6X5ses2O7O9YSwM"
-    }
-  },
-  "hold_on.chordpro": {
-    "title": "Hold On",
-    "artist": "Drake, Majid Jordan",
-    "confidence": "high",
-    "track": {
-      "name": "Hold On, We're Going Home",
-      "artists": [
-        "Drake",
-        "Majid Jordan"
-      ],
-      "url": "https://open.spotify.com/track/6jdOi5U5LBzQrc4c1VT983",
-      "id": "6jdOi5U5LBzQrc4c1VT983"
-    }
-  },
-  "holiness_unto_the_lord.chordpro": {
-    "title": "Holiness Unto the Lord",
-    "artist": "Lillenas Music",
-    "confidence": "high",
-    "track": {
-      "name": "Holiness Unto the Lord (Now and Forever)",
-      "artists": [
-        "Lillenas Music"
-      ],
-      "url": "https://open.spotify.com/track/4eU2Hu0jAH2lNDE0QxE4C8",
-      "id": "4eU2Hu0jAH2lNDE0QxE4C8"
-    }
-  },
-  "holy_and_anointed_one.chordpro": {
-    "title": "Holy and Anointed One",
-    "artist": "catch the fire music, Aaron Ninaber",
-    "confidence": "high",
-    "track": {
-      "name": "Holy and Anointed One",
-      "artists": [
-        "catch the fire music",
-        "Aaron Ninaber"
-      ],
-      "url": "https://open.spotify.com/track/44dJbeies0E1DAdsC6QcLS",
-      "id": "44dJbeies0E1DAdsC6QcLS"
-    }
-  },
-  "holy_holy_holy.chordpro": {
-    "title": "Holy, Holy, Holy",
-    "artist": "Shane & Shane",
-    "confidence": "high",
-    "track": {
-      "name": "Holy, Holy, Holy (We Bow Before Thee)",
-      "artists": [
-        "Shane & Shane"
-      ],
-      "url": "https://open.spotify.com/track/1e58fEprNEGwk1Btxmfaac",
-      "id": "1e58fEprNEGwk1Btxmfaac"
     }
   },
   "holy_holy_holy_hymn.chordpro": {
@@ -1336,19 +526,6 @@
       "id": "0233dmODqfxbCpHQmspl5e"
     }
   },
-  "holy_is_the_lord_on_high.chordpro": {
-    "title": "Holy Is the Lord on High",
-    "artist": "Vineyard Music",
-    "confidence": "high",
-    "track": {
-      "name": "Holy is the Lord On High",
-      "artists": [
-        "Vineyard Music"
-      ],
-      "url": "https://open.spotify.com/track/1THJuQAEWVr5LA652YP50h",
-      "id": "1THJuQAEWVr5LA652YP50h"
-    }
-  },
   "holy_unto_you.chordpro": {
     "title": "Holy Unto You",
     "artist": "Kadosh L'cha",
@@ -1360,20 +537,6 @@
       ],
       "url": "https://open.spotify.com/track/7wjgmnUVGCgx84whUWPBSq",
       "id": "7wjgmnUVGCgx84whUWPBSq"
-    }
-  },
-  "hosanna.chordpro": {
-    "title": "Hosanna",
-    "artist": "Hillsong Worship, Brooke Ligertwood",
-    "confidence": "high",
-    "track": {
-      "name": "Hosanna",
-      "artists": [
-        "Hillsong Worship",
-        "Brooke Ligertwood"
-      ],
-      "url": "https://open.spotify.com/track/5rZVGOlTIE9j0DB831Yl8X",
-      "id": "5rZVGOlTIE9j0DB831Yl8X"
     }
   },
   "hosanna_holy_holy_holy.chordpro": {
@@ -1416,34 +579,6 @@
       "id": "7BY005dacJkbO6EPiOh2wb"
     }
   },
-  "how_majestic.chordpro": {
-    "title": "How Majestic Are Your Ways",
-    "artist": "Vineyard Music",
-    "confidence": "high",
-    "track": {
-      "name": "How Majestic Are Your Ways - Live",
-      "artists": [
-        "Vineyard Music"
-      ],
-      "url": "https://open.spotify.com/track/7vCk7alzOAiibGRsUylDUA",
-      "id": "7vCk7alzOAiibGRsUylDUA"
-    }
-  },
-  "how_priceless.chordpro": {
-    "title": "How Priceless",
-    "artist": "Vineyard Music, Lindell Cooley, Andy Park",
-    "confidence": "high",
-    "track": {
-      "name": "How Priceless - Live",
-      "artists": [
-        "Vineyard Music",
-        "Lindell Cooley",
-        "Andy Park"
-      ],
-      "url": "https://open.spotify.com/track/4o3gnAea1ggRoduhRsG6Z6",
-      "id": "4o3gnAea1ggRoduhRsG6Z6"
-    }
-  },
   "hungry.chordpro": {
     "title": "Hungry",
     "artist": "Falling On My Knees",
@@ -1459,34 +594,6 @@
       "id": "3GkIK5Vpqx0f59P3iNtowe"
     }
   },
-  "i_believe_in_jesus.chordpro": {
-    "title": "I Believe in Jesus",
-    "artist": "Chris Tomlin",
-    "confidence": "high",
-    "track": {
-      "name": "I Believe In Jesus",
-      "artists": [
-        "Chris Tomlin"
-      ],
-      "url": "https://open.spotify.com/track/3TqsgsmGiio7F54HTzpx4J",
-      "id": "3TqsgsmGiio7F54HTzpx4J"
-    }
-  },
-  "i_could_sing_of_your.chordpro": {
-    "title": "I Could Sing of Your Love Forever",
-    "artist": "House of Worship, Martin Smith, Josh Baldwin",
-    "confidence": "high",
-    "track": {
-      "name": "I Could Sing Of Your Love Forever",
-      "artists": [
-        "House of Worship",
-        "Martin Smith",
-        "Josh Baldwin"
-      ],
-      "url": "https://open.spotify.com/track/7Io7LHGjDTNKnphYlB1SPN",
-      "id": "7Io7LHGjDTNKnphYlB1SPN"
-    }
-  },
   "i_give_thanks.chordpro": {
     "title": "I Give Thanks",
     "artist": "Psalm 30",
@@ -1498,165 +605,6 @@
       ],
       "url": "https://open.spotify.com/track/1ps8TbbeErHj1DHAi4CcSo",
       "id": "1ps8TbbeErHj1DHAi4CcSo"
-    }
-  },
-  "i_give_you_my_heart.chordpro": {
-    "title": "I Give You My Heart",
-    "artist": "Hillsong Worship",
-    "confidence": "high",
-    "track": {
-      "name": "I Give You My Heart - Live",
-      "artists": [
-        "Hillsong Worship"
-      ],
-      "url": "https://open.spotify.com/track/13doTTspU02fqDBxTH62dR",
-      "id": "13doTTspU02fqDBxTH62dR"
-    }
-  },
-  "i_looked_up.chordpro": {
-    "title": "I Looked Up",
-    "artist": "Sons Of Sunday",
-    "confidence": "high",
-    "track": {
-      "name": "I Looked Up",
-      "artists": [
-        "Sons Of Sunday"
-      ],
-      "url": "https://open.spotify.com/track/3JsccmLDh628MBNW17aMBP",
-      "id": "3JsccmLDh628MBNW17aMBP"
-    }
-  },
-  "i_love_your_ways.chordpro": {
-    "title": "I Love Your Ways",
-    "artist": "Newsboys",
-    "confidence": "high",
-    "track": {
-      "name": "I Love Your Ways",
-      "artists": [
-        "Newsboys"
-      ],
-      "url": "https://open.spotify.com/track/0h9I0BkZCIk8Fq668oZCOa",
-      "id": "0h9I0BkZCIk8Fq668oZCOa"
-    }
-  },
-  "i_need_thee_every_hour.chordpro": {
-    "title": "I Need Thee Every Hour",
-    "artist": "The Worship Initiative, Hannah Hardin, John Marc Kohl",
-    "confidence": "high",
-    "track": {
-      "name": "I Need Thee Every Hour",
-      "artists": [
-        "The Worship Initiative",
-        "Hannah Hardin",
-        "John Marc Kohl"
-      ],
-      "url": "https://open.spotify.com/track/5Gk7yXyxQ0dnt5UDxvI4m0",
-      "id": "5Gk7yXyxQ0dnt5UDxvI4m0"
-    }
-  },
-  "i_remember.chordpro": {
-    "title": "I Remember",
-    "artist": "Zach Bryan, Kacey Musgraves",
-    "confidence": "high",
-    "track": {
-      "name": "I Remember Everything (feat. Kacey Musgraves)",
-      "artists": [
-        "Zach Bryan",
-        "Kacey Musgraves"
-      ],
-      "url": "https://open.spotify.com/track/4KULAymBBJcPRpk1yO4dOG",
-      "id": "4KULAymBBJcPRpk1yO4dOG"
-    }
-  },
-  "i_surrender_all.chordpro": {
-    "title": "I Surrender All",
-    "artist": "CeCe Winans",
-    "confidence": "high",
-    "track": {
-      "name": "I Surrender All",
-      "artists": [
-        "CeCe Winans"
-      ],
-      "url": "https://open.spotify.com/track/61PM6e4ZKNyk0cliMB2oNv",
-      "id": "61PM6e4ZKNyk0cliMB2oNv"
-    }
-  },
-  "i_well_come.chordpro": {
-    "title": "I Will Come",
-    "artist": "Jin",
-    "confidence": "high",
-    "track": {
-      "name": "I will come to you",
-      "artists": [
-        "Jin"
-      ],
-      "url": "https://open.spotify.com/track/5c2BZj7YSGHwvjf2CtO2S4",
-      "id": "5c2BZj7YSGHwvjf2CtO2S4"
-    }
-  },
-  "i_will_lift_my_hands.chordpro": {
-    "title": "I Will Lift My Hands",
-    "artist": "Adaliua Youth Ministry",
-    "confidence": "high",
-    "track": {
-      "name": "I will lift my hands",
-      "artists": [
-        "Adaliua Youth Ministry"
-      ],
-      "url": "https://open.spotify.com/track/4nyvZX6Ozxr9PaQmRedXXx",
-      "id": "4nyvZX6Ozxr9PaQmRedXXx"
-    }
-  },
-  "i_will_offer_up_my_life.chordpro": {
-    "title": "I Will Offer Up My Life",
-    "artist": "Joshua David Harris",
-    "confidence": "high",
-    "track": {
-      "name": "I Will Offer Up My Life",
-      "artists": [
-        "Joshua David Harris"
-      ],
-      "url": "https://open.spotify.com/track/7kj35YIpaVfVFp1SC2sYUV",
-      "id": "7kj35YIpaVfVFp1SC2sYUV"
-    }
-  },
-  "i_worship_you.chordpro": {
-    "title": "I Worship You",
-    "artist": "MercyMe",
-    "confidence": "high",
-    "track": {
-      "name": "I Worship You",
-      "artists": [
-        "MercyMe"
-      ],
-      "url": "https://open.spotify.com/track/0Sr1Q8weYOGNU7Bg11139E",
-      "id": "0Sr1Q8weYOGNU7Bg11139E"
-    }
-  },
-  "i_worship_you_almighty.chordpro": {
-    "title": "I Worship You Almighty God",
-    "artist": "Charity Gayle",
-    "confidence": "high",
-    "track": {
-      "name": "I Worship You Almighty God",
-      "artists": [
-        "Charity Gayle"
-      ],
-      "url": "https://open.spotify.com/track/2H5UMcqLJrp1FKNDU1i88e",
-      "id": "2H5UMcqLJrp1FKNDU1i88e"
-    }
-  },
-  "i_would_do_anything.chordpro": {
-    "title": "I Would Do Anything",
-    "artist": "Foster The People",
-    "confidence": "high",
-    "track": {
-      "name": "I Would Do Anything for You",
-      "artists": [
-        "Foster The People"
-      ],
-      "url": "https://open.spotify.com/track/5fgb3Md1xjt3mxeBqguiIA",
-      "id": "5fgb3Md1xjt3mxeBqguiIA"
     }
   },
   "if_i_had_a_million_dollars-barenaked_ladies.chordpro": {
@@ -1698,169 +646,10 @@
       "id": "2f5N826udWfjT9iomeaBJt"
     }
   },
-  "in_christ_alone.chordpro": {
-    "title": "You Alone",
-    "artist": "Jeezy, Ne-Yo",
-    "confidence": "high",
-    "track": {
-      "name": "Leave You Alone",
-      "artists": [
-        "Jeezy",
-        "Ne-Yo"
-      ],
-      "url": "https://open.spotify.com/track/5GOqOUVv7vk0jWDdNToHtA",
-      "id": "5GOqOUVv7vk0jWDdNToHtA"
-    }
-  },
-  "in_the_secret.chordpro": {
-    "title": "In the Secret",
-    "artist": "Shane & Shane",
-    "confidence": "high",
-    "track": {
-      "name": "In the Secret",
-      "artists": [
-        "Shane & Shane"
-      ],
-      "url": "https://open.spotify.com/track/5GB9cyd7FNBmU65ajOT7HM",
-      "id": "5GB9cyd7FNBmU65ajOT7HM"
-    }
-  },
-  "invitacion_fountain.chordpro": {
-    "title": "Invitacion Fountain",
-    "artist": "Jeremy Riddle, Robbie Reider, Vineyard Worship",
-    "confidence": "high",
-    "track": {
-      "name": "Invitacion Fountain",
-      "artists": [
-        "Jeremy Riddle",
-        "Robbie Reider",
-        "Vineyard Worship"
-      ],
-      "url": "https://open.spotify.com/track/1z5vozUHK3vchqp2cUlMxk",
-      "id": "1z5vozUHK3vchqp2cUlMxk"
-    }
-  },
-  "isaiah_58.chordpro": {
-    "title": "Isaiah 58",
-    "artist": "Soakstream",
-    "confidence": "high",
-    "track": {
-      "name": "Isaiah 58:6-12",
-      "artists": [
-        "Soakstream"
-      ],
-      "url": "https://open.spotify.com/track/2p4UiMwhJ7CczYN1uN9sJg",
-      "id": "2p4UiMwhJ7CczYN1uN9sJg"
-    }
-  },
-  "it_is_well.chordpro": {
-    "title": "It Is Well With My Soul",
-    "artist": "Audrey Assad",
-    "confidence": "high",
-    "track": {
-      "name": "It Is Well with My Soul",
-      "artists": [
-        "Audrey Assad"
-      ],
-      "url": "https://open.spotify.com/track/4DrI28RhuPmHn0LdGKf6wN",
-      "id": "4DrI28RhuPmHn0LdGKf6wN"
-    }
-  },
-  "its_all_about_jesus.chordpro": {
-    "title": "It's All About Jesus",
-    "artist": "DcrypTos",
-    "confidence": "high",
-    "track": {
-      "name": "It’s All About Jesus",
-      "artists": [
-        "DcrypTos"
-      ],
-      "url": "https://open.spotify.com/track/4DHeDTJcELwOlGYANHxZ8H",
-      "id": "4DHeDTJcELwOlGYANHxZ8H"
-    }
-  },
   "its_good_to_be_king-tom_petty.chordpro": {
     "title": "Its Good To Be King",
     "artist": "Tom Petty",
     "confidence": "error"
-  },
-  "jesus_blood.chordpro": {
-    "title": "Jesus' Blood",
-    "artist": "Hillsong UNITED",
-    "confidence": "high",
-    "track": {
-      "name": "Jesus' Blood - Live",
-      "artists": [
-        "Hillsong UNITED"
-      ],
-      "url": "https://open.spotify.com/track/00JZw2NISYDEXh2fDHgqGd",
-      "id": "00JZw2NISYDEXh2fDHgqGd"
-    }
-  },
-  "jesus_lead_on.chordpro": {
-    "title": "Jesus Lead On",
-    "artist": "NLC",
-    "confidence": "high",
-    "track": {
-      "name": "Jesus Lead On",
-      "artists": [
-        "NLC"
-      ],
-      "url": "https://open.spotify.com/track/0rPfnKKot7jxgpNIThK1bZ",
-      "id": "0rPfnKKot7jxgpNIThK1bZ"
-    }
-  },
-  "jesus_youre_everything.chordpro": {
-    "title": "Jesus You're Everything",
-    "artist": "Stephen McWhirter",
-    "confidence": "high",
-    "track": {
-      "name": "Jesus You're Everything - Acoustic",
-      "artists": [
-        "Stephen McWhirter"
-      ],
-      "url": "https://open.spotify.com/track/70DxeFxPGNWU8lmSmwPdeQ",
-      "id": "70DxeFxPGNWU8lmSmwPdeQ"
-    }
-  },
-  "joy_to_the_world.chordpro": {
-    "title": "Light of the World",
-    "artist": "Lauren Daigle",
-    "confidence": "high",
-    "track": {
-      "name": "Light of the World",
-      "artists": [
-        "Lauren Daigle"
-      ],
-      "url": "https://open.spotify.com/track/1u3uHNw5klnbBFFhZQKg18",
-      "id": "1u3uHNw5klnbBFFhZQKg18"
-    }
-  },
-  "just_as_i_am.chordpro": {
-    "title": "Just As I Am",
-    "artist": "Travis Cottrell",
-    "confidence": "high",
-    "track": {
-      "name": "Just as I Am",
-      "artists": [
-        "Travis Cottrell"
-      ],
-      "url": "https://open.spotify.com/track/3cTqopgJTXyuuNdfOWE4qC",
-      "id": "3cTqopgJTXyuuNdfOWE4qC"
-    }
-  },
-  "king_of_saints.chordpro": {
-    "title": "King of Saints",
-    "artist": "Red Mountain Church",
-    "confidence": "high",
-    "track": {
-      "name": "King of Saints",
-      "artists": [
-        "Red Mountain Church"
-      ],
-      "url": "https://open.spotify.com/track/1Sy6pkXlhduT0oqdHiciGR",
-      "id": "1Sy6pkXlhduT0oqdHiciGR"
-    }
   },
   "landslide-fleetwood_mac.chordpro": {
     "title": "Landslide",
@@ -1873,45 +662,6 @@
       ],
       "url": "https://open.spotify.com/track/5ihS6UUlyQAfmp48eSkxuQ",
       "id": "5ihS6UUlyQAfmp48eSkxuQ"
-    }
-  },
-  "lead_me_to_the_father.chordpro": {
-    "title": "Lead Me to the Father",
-    "artist": "Rita Springer",
-    "confidence": "high",
-    "track": {
-      "name": "Lead Me To The Father",
-      "artists": [
-        "Rita Springer"
-      ],
-      "url": "https://open.spotify.com/track/7DUsxRyv4ObD1Fx3AnG9GW",
-      "id": "7DUsxRyv4ObD1Fx3AnG9GW"
-    }
-  },
-  "let_everything_that.chordpro": {
-    "title": "Let Everything that Has Breath",
-    "artist": "Ron Kenoly",
-    "confidence": "high",
-    "track": {
-      "name": "Let Everything That Has Breath - Live",
-      "artists": [
-        "Ron Kenoly"
-      ],
-      "url": "https://open.spotify.com/track/3zzeh1lxOfq3cRUGoexDVC",
-      "id": "3zzeh1lxOfq3cRUGoexDVC"
-    }
-  },
-  "let_it_burn.chordpro": {
-    "title": "Let It Burn",
-    "artist": "Shaboozey",
-    "confidence": "high",
-    "track": {
-      "name": "Let It Burn",
-      "artists": [
-        "Shaboozey"
-      ],
-      "url": "https://open.spotify.com/track/2lcJpkoLQqeSvZDKk27pEA",
-      "id": "2lcJpkoLQqeSvZDKk27pEA"
     }
   },
   "let_my_words_be_few.chordpro": {
@@ -1927,85 +677,6 @@
       "id": "6AUwzFOSBardijZiv7JuSZ"
     }
   },
-  "let_the_river_flow.chordpro": {
-    "title": "Let the River Flow",
-    "artist": "Darrell Evans",
-    "confidence": "high",
-    "track": {
-      "name": "Let the River Flow",
-      "artists": [
-        "Darrell Evans"
-      ],
-      "url": "https://open.spotify.com/track/5BEYjZWHSkjiRjlsutoOBC",
-      "id": "5BEYjZWHSkjiRjlsutoOBC"
-    }
-  },
-  "let_your_glory_fall.chordpro": {
-    "title": "Let Your Glory Fall",
-    "artist": "Kari Jobe Carnes",
-    "confidence": "high",
-    "track": {
-      "name": "Let Your Glory Fall",
-      "artists": [
-        "Kari Jobe Carnes"
-      ],
-      "url": "https://open.spotify.com/track/03BlS72KhozBLB4dXIB3TV",
-      "id": "03BlS72KhozBLB4dXIB3TV"
-    }
-  },
-  "lets_all_go_up_to_zion.chordpro": {
-    "title": "Let's All Go Up to Zion",
-    "artist": "Vineyard Music",
-    "confidence": "high",
-    "track": {
-      "name": "Let's All Go Up To Zion",
-      "artists": [
-        "Vineyard Music"
-      ],
-      "url": "https://open.spotify.com/track/607GcgeTxvXhObSlsHFnlm",
-      "id": "607GcgeTxvXhObSlsHFnlm"
-    }
-  },
-  "lets_worship.chordpro": {
-    "title": "Let's Worship",
-    "artist": "Terry Clark",
-    "confidence": "high",
-    "track": {
-      "name": "Let's Worship",
-      "artists": [
-        "Terry Clark"
-      ],
-      "url": "https://open.spotify.com/track/2hn2nv57TlA5D16CHQdMwv",
-      "id": "2hn2nv57TlA5D16CHQdMwv"
-    }
-  },
-  "light_the_fire.chordpro": {
-    "title": "Light the Fire",
-    "artist": "平田志穂子, Lotus Juice",
-    "confidence": "high",
-    "track": {
-      "name": "Light the Fire Up in the Night ”MAYONAKA”",
-      "artists": [
-        "平田志穂子",
-        "Lotus Juice"
-      ],
-      "url": "https://open.spotify.com/track/2k52WhBPTDv0I2ROMdiS14",
-      "id": "2k52WhBPTDv0I2ROMdiS14"
-    }
-  },
-  "light_the_fire_again2.chordpro": {
-    "title": "Light the Fire Again",
-    "artist": "Brian Doerksen",
-    "confidence": "high",
-    "track": {
-      "name": "Light The Fire Again",
-      "artists": [
-        "Brian Doerksen"
-      ],
-      "url": "https://open.spotify.com/track/6jINqwGCGMvdoirxqvFDLD",
-      "id": "6jINqwGCGMvdoirxqvFDLD"
-    }
-  },
   "little_red_riding_hood-sam_the_sham.chordpro": {
     "title": "Little Red Riding Hood",
     "artist": "Sam The Sham",
@@ -2017,32 +688,6 @@
       ],
       "url": "https://open.spotify.com/track/73Sk2zDTBUg0PnqAh98gic",
       "id": "73Sk2zDTBUg0PnqAh98gic"
-    }
-  },
-  "lord_i_lift_your_name.chordpro": {
-    "title": "Lord I Lift Your Name on High",
-    "artist": "Shane & Shane",
-    "confidence": "high",
-    "track": {
-      "name": "Lord I Lift Your Name on High",
-      "artists": [
-        "Shane & Shane"
-      ],
-      "url": "https://open.spotify.com/track/7GyF1KwnX5YBxPw2gjbfOd",
-      "id": "7GyF1KwnX5YBxPw2gjbfOd"
-    }
-  },
-  "lord_i_love_you.chordpro": {
-    "title": "Lord I Love You",
-    "artist": "Nia Allen",
-    "confidence": "high",
-    "track": {
-      "name": "Lord I Love You",
-      "artists": [
-        "Nia Allen"
-      ],
-      "url": "https://open.spotify.com/track/10AljOpThopNRjg2jlmBEV",
-      "id": "10AljOpThopNRjg2jlmBEV"
     }
   },
   "lord_of_every_man.chordpro": {
@@ -2058,202 +703,6 @@
       "id": "6obkbpih6pYSgjPyoI75Xp"
     }
   },
-  "lord_reign_in_me.chordpro": {
-    "title": "Lord, Reign in Me",
-    "artist": "Brenton Brown",
-    "confidence": "high",
-    "track": {
-      "name": "Lord, Reign In Me",
-      "artists": [
-        "Brenton Brown"
-      ],
-      "url": "https://open.spotify.com/track/758bqkMtCDwZN5fSPostZR",
-      "id": "758bqkMtCDwZN5fSPostZR"
-    }
-  },
-  "lord_we_praise_you.chordpro": {
-    "title": "Lord We Praise You",
-    "artist": "Charlie Dicks",
-    "confidence": "high",
-    "track": {
-      "name": "Lord We Praise You",
-      "artists": [
-        "Charlie Dicks"
-      ],
-      "url": "https://open.spotify.com/track/3cQ1hCgkzj7rnBEEPUKjF5",
-      "id": "3cQ1hCgkzj7rnBEEPUKjF5"
-    }
-  },
-  "lord_you_have_my_heart.chordpro": {
-    "title": "Lord You Have My Heart",
-    "artist": "Delirious?",
-    "confidence": "high",
-    "track": {
-      "name": "Lord You Have My Heart",
-      "artists": [
-        "Delirious?"
-      ],
-      "url": "https://open.spotify.com/track/4pnYEZkZcuJR0d1aPKWAwo",
-      "id": "4pnYEZkZcuJR0d1aPKWAwo"
-    }
-  },
-  "lord_your_name_is_holy.chordpro": {
-    "title": "Lord, Your Name is Holy",
-    "artist": "Vineyard Music",
-    "confidence": "high",
-    "track": {
-      "name": "Lord Your Name is Holy / Holy Holy Holy (Hosanna)",
-      "artists": [
-        "Vineyard Music"
-      ],
-      "url": "https://open.spotify.com/track/2PydLfzdOGoj33fWMHwNQC",
-      "id": "2PydLfzdOGoj33fWMHwNQC"
-    }
-  },
-  "lover_of_my_soul.chordpro": {
-    "title": "Lover of My Soul",
-    "artist": "Dâmares Gomes",
-    "confidence": "high",
-    "track": {
-      "name": "Lover Of My Soul",
-      "artists": [
-        "Dâmares Gomes"
-      ],
-      "url": "https://open.spotify.com/track/0bMV7EnPQeKty8Jc8GQuwC",
-      "id": "0bMV7EnPQeKty8Jc8GQuwC"
-    }
-  },
-  "majesty.chordpro": {
-    "title": "Majesty",
-    "artist": "Apashe, Wasiu",
-    "confidence": "high",
-    "track": {
-      "name": "Majesty",
-      "artists": [
-        "Apashe",
-        "Wasiu"
-      ],
-      "url": "https://open.spotify.com/track/08E0TIudwefGjA27W4zrnf",
-      "id": "08E0TIudwefGjA27W4zrnf"
-    }
-  },
-  "make_us_a_prayer.chordpro": {
-    "title": "Make Us a Prayer",
-    "artist": "Vineyard Music",
-    "confidence": "high",
-    "track": {
-      "name": "Make Us a Prayer - Live",
-      "artists": [
-        "Vineyard Music"
-      ],
-      "url": "https://open.spotify.com/track/4bKeDn5BwkWv3p7MiKb0Fp",
-      "id": "4bKeDn5BwkWv3p7MiKb0Fp"
-    }
-  },
-  "meet_with_me.chordpro": {
-    "title": "Meet With Me",
-    "artist": "Ten Shekel Shirt",
-    "confidence": "high",
-    "track": {
-      "name": "Meet With Me",
-      "artists": [
-        "Ten Shekel Shirt"
-      ],
-      "url": "https://open.spotify.com/track/0h6CcbFubl7MB0E2Il6pcY",
-      "id": "0h6CcbFubl7MB0E2Il6pcY"
-    }
-  },
-  "mercy.chordpro": {
-    "title": "Mercy",
-    "artist": "Marvin Gaye",
-    "confidence": "high",
-    "track": {
-      "name": "Mercy Mercy Me (The Ecology)",
-      "artists": [
-        "Marvin Gaye"
-      ],
-      "url": "https://open.spotify.com/track/3IDc87lrpEHWFBASmgTgFV",
-      "id": "3IDc87lrpEHWFBASmgTgFV"
-    }
-  },
-  "mercy_is_falling.chordpro": {
-    "title": "Mercy Is Falling",
-    "artist": "Hi Heaven",
-    "confidence": "high",
-    "track": {
-      "name": "Mercy is Falling",
-      "artists": [
-        "Hi Heaven"
-      ],
-      "url": "https://open.spotify.com/track/1BrA6qQdQwpvjX3kGnnm3A",
-      "id": "1BrA6qQdQwpvjX3kGnnm3A"
-    }
-  },
-  "mercy_mercy.chordpro": {
-    "title": "Mercy Mercy",
-    "artist": "Marvin Gaye",
-    "confidence": "high",
-    "track": {
-      "name": "Mercy Mercy Me (The Ecology)",
-      "artists": [
-        "Marvin Gaye"
-      ],
-      "url": "https://open.spotify.com/track/3IDc87lrpEHWFBASmgTgFV",
-      "id": "3IDc87lrpEHWFBASmgTgFV"
-    }
-  },
-  "midnight_clear.chordpro": {
-    "title": "It Came upon the Midnight Clear",
-    "artist": "Christian Glass",
-    "confidence": "high",
-    "track": {
-      "name": "It Came Upon The Midnight Clear",
-      "artists": [
-        "Christian Glass"
-      ],
-      "url": "https://open.spotify.com/track/7tmMuhg6bvWSyLdEBWlWTb",
-      "id": "7tmMuhg6bvWSyLdEBWlWTb"
-    }
-  },
-  "more_like_you.chordpro": {
-    "title": "More Like You",
-    "artist": "BLVRS",
-    "confidence": "high",
-    "track": {
-      "name": "MORE LIKE YOU",
-      "artists": [
-        "BLVRS"
-      ],
-      "url": "https://open.spotify.com/track/0k8edf4aAsnJxOKhWJJkPe",
-      "id": "0k8edf4aAsnJxOKhWJJkPe"
-    }
-  },
-  "more_love_more_power.chordpro": {
-    "title": "More Love, More Power",
-    "artist": "Michael W. Smith",
-    "confidence": "high",
-    "track": {
-      "name": "More Love, More Power - Live",
-      "artists": [
-        "Michael W. Smith"
-      ],
-      "url": "https://open.spotify.com/track/4EQYur0tRZpHbQJxgCRy4Q",
-      "id": "4EQYur0tRZpHbQJxgCRy4Q"
-    }
-  },
-  "more_precious.chordpro": {
-    "title": "More Precious",
-    "artist": "Steffany Gretzinger",
-    "confidence": "high",
-    "track": {
-      "name": "More Precious Than Silver",
-      "artists": [
-        "Steffany Gretzinger"
-      ],
-      "url": "https://open.spotify.com/track/0zUUwWUEGeU5PSNlIUXRpS",
-      "id": "0zUUwWUEGeU5PSNlIUXRpS"
-    }
-  },
   "mr_tambourine_man-bob_dylan.chordpro": {
     "title": "Mr Tambourine Man",
     "artist": "Bob Dylan",
@@ -2265,46 +714,6 @@
       ],
       "url": "https://open.spotify.com/track/3RkQ3UwOyPqpIiIvGVewuU",
       "id": "3RkQ3UwOyPqpIiIvGVewuU"
-    }
-  },
-  "my_tribute.chordpro": {
-    "title": "My Tribute",
-    "artist": "Nicole C. Mullen ?",
-    "confidence": "high",
-    "track": {
-      "name": "My Tribute / Redeemer",
-      "artists": [
-        "Nicole C. Mullen"
-      ],
-      "url": "https://open.spotify.com/track/7HoDlJmj3Rpsa1Nnb2JFlT",
-      "id": "7HoDlJmj3Rpsa1Nnb2JFlT"
-    }
-  },
-  "ne.chordpro": {
-    "title": "Undone",
-    "artist": "Levi, Halle Abadi",
-    "confidence": "high",
-    "track": {
-      "name": "UNDONE",
-      "artists": [
-        "Levi",
-        "Halle Abadi"
-      ],
-      "url": "https://open.spotify.com/track/2fxk3gwwtyoNYEmH5DJLDu",
-      "id": "2fxk3gwwtyoNYEmH5DJLDu"
-    }
-  },
-  "near_the_cross.chordpro": {
-    "title": "Near the Cross",
-    "artist": "Mississippi Mass Choir",
-    "confidence": "high",
-    "track": {
-      "name": "Near The Cross-Trad. Arrangement",
-      "artists": [
-        "Mississippi Mass Choir"
-      ],
-      "url": "https://open.spotify.com/track/5AkwxyxtzJEfwvyaOUJPKB",
-      "id": "5AkwxyxtzJEfwvyaOUJPKB"
     }
   },
   "need_thee_every_hour.chordpro": {
@@ -2320,58 +729,6 @@
       "id": "1h2HTsKPDTJQuONPhayZov"
     }
   },
-  "no_other.chordpro": {
-    "title": "No Other",
-    "artist": "Mac DeMarco",
-    "confidence": "high",
-    "track": {
-      "name": "No Other Heart",
-      "artists": [
-        "Mac DeMarco"
-      ],
-      "url": "https://open.spotify.com/track/2aaCNg42RA74s0EmHTBqS7",
-      "id": "2aaCNg42RA74s0EmHTBqS7"
-    }
-  },
-  "no_other_gods.chordpro": {
-    "title": "No Other Gods",
-    "artist": "Sheena Taylor",
-    "confidence": "high",
-    "track": {
-      "name": "No Others Gods",
-      "artists": [
-        "Sheena Taylor"
-      ],
-      "url": "https://open.spotify.com/track/1JaShu42ovKonOFT0vmjrV",
-      "id": "1JaShu42ovKonOFT0vmjrV"
-    }
-  },
-  "nothing_is_as_wonderful.chordpro": {
-    "title": "Nothing Is As Wonderful",
-    "artist": "Vineyard Music",
-    "confidence": "high",
-    "track": {
-      "name": "Nothing Is as Wonderful - Live",
-      "artists": [
-        "Vineyard Music"
-      ],
-      "url": "https://open.spotify.com/track/7hQTEWGi2ld37a63nSfomm",
-      "id": "7hQTEWGi2ld37a63nSfomm"
-    }
-  },
-  "o_come_all_ye_faithful.chordpro": {
-    "title": "O Come, All Ye Faithful",
-    "artist": "Pentatonix",
-    "confidence": "high",
-    "track": {
-      "name": "O Come, All Ye Faithful",
-      "artists": [
-        "Pentatonix"
-      ],
-      "url": "https://open.spotify.com/track/4kZqBZ1cihUH8SoBZ3PBrd",
-      "id": "4kZqBZ1cihUH8SoBZ3PBrd"
-    }
-  },
   "o_come_emmanuel.chordpro": {
     "title": "Emmanuel",
     "artist": "Isaiah 7:14",
@@ -2383,85 +740,6 @@
       ],
       "url": "https://open.spotify.com/track/66dglnBm7XhGsETOF7qGKz",
       "id": "66dglnBm7XhGsETOF7qGKz"
-    }
-  },
-  "o_little_town_of_bethlehem.chordpro": {
-    "title": "O Little Town Of Bethlehem",
-    "artist": "Elvis Presley",
-    "confidence": "high",
-    "track": {
-      "name": "O Little Town of Bethlehem",
-      "artists": [
-        "Elvis Presley"
-      ],
-      "url": "https://open.spotify.com/track/6Ai7PiAjnb4eIiC05By0i4",
-      "id": "6Ai7PiAjnb4eIiC05By0i4"
-    }
-  },
-  "o_mighty_cross.chordpro": {
-    "title": "O, Mighty Cross",
-    "artist": "Pure Worship",
-    "confidence": "high",
-    "track": {
-      "name": "O Mighty Cross",
-      "artists": [
-        "Pure Worship"
-      ],
-      "url": "https://open.spotify.com/track/6kNZP3Wml531LSV838iazH",
-      "id": "6kNZP3Wml531LSV838iazH"
-    }
-  },
-  "obsession.chordpro": {
-    "title": "Obsession",
-    "artist": "Aventura, Judy Santos",
-    "confidence": "high",
-    "track": {
-      "name": "Obsesion",
-      "artists": [
-        "Aventura",
-        "Judy Santos"
-      ],
-      "url": "https://open.spotify.com/track/65H6t1WQBim6q93yM8fEwn",
-      "id": "65H6t1WQBim6q93yM8fEwn"
-    }
-  },
-  "oh_heavenly_father.chordpro": {
-    "title": "Oh Heavenly Father",
-    "artist": "Sdot-bangk",
-    "confidence": "high",
-    "track": {
-      "name": "Oh Heavenly Father",
-      "artists": [
-        "Sdot-bangk"
-      ],
-      "url": "https://open.spotify.com/track/5YkPJZ6oCMwXjf5pV8IywL",
-      "id": "5YkPJZ6oCMwXjf5pV8IywL"
-    }
-  },
-  "oh_lead_me.chordpro": {
-    "title": "Oh Lead Me",
-    "artist": "Delirious?",
-    "confidence": "high",
-    "track": {
-      "name": "Oh Lead Me",
-      "artists": [
-        "Delirious?"
-      ],
-      "url": "https://open.spotify.com/track/40c1ZNgBUjemNzNn1FXc2H",
-      "id": "40c1ZNgBUjemNzNn1FXc2H"
-    }
-  },
-  "oh_lord_youre_beautiful.chordpro": {
-    "title": "Oh Lord, You're Beautiful",
-    "artist": "Jesus Image",
-    "confidence": "high",
-    "track": {
-      "name": "Oh Lord, You're Beautiful - Live",
-      "artists": [
-        "Jesus Image"
-      ],
-      "url": "https://open.spotify.com/track/3VTHW9NIrXWQBVODlXNTpR",
-      "id": "3VTHW9NIrXWQBVODlXNTpR"
     }
   },
   "old_man-neil_young.chordpro": {
@@ -2488,168 +766,6 @@
       ],
       "url": "https://open.spotify.com/track/16XeptMdlJTWWeIrwEAOvv",
       "id": "16XeptMdlJTWWeIrwEAOvv"
-    }
-  },
-  "old_rugged_cross.chordpro": {
-    "title": "The Old Rugged Cross",
-    "artist": "Alan Jackson",
-    "confidence": "high",
-    "track": {
-      "name": "The Old Rugged Cross",
-      "artists": [
-        "Alan Jackson"
-      ],
-      "url": "https://open.spotify.com/track/4jTPlQp1YnJFmP3tIzLcmN",
-      "id": "4jTPlQp1YnJFmP3tIzLcmN"
-    }
-  },
-  "on_jordans_bank.chordpro": {
-    "title": "On Jordan's Bank",
-    "artist": "OCP Session Choir",
-    "confidence": "high",
-    "track": {
-      "name": "On Jordan's Bank",
-      "artists": [
-        "OCP Session Choir"
-      ],
-      "url": "https://open.spotify.com/track/76k7dv2r7qJ5oEXs8joJ95",
-      "id": "76k7dv2r7qJ5oEXs8joJ95"
-    }
-  },
-  "once_again.chordpro": {
-    "title": "Once Again",
-    "artist": "Mad Clown, Kim Na Young",
-    "confidence": "high",
-    "track": {
-      "name": "Once Again",
-      "artists": [
-        "Mad Clown",
-        "Kim Na Young"
-      ],
-      "url": "https://open.spotify.com/track/1qsjEmjRzXVsmC0oLitHzN",
-      "id": "1qsjEmjRzXVsmC0oLitHzN"
-    }
-  },
-  "one_hope.chordpro": {
-    "title": "One Hope",
-    "artist": "KNOWER, David Binney",
-    "confidence": "high",
-    "track": {
-      "name": "One Hope (ft. David Binney)",
-      "artists": [
-        "KNOWER",
-        "David Binney"
-      ],
-      "url": "https://open.spotify.com/track/09gRqhj5Jj4HQG8BKc4CkG",
-      "id": "09gRqhj5Jj4HQG8BKc4CkG"
-    }
-  },
-  "one_voice.chordpro": {
-    "title": "One Voice",
-    "artist": "Rokudenashi",
-    "confidence": "high",
-    "track": {
-      "name": "ただ声一つ",
-      "artists": [
-        "Rokudenashi"
-      ],
-      "url": "https://open.spotify.com/track/2e1gUS6Wv8GS8ZT6FMeE1J",
-      "id": "2e1gUS6Wv8GS8ZT6FMeE1J"
-    }
-  },
-  "only_the_blood.chordpro": {
-    "title": "Only the Blood",
-    "artist": "Young Bro, Kurtis Hoppie",
-    "confidence": "high",
-    "track": {
-      "name": "Only the Blood",
-      "artists": [
-        "Young Bro",
-        "Kurtis Hoppie"
-      ],
-      "url": "https://open.spotify.com/track/0eGbU47cnPHwtj2eJHVzN2",
-      "id": "0eGbU47cnPHwtj2eJHVzN2"
-    }
-  },
-  "open_the_eyes_of_my_heart.chordpro": {
-    "title": "Open The Eyes of My Heart Lord",
-    "artist": "Elevation",
-    "confidence": "high",
-    "track": {
-      "name": "Open the Eyes of My Heart Lord",
-      "artists": [
-        "Elevation"
-      ],
-      "url": "https://open.spotify.com/track/0UlNsw2YfstrHGWYTOpE0w",
-      "id": "0UlNsw2YfstrHGWYTOpE0w"
-    }
-  },
-  "our_god_reigns.chordpro": {
-    "title": "Our God Reigns",
-    "artist": "Martin Smith, Kari Jobe Carnes, Cody Carnes",
-    "confidence": "high",
-    "track": {
-      "name": "Our God Reigns (Over All The Earth) - Live",
-      "artists": [
-        "Martin Smith",
-        "Kari Jobe Carnes",
-        "Cody Carnes"
-      ],
-      "url": "https://open.spotify.com/track/6AZ5rlcvoh3VHG7A6dgUuB",
-      "id": "6AZ5rlcvoh3VHG7A6dgUuB"
-    }
-  },
-  "peace.chordpro": {
-    "title": "Peace",
-    "artist": "Nature Advisor",
-    "confidence": "high",
-    "track": {
-      "name": "Peaceful Rains",
-      "artists": [
-        "Nature Advisor"
-      ],
-      "url": "https://open.spotify.com/track/1a6j8HYCABWOtlq0EQwsjQ",
-      "id": "1a6j8HYCABWOtlq0EQwsjQ"
-    }
-  },
-  "pour_out_my_heart.chordpro": {
-    "title": "Pour Out My Heart",
-    "artist": "catch the fire music, Aaron Ninaber",
-    "confidence": "high",
-    "track": {
-      "name": "Pour Out My Heart",
-      "artists": [
-        "catch the fire music",
-        "Aaron Ninaber"
-      ],
-      "url": "https://open.spotify.com/track/58RZeVOn9lgdtlXqwjaJfY",
-      "id": "58RZeVOn9lgdtlXqwjaJfY"
-    }
-  },
-  "pour_out_your_spirit.chordpro": {
-    "title": "Pour Out Your Spirit",
-    "artist": "Sarah Liberman",
-    "confidence": "high",
-    "track": {
-      "name": "Pour Out Your Spirit (Shfoch Et Ruchacha)",
-      "artists": [
-        "Sarah Liberman"
-      ],
-      "url": "https://open.spotify.com/track/4bxy6662rXcw07QzCiBmkq",
-      "id": "4bxy6662rXcw07QzCiBmkq"
-    }
-  },
-  "praise_adonai.chordpro": {
-    "title": "Praise Adonai",
-    "artist": "Paul Baloche",
-    "confidence": "high",
-    "track": {
-      "name": "Praise Adonai",
-      "artists": [
-        "Paul Baloche"
-      ],
-      "url": "https://open.spotify.com/track/4kRQ98t6Q7dsmR6A880r1G",
-      "id": "4kRQ98t6Q7dsmR6A880r1G"
     }
   },
   "proud_mary-creedence_clearwater_revival.chordpro": {
@@ -2691,19 +807,6 @@
       "id": "1s3OPSJEwJiqIQktUZZ3NL"
     }
   },
-  "psalm_94.chordpro": {
-    "title": "Psalm 94",
-    "artist": "Sacred Word Worship",
-    "confidence": "high",
-    "track": {
-      "name": "Psalm 94",
-      "artists": [
-        "Sacred Word Worship"
-      ],
-      "url": "https://open.spotify.com/track/0A4M9QNmiq2CsZtPbSWQKA",
-      "id": "0A4M9QNmiq2CsZtPbSWQKA"
-    }
-  },
   "psalm_99.chordpro": {
     "title": "Psalm 99",
     "artist": "Responsive Reading",
@@ -2715,21 +818,6 @@
       ],
       "url": "https://open.spotify.com/track/2C23y9fMl9cnzYYWXHQpjX",
       "id": "2C23y9fMl9cnzYYWXHQpjX"
-    }
-  },
-  "refiners_fire.chordpro": {
-    "title": "Refiner's Fire",
-    "artist": "The Worship Project, Brian Doerksen, TWP Band",
-    "confidence": "high",
-    "track": {
-      "name": "Refiner's Fire",
-      "artists": [
-        "The Worship Project",
-        "Brian Doerksen",
-        "TWP Band"
-      ],
-      "url": "https://open.spotify.com/track/1n1DQS7HxFHzRLRvI9Epkr",
-      "id": "1n1DQS7HxFHzRLRvI9Epkr"
     }
   },
   "remember_mercy.chordpro": {
@@ -2745,21 +833,6 @@
       "id": "5LKERacFWaL83mA3pJ5Z7T"
     }
   },
-  "resonate.chordpro": {
-    "title": "Resonate",
-    "artist": "John Summit, Kaskade, Julia Church",
-    "confidence": "high",
-    "track": {
-      "name": "Resonate (feat. Julia Church)",
-      "artists": [
-        "John Summit",
-        "Kaskade",
-        "Julia Church"
-      ],
-      "url": "https://open.spotify.com/track/4ZmWVoFNiBj0iNnnC7E4MA",
-      "id": "4ZmWVoFNiBj0iNnnC7E4MA"
-    }
-  },
   "resting_place.chordpro": {
     "title": "Resting Place",
     "artist": "Isaiah 66:1",
@@ -2771,33 +844,6 @@
       ],
       "url": "https://open.spotify.com/track/3FScJo2IwVqK6erOBDKAqH",
       "id": "3FScJo2IwVqK6erOBDKAqH"
-    }
-  },
-  "rise_up.chordpro": {
-    "title": "Rise Up",
-    "artist": "Andra Day",
-    "confidence": "high",
-    "track": {
-      "name": "Rise Up",
-      "artists": [
-        "Andra Day"
-      ],
-      "url": "https://open.spotify.com/track/0tV8pOpiNsKqUys0ilUcXz",
-      "id": "0tV8pOpiNsKqUys0ilUcXz"
-    }
-  },
-  "romans12_1_2.chordpro": {
-    "title": "Romans 12:1-2",
-    "artist": "Verses, Jonathan Allen Wright",
-    "confidence": "high",
-    "track": {
-      "name": "Romans 12:1-2",
-      "artists": [
-        "Verses",
-        "Jonathan Allen Wright"
-      ],
-      "url": "https://open.spotify.com/track/21wu9Hh0UfLhz1qdaEyKKR",
-      "id": "21wu9Hh0UfLhz1qdaEyKKR"
     }
   },
   "salvation_belongs.chordpro": {
@@ -2827,19 +873,6 @@
       "id": "4LqWGyObfPHwYVTzMSpZsA"
     }
   },
-  "seek_ye_first.chordpro": {
-    "title": "Seek Ye First",
-    "artist": "Maranatha! Praise Band",
-    "confidence": "high",
-    "track": {
-      "name": "Seek Ye First",
-      "artists": [
-        "Maranatha! Praise Band"
-      ],
-      "url": "https://open.spotify.com/track/67IaFlNOZtrWnx2CeLpj7o",
-      "id": "67IaFlNOZtrWnx2CeLpj7o"
-    }
-  },
   "shout_to_the_lord-hillsongs.chordpro": {
     "title": "Shout to the Lord",
     "artist": "Hillsong",
@@ -2866,85 +899,6 @@
       "id": "5Kn4e7PIRFde4VIDUKRWyz"
     }
   },
-  "shout_to_the_north.chordpro": {
-    "title": "Shout to the North",
-    "artist": "Joshua David Harris",
-    "confidence": "high",
-    "track": {
-      "name": "Shout to the North",
-      "artists": [
-        "Joshua David Harris"
-      ],
-      "url": "https://open.spotify.com/track/4gnhHxIldOC4Hj2fsYKB1b",
-      "id": "4gnhHxIldOC4Hj2fsYKB1b"
-    }
-  },
-  "show_your_power.chordpro": {
-    "title": "Show Your Power",
-    "artist": "Petra",
-    "confidence": "high",
-    "track": {
-      "name": "Show Your Power",
-      "artists": [
-        "Petra"
-      ],
-      "url": "https://open.spotify.com/track/7Ef333URoNUIfGNqil0xjv",
-      "id": "7Ef333URoNUIfGNqil0xjv"
-    }
-  },
-  "silent_night.chordpro": {
-    "title": "Silent Night",
-    "artist": "ByErik ヵ",
-    "confidence": "high",
-    "track": {
-      "name": "silent nights",
-      "artists": [
-        "ByErik ヵ"
-      ],
-      "url": "https://open.spotify.com/track/5wjudHcXoGo0ws7UyqRgOm",
-      "id": "5wjudHcXoGo0ws7UyqRgOm"
-    }
-  },
-  "spirit_of_sovereign.chordpro": {
-    "title": "Spirit of the Sovereign Lord",
-    "artist": "Vineyard Music",
-    "confidence": "high",
-    "track": {
-      "name": "Spirit of the Sovereign Lord - Live",
-      "artists": [
-        "Vineyard Music"
-      ],
-      "url": "https://open.spotify.com/track/34NeUTOwIh5LUPDi9SRt4Y",
-      "id": "34NeUTOwIh5LUPDi9SRt4Y"
-    }
-  },
-  "stay.chordpro": {
-    "title": "Stay",
-    "artist": "A$AP Rocky, Brent Faiyaz",
-    "confidence": "high",
-    "track": {
-      "name": "STAY HERE 4 LIFE (feat. Brent Faiyaz)",
-      "artists": [
-        "A$AP Rocky",
-        "Brent Faiyaz"
-      ],
-      "url": "https://open.spotify.com/track/2xsTsnA5QOFCnFXdEHGkli",
-      "id": "2xsTsnA5QOFCnFXdEHGkli"
-    }
-  },
-  "step_by_step.chordpro": {
-    "title": "Step by Step",
-    "artist": "fadinglight",
-    "confidence": "high",
-    "track": {
-      "name": "step by step 3.0",
-      "artists": [
-        "fadinglight"
-      ],
-      "url": "https://open.spotify.com/track/46KebKGAt1lRLjFo1Bdqlb",
-      "id": "46KebKGAt1lRLjFo1Bdqlb"
-    }
-  },
   "sunday_bloody_sunday-u2.chordpro": {
     "title": "Sunday Bloody Sunday",
     "artist": "U2",
@@ -2958,113 +912,6 @@
       "id": "6C4LXC9UFH1IKiHYOp0BiJ"
     }
   },
-  "sweet_mercies.chordpro": {
-    "title": "Sweet Mercies",
-    "artist": "David Ruis",
-    "confidence": "high",
-    "track": {
-      "name": "Sweet Mercies",
-      "artists": [
-        "David Ruis"
-      ],
-      "url": "https://open.spotify.com/track/3IhVPllnOKb10JuykfHS89",
-      "id": "3IhVPllnOKb10JuykfHS89"
-    }
-  },
-  "sweet_wind.chordpro": {
-    "title": "Sweet Wind",
-    "artist": "Hera",
-    "confidence": "high",
-    "track": {
-      "name": "Sweet Wind with Water Stream",
-      "artists": [
-        "Hera"
-      ],
-      "url": "https://open.spotify.com/track/1THNlCvAR3gZhLpYWlkbAn",
-      "id": "1THNlCvAR3gZhLpYWlkbAn"
-    }
-  },
-  "take_me_home.chordpro": {
-    "title": "Take Me Home",
-    "artist": "John Denver",
-    "confidence": "high",
-    "track": {
-      "name": "Take Me Home, Country Roads",
-      "artists": [
-        "John Denver"
-      ],
-      "url": "https://open.spotify.com/track/1QbOvACeYanja5pbnJbAmk",
-      "id": "1QbOvACeYanja5pbnJbAmk"
-    }
-  },
-  "take_me_in.chordpro": {
-    "title": "Take Me In",
-    "artist": "Lil Suzy",
-    "confidence": "high",
-    "track": {
-      "name": "Take Me In Your Arms",
-      "artists": [
-        "Lil Suzy"
-      ],
-      "url": "https://open.spotify.com/track/51k2LB1iizPL9grpAkQrco",
-      "id": "51k2LB1iizPL9grpAkQrco"
-    }
-  },
-  "take_my_life.chordpro": {
-    "title": "Take My Life",
-    "artist": "boolymon",
-    "confidence": "high",
-    "track": {
-      "name": "take my life",
-      "artists": [
-        "boolymon"
-      ],
-      "url": "https://open.spotify.com/track/2CH1CARkfPKU7D5livyPsA",
-      "id": "2CH1CARkfPKU7D5livyPsA"
-    }
-  },
-  "thank_you_for_saving_me.chordpro": {
-    "title": "Thank You for Saving Me",
-    "artist": "Maio, Omoefe",
-    "confidence": "high",
-    "track": {
-      "name": "Thank You for Saving Me",
-      "artists": [
-        "Maio",
-        "Omoefe"
-      ],
-      "url": "https://open.spotify.com/track/7EH1M1IUDW1FlTtNKaBOMh",
-      "id": "7EH1M1IUDW1FlTtNKaBOMh"
-    }
-  },
-  "thank_you_lord.chordpro": {
-    "title": "Thank You, Lord",
-    "artist": "Chris Tomlin, Thomas Rhett, Florida Georgia Line",
-    "confidence": "high",
-    "track": {
-      "name": "Thank You Lord (feat. Thomas Rhett & Florida Georgia Line)",
-      "artists": [
-        "Chris Tomlin",
-        "Thomas Rhett",
-        "Florida Georgia Line"
-      ],
-      "url": "https://open.spotify.com/track/1k9dLBzwep1k1eGP0Ec8ZK",
-      "id": "1k9dLBzwep1k1eGP0Ec8ZK"
-    }
-  },
-  "the_blood_of_jesus.chordpro": {
-    "title": "The Blood of Jesus",
-    "artist": "Travis Cottrell",
-    "confidence": "high",
-    "track": {
-      "name": "The Blood Of Jesus Speaks For Me - Live",
-      "artists": [
-        "Travis Cottrell"
-      ],
-      "url": "https://open.spotify.com/track/56gq5wkXmNz7oW4W8MB3BJ",
-      "id": "56gq5wkXmNz7oW4W8MB3BJ"
-    }
-  },
   "the_heart_of_worship.chordpro": {
     "title": "The Heart of Worship",
     "artist": "Matt Redman",
@@ -3076,20 +923,6 @@
       ],
       "url": "https://open.spotify.com/track/1WYHvGn6fQZRAmbD5TG51j",
       "id": "1WYHvGn6fQZRAmbD5TG51j"
-    }
-  },
-  "the_lord_reigns.chordpro": {
-    "title": "The Lord Reigns",
-    "artist": "Gateway Worship, Thomas Miller",
-    "confidence": "high",
-    "track": {
-      "name": "The Lord Reigns - Live",
-      "artists": [
-        "Gateway Worship",
-        "Thomas Miller"
-      ],
-      "url": "https://open.spotify.com/track/4KSfRodbCoG7Af3P1RskIr",
-      "id": "4KSfRodbCoG7Af3P1RskIr"
     }
   },
   "the_needle_and_the_damage_done-young_neil.chordpro": {
@@ -3118,59 +951,6 @@
       "id": "5HjviQMuDBIvcyNXJtka23"
     }
   },
-  "the_solid_rock.chordpro": {
-    "title": "The Solid Rock",
-    "artist": "Grace Community Church",
-    "confidence": "high",
-    "track": {
-      "name": "The Solid Rock",
-      "artists": [
-        "Grace Community Church"
-      ],
-      "url": "https://open.spotify.com/track/1T5GrhliWnsP0h3YhseFKD",
-      "id": "1T5GrhliWnsP0h3YhseFKD"
-    }
-  },
-  "there_is_a_redeemer.chordpro": {
-    "title": "There Is a Redeemer",
-    "artist": "Keith Green",
-    "confidence": "high",
-    "track": {
-      "name": "There Is A Redeemer",
-      "artists": [
-        "Keith Green"
-      ],
-      "url": "https://open.spotify.com/track/2MBNPMt63Rv0LFb9J1tXEW",
-      "id": "2MBNPMt63Rv0LFb9J1tXEW"
-    }
-  },
-  "there_must_be_more.chordpro": {
-    "title": "There Must Be More",
-    "artist": "Queen, Michael Jackson",
-    "confidence": "high",
-    "track": {
-      "name": "There Must Be More To Life Than This - William Orbit Mix",
-      "artists": [
-        "Queen",
-        "Michael Jackson"
-      ],
-      "url": "https://open.spotify.com/track/0FTzAmvMu2zKdp3ZrvlliF",
-      "id": "0FTzAmvMu2zKdp3ZrvlliF"
-    }
-  },
-  "therefore_we_lift.chordpro": {
-    "title": "Therefore We Lift Our Hearts In Praise",
-    "artist": "Crowder",
-    "confidence": "high",
-    "track": {
-      "name": "Lift Your Head Weary Sinner (Chains)",
-      "artists": [
-        "Crowder"
-      ],
-      "url": "https://open.spotify.com/track/4iddUbzyhbLEqhsVcZmc7u",
-      "id": "4iddUbzyhbLEqhsVcZmc7u"
-    }
-  },
   "theyll_know_we_are_christians-jars_of_clay.chordpro": {
     "title": "Theyll Know We Are Christians",
     "artist": "Jars Of Clay",
@@ -3184,19 +964,6 @@
       "id": "43G19uYdIqMqoH7QlDDcom"
     }
   },
-  "throne_of_grace.chordpro": {
-    "title": "Throne of Grace",
-    "artist": "Highlands Worship",
-    "confidence": "high",
-    "track": {
-      "name": "Throne of Grace",
-      "artists": [
-        "Highlands Worship"
-      ],
-      "url": "https://open.spotify.com/track/5LDxc6bbKdNIgJzeuL2rSj",
-      "id": "5LDxc6bbKdNIgJzeuL2rSj"
-    }
-  },
   "time_after_time-cyndi_lauper.chordpro": {
     "title": "Time After Time",
     "artist": "Cyndi Lauper",
@@ -3208,86 +975,6 @@
       ],
       "url": "https://open.spotify.com/track/7o9uu2GDtVDr9nsR7ZRN73",
       "id": "7o9uu2GDtVDr9nsR7ZRN73"
-    }
-  },
-  "to_god_be_the_glory.chordpro": {
-    "title": "To God Be the Glory!",
-    "artist": "Mosaic MSC",
-    "confidence": "high",
-    "track": {
-      "name": "To God Be The Glory",
-      "artists": [
-        "Mosaic MSC"
-      ],
-      "url": "https://open.spotify.com/track/5DTyY5w9NT214c8hrUDZ9H",
-      "id": "5DTyY5w9NT214c8hrUDZ9H"
-    }
-  },
-  "to_him_who_sits.chordpro": {
-    "title": "To Him Who Sits on the Throne",
-    "artist": "Jesus Image",
-    "confidence": "high",
-    "track": {
-      "name": "To Him Who Sits on the Throne - Live",
-      "artists": [
-        "Jesus Image"
-      ],
-      "url": "https://open.spotify.com/track/4RLvM8AQWEIxtAoCqSztov",
-      "id": "4RLvM8AQWEIxtAoCqSztov"
-    }
-  },
-  "to_the_world.chordpro": {
-    "title": "Joy to the World",
-    "artist": "Three Dog Night",
-    "confidence": "high",
-    "track": {
-      "name": "Joy To The World",
-      "artists": [
-        "Three Dog Night"
-      ],
-      "url": "https://open.spotify.com/track/2ymeOsYijJz09LfKw3yM2x",
-      "id": "2ymeOsYijJz09LfKw3yM2x"
-    }
-  },
-  "trading_my_sorrows.chordpro": {
-    "title": "Trading My Sorrows",
-    "artist": "Chroma Worship",
-    "confidence": "high",
-    "track": {
-      "name": "Trading My Sorrows",
-      "artists": [
-        "Chroma Worship"
-      ],
-      "url": "https://open.spotify.com/track/4CdLfs64DQXxa84Cn2JQU2",
-      "id": "4CdLfs64DQXxa84Cn2JQU2"
-    }
-  },
-  "true_love.chordpro": {
-    "title": "True Love",
-    "artist": "Kanye West, XXXTENTACION",
-    "confidence": "high",
-    "track": {
-      "name": "True Love",
-      "artists": [
-        "Kanye West",
-        "XXXTENTACION"
-      ],
-      "url": "https://open.spotify.com/track/06JvOZ39sK8D8SqiqfaxDU",
-      "id": "06JvOZ39sK8D8SqiqfaxDU"
-    }
-  },
-  "victory_is_the_lords.chordpro": {
-    "title": "The Victory Is the Lord's",
-    "artist": "Vineyard Music, Jeremy Sinott",
-    "confidence": "high",
-    "track": {
-      "name": "The Victory Is The Lord's - Live",
-      "artists": [
-        "Vineyard Music",
-        "Jeremy Sinott"
-      ],
-      "url": "https://open.spotify.com/track/7fnZdi9bsdGyawlefAIJhg",
-      "id": "7fnZdi9bsdGyawlefAIJhg"
     }
   },
   "violets_strength_1e.chordpro": {
@@ -3330,32 +1017,6 @@
       "id": "0oerlffJSzhRVvtDfLcp3N"
     }
   },
-  "we_believe_in_you.chordpro": {
-    "title": "We Believe in You",
-    "artist": "J-Eclectic",
-    "confidence": "high",
-    "track": {
-      "name": "We believe in you",
-      "artists": [
-        "J-Eclectic"
-      ],
-      "url": "https://open.spotify.com/track/2eoPijsvG4E1KerDS6DB2f",
-      "id": "2eoPijsvG4E1KerDS6DB2f"
-    }
-  },
-  "we_bow_down.chordpro": {
-    "title": "We Bow Down",
-    "artist": "Embassy Worship",
-    "confidence": "high",
-    "track": {
-      "name": "We Bow Down/Pour It Out",
-      "artists": [
-        "Embassy Worship"
-      ],
-      "url": "https://open.spotify.com/track/7BoBXReiXj6h2uFYpTRySq",
-      "id": "7BoBXReiXj6h2uFYpTRySq"
-    }
-  },
   "we_fall_down.chordpro": {
     "title": "We Fall Down",
     "artist": "Chris Tomlin",
@@ -3380,45 +1041,6 @@
       ],
       "url": "https://open.spotify.com/track/5sMZbf7oEQCfjoY5Rpp6Pq",
       "id": "5sMZbf7oEQCfjoY5Rpp6Pq"
-    }
-  },
-  "we_will_ride.chordpro": {
-    "title": "We Will Ride",
-    "artist": "Lindell Cooley",
-    "confidence": "high",
-    "track": {
-      "name": "We Will Ride - Live",
-      "artists": [
-        "Lindell Cooley"
-      ],
-      "url": "https://open.spotify.com/track/6I38AjQzVhx7A7Xl11FTNk",
-      "id": "6I38AjQzVhx7A7Xl11FTNk"
-    }
-  },
-  "weve_come_to_praise.chordpro": {
-    "title": "We've Come to Praise You",
-    "artist": "Maranatha! Music",
-    "confidence": "high",
-    "track": {
-      "name": "We've Come To Praise You",
-      "artists": [
-        "Maranatha! Music"
-      ],
-      "url": "https://open.spotify.com/track/229xVvpgYj0EfrwmXteKII",
-      "id": "229xVvpgYj0EfrwmXteKII"
-    }
-  },
-  "what_child_is_this.chordpro": {
-    "title": "What Child Is This?",
-    "artist": "Bing Crosby ?",
-    "confidence": "high",
-    "track": {
-      "name": "What Child Is This/The Holly And The Ivy - Medley / Remastered 2006",
-      "artists": [
-        "Bing Crosby"
-      ],
-      "url": "https://open.spotify.com/track/6OJdXv1Q5OdLgYolFEunJ4",
-      "id": "6OJdXv1Q5OdLgYolFEunJ4"
     }
   },
   "what_it_takes-aerosmith.chordpro": {
@@ -3447,33 +1069,6 @@
       "id": "0mfefvZssk7KnJVemIiqSi"
     }
   },
-  "when_i_look.chordpro": {
-    "title": "When I Look into Your Holiness",
-    "artist": "Kent Henry, Integrity's Hosanna! Music",
-    "confidence": "high",
-    "track": {
-      "name": "When I Look Into Your Holiness",
-      "artists": [
-        "Kent Henry",
-        "Integrity's Hosanna! Music"
-      ],
-      "url": "https://open.spotify.com/track/6TG9KX3eRZMgQgOfxD4KAE",
-      "id": "6TG9KX3eRZMgQgOfxD4KAE"
-    }
-  },
-  "when_i_survey.chordpro": {
-    "title": "When I Survey the Wondrous Cross",
-    "artist": "David Lindner",
-    "confidence": "high",
-    "track": {
-      "name": "When I Survey The Wondrous Cross (Peaceful Piano)",
-      "artists": [
-        "David Lindner"
-      ],
-      "url": "https://open.spotify.com/track/2mGWPaGmoU9TmDNLVzONzW",
-      "id": "2mGWPaGmoU9TmDNLVzONzW"
-    }
-  },
   "whiter_shade_of_pale-procul_harum.chordpro": {
     "title": "A Whiter Shade of Pale",
     "artist": "Keith Reid and Gary Brooker (Procol Harum)",
@@ -3485,45 +1080,6 @@
       ],
       "url": "https://open.spotify.com/track/7DsQgIwg23u9gooCxkRTu3",
       "id": "7DsQgIwg23u9gooCxkRTu3"
-    }
-  },
-  "who_is_like_our_god.chordpro": {
-    "title": "Who Is Like Our God?",
-    "artist": "Common Gathering",
-    "confidence": "high",
-    "track": {
-      "name": "Who Is Like Our God",
-      "artists": [
-        "Common Gathering"
-      ],
-      "url": "https://open.spotify.com/track/2KNFFbt7qUabFlK8FIXDZo",
-      "id": "2KNFFbt7qUabFlK8FIXDZo"
-    }
-  },
-  "whom_have_i_but_you.chordpro": {
-    "title": "Whom Have I But You",
-    "artist": "David Ruis",
-    "confidence": "high",
-    "track": {
-      "name": "Whom Have I But You?",
-      "artists": [
-        "David Ruis"
-      ],
-      "url": "https://open.spotify.com/track/15goouX4k7fhViShJpjrqH",
-      "id": "15goouX4k7fhViShJpjrqH"
-    }
-  },
-  "will_you_worship.chordpro": {
-    "title": "Will You Worship",
-    "artist": "Brian Doerksen",
-    "confidence": "high",
-    "track": {
-      "name": "Will You Worship - Live",
-      "artists": [
-        "Brian Doerksen"
-      ],
-      "url": "https://open.spotify.com/track/5Ikbe3GXBkCzlUgiWubujO",
-      "id": "5Ikbe3GXBkCzlUgiWubujO"
     }
   },
   "wonderful_tonight-eric_clapton.chordpro": {
@@ -3552,100 +1108,6 @@
       "id": "1qPbGZqppFwLwcBC1JQ6Vr"
     }
   },
-  "yahweh.chordpro": {
-    "title": "Yahweh",
-    "artist": "PARTY WAVE, Forrest Frank",
-    "confidence": "high",
-    "track": {
-      "name": "YAHWEH",
-      "artists": [
-        "PARTY WAVE",
-        "Forrest Frank"
-      ],
-      "url": "https://open.spotify.com/track/1OVbFAwbXXPKKMlLq8tKbW",
-      "id": "1OVbFAwbXXPKKMlLq8tKbW"
-    }
-  },
-  "you.chordpro": {
-    "title": "You",
-    "artist": "Khalid",
-    "confidence": "high",
-    "track": {
-      "name": "Young Dumb & Broke",
-      "artists": [
-        "Khalid"
-      ],
-      "url": "https://open.spotify.com/track/5Z3GHaZ6ec9bsiI5BenrbY",
-      "id": "5Z3GHaZ6ec9bsiI5BenrbY"
-    }
-  },
-  "you_are_god.chordpro": {
-    "title": "You Are God",
-    "artist": "Phillips, Craig & Dean",
-    "confidence": "high",
-    "track": {
-      "name": "You Are God Alone (Not a God)",
-      "artists": [
-        "Phillips, Craig & Dean"
-      ],
-      "url": "https://open.spotify.com/track/37bJkchCs6NwEQeXzuS0uY",
-      "id": "37bJkchCs6NwEQeXzuS0uY"
-    }
-  },
-  "you_are_in_control.chordpro": {
-    "title": "You Are In Control",
-    "artist": "3Chord",
-    "confidence": "high",
-    "track": {
-      "name": "You Are In Control",
-      "artists": [
-        "3Chord"
-      ],
-      "url": "https://open.spotify.com/track/5yrjGI8zRRA7KwwKRaxgWY",
-      "id": "5yrjGI8zRRA7KwwKRaxgWY"
-    }
-  },
-  "you_are_lord.chordpro": {
-    "title": "You Are Lord",
-    "artist": "Parachute Band",
-    "confidence": "high",
-    "track": {
-      "name": "You Are Lord",
-      "artists": [
-        "Parachute Band"
-      ],
-      "url": "https://open.spotify.com/track/2KHIpG7w9F8tDhqWyD0X9c",
-      "id": "2KHIpG7w9F8tDhqWyD0X9c"
-    }
-  },
-  "you_are_mighty.chordpro": {
-    "title": "You Are Mighty",
-    "artist": "Maverick City Music, Nick Day, Odell Bunton Jr.",
-    "confidence": "high",
-    "track": {
-      "name": "You are Mighty (feat. Nick Day & Odell Bunton Jr.)",
-      "artists": [
-        "Maverick City Music",
-        "Nick Day",
-        "Odell Bunton Jr."
-      ],
-      "url": "https://open.spotify.com/track/0dnqwfmW1uWnLRp8urXVD3",
-      "id": "0dnqwfmW1uWnLRp8urXVD3"
-    }
-  },
-  "you_are_my_all_in_all.chordpro": {
-    "title": "You Are My All In All",
-    "artist": "Walkers to Heaven",
-    "confidence": "high",
-    "track": {
-      "name": "You Are My All in All",
-      "artists": [
-        "Walkers to Heaven"
-      ],
-      "url": "https://open.spotify.com/track/3xH80oPGfm512iJVeUwTnv",
-      "id": "3xH80oPGfm512iJVeUwTnv"
-    }
-  },
   "you_are_my_king.chordpro": {
     "title": "You Are My King",
     "artist": "Chris Tomlin",
@@ -3657,98 +1119,6 @@
       ],
       "url": "https://open.spotify.com/track/4LEGdbJ3sb6P1IAMfOBrEN",
       "id": "4LEGdbJ3sb6P1IAMfOBrEN"
-    }
-  },
-  "you_are_so_good.chordpro": {
-    "title": "You Are So Good To Me",
-    "artist": "Third Day",
-    "confidence": "high",
-    "track": {
-      "name": "You Are So Good To Me",
-      "artists": [
-        "Third Day"
-      ],
-      "url": "https://open.spotify.com/track/4DSWuEQUdBr1YUG5X37esA",
-      "id": "4DSWuEQUdBr1YUG5X37esA"
-    }
-  },
-  "you_are_the_one_i_love.chordpro": {
-    "title": "You Are the One I Love",
-    "artist": "Don Moen, Lenny LeBlanc",
-    "confidence": "high",
-    "track": {
-      "name": "You Are the One I Love",
-      "artists": [
-        "Don Moen",
-        "Lenny LeBlanc"
-      ],
-      "url": "https://open.spotify.com/track/2153eqJ0W8IBDxBhoBO1YV",
-      "id": "2153eqJ0W8IBDxBhoBO1YV"
-    }
-  },
-  "you_shelter_me.chordpro": {
-    "title": "You Shelter Me",
-    "artist": "Vineyard Music",
-    "confidence": "high",
-    "track": {
-      "name": "You Shelter Me - Live",
-      "artists": [
-        "Vineyard Music"
-      ],
-      "url": "https://open.spotify.com/track/7cekEYQNl8CWaqBW7dtB3S",
-      "id": "7cekEYQNl8CWaqBW7dtB3S"
-    }
-  },
-  "your_everlasting_love.chordpro": {
-    "title": "Your Everlasting Love",
-    "artist": "Endless Praise",
-    "confidence": "high",
-    "track": {
-      "name": "Your Everlasting Love",
-      "artists": [
-        "Endless Praise"
-      ],
-      "url": "https://open.spotify.com/track/1WFW24a9f4pSZFyc6pJ0sf",
-      "id": "1WFW24a9f4pSZFyc6pJ0sf"
-    }
-  },
-  "your_love_is_extravagant.chordpro": {
-    "title": "Your Love Is Extravagant",
-    "artist": "Casting Crowns",
-    "confidence": "high",
-    "track": {
-      "name": "Your Love Is Extravagant",
-      "artists": [
-        "Casting Crowns"
-      ],
-      "url": "https://open.spotify.com/track/45odkrz6e8NWiM8vdJrgZi",
-      "id": "45odkrz6e8NWiM8vdJrgZi"
-    }
-  },
-  "your_love_surrounds.chordpro": {
-    "title": "Your Love Surrounds Me",
-    "artist": "Deep Soul Gospel Volume 1",
-    "confidence": "high",
-    "track": {
-      "name": "Your love surrounds me",
-      "artists": [
-        "Deep Soul Gospel Volume 1"
-      ],
-      "url": "https://open.spotify.com/track/1Z3bIeYShIkCzAJcVSyMHP",
-      "id": "1Z3bIeYShIkCzAJcVSyMHP"
-    }
-  },
-  "your_wonderful_love.chordpro": {
-    "title": "Your Wonderful Love",
-    "artist": "The Temptations",
-    "confidence": "high",
-    "track": {
-      "name": "Your Wonderful Love - Single Version",
-      "artists": [
-        "The Temptations"
-      ],
-      "url": "https://open.spotify.com/track/4ZK8J4NaxKuhTZhTdJDyup",
-      "id": "4ZK8J4NaxKuhTZhTdJDyup"
     }
   },
   "youre_worthy_of_my.chordpro": {

@@ -8,7 +8,8 @@
     "check": "node scripts/check-consistency.js",
     "build-site": "node scripts/build-site.js",
     "fetch-spotify-links": "node scripts/fetch-spotify-links.js",
-    "spotify-status": "node scripts/spotify-status-report.js"
+    "spotify-status": "node scripts/spotify-status-report.js",
+    "check-artist-plausibility": "node scripts/check-artist-plausibility.js"
   },
   "repository": {
     "type": "git",
