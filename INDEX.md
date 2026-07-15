@@ -39,7 +39,7 @@
 | Blessed Be the Name | Matt Redman | [blessed_be_the_name2.chordpro](sheets/blessed_be_the_name2.chordpro) |
 | Blessed Be the Name of the Lord |  | [blessed_be_the_name_of_the_lord.chordpro](sheets/blessed_be_the_name_of_the_lord.chordpro) |
 | Blessed Be Your Name | Matt Redman | [blessed_be_your_name.chordpro](sheets/blessed_be_your_name.chordpro) |
-| Blessed Is the King | The Triumphal Entry Song | [blessed_is_the_king.chordpro](sheets/blessed_is_the_king.chordpro) |
+| Blessed Is the King | Christian Erickson | [blessed_is_the_king.chordpro](sheets/blessed_is_the_king.chordpro) |
 | Break Dividing Walls |  | [break_dividing_walls.chordpro](sheets/break_dividing_walls.chordpro) |
 | Breathe |  | [breathe.chordpro](sheets/breathe.chordpro) |
 | Cares Chorus |  | [cares_chorus.chordpro](sheets/cares_chorus.chordpro) |
@@ -110,7 +110,7 @@
 | House of the Rising Sun | Animals | [house_of_the_rising_sun-animals.chordpro](sheets/house_of_the_rising_sun-animals.chordpro) |
 | How Majestic Are Your Ways |  | [how_majestic.chordpro](sheets/how_majestic.chordpro) |
 | How Priceless |  | [how_priceless.chordpro](sheets/how_priceless.chordpro) |
-| Hungry | Falling On My Knees | [hungry.chordpro](sheets/hungry.chordpro) |
+| Hungry | Kathryn Scott | [hungry.chordpro](sheets/hungry.chordpro) |
 | I Believe in Jesus |  | [i_believe_in_jesus.chordpro](sheets/i_believe_in_jesus.chordpro) |
 | I Could Sing of Your Love Forever |  | [i_could_sing_of_your.chordpro](sheets/i_could_sing_of_your.chordpro) |
 | I Give Thanks | Psalm 30 | [i_give_thanks.chordpro](sheets/i_give_thanks.chordpro) |
@@ -203,10 +203,10 @@
 | Pour Out Your Spirit |  | [pour_out_your_spirit.chordpro](sheets/pour_out_your_spirit.chordpro) |
 | Praise Adonai |  | [praise_adonai.chordpro](sheets/praise_adonai.chordpro) |
 | Proud Mary | Creedence Clearwater Revival | [proud_mary-creedence_clearwater_revival.chordpro](sheets/proud_mary-creedence_clearwater_revival.chordpro) |
-| Psalm 121 | I Lift My Eyes Up | [psalm_121.chordpro](sheets/psalm_121.chordpro) |
-| Psalm 9 | I Will Praise | [psalm_9.chordpro](sheets/psalm_9.chordpro) |
+| Psalm 121 | Brian Doerksen | [psalm_121.chordpro](sheets/psalm_121.chordpro) |
+| Psalm 9 | Sally Beck | [psalm_9.chordpro](sheets/psalm_9.chordpro) |
 | Psalm 94 |  | [psalm_94.chordpro](sheets/psalm_94.chordpro) |
-| Psalm 99 | Responsive Reading | [psalm_99.chordpro](sheets/psalm_99.chordpro) |
+| Psalm 99 |  | [psalm_99.chordpro](sheets/psalm_99.chordpro) |
 | Refiner's Fire |  | [refiners_fire.chordpro](sheets/refiners_fire.chordpro) |
 | Remember Mercy | Habakkuk 3:2 | [remember_mercy.chordpro](sheets/remember_mercy.chordpro) |
 | Resonate |  | [resonate.chordpro](sheets/resonate.chordpro) |
