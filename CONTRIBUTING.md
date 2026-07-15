@@ -27,6 +27,14 @@ when it fails.
 
 ## How the CI/CD pipeline works
 
+Every push touching `sheets/**` on `master` also triggers the **Auto-format sheets**
+workflow (`.github/workflows/format-sheets.yml`, running `scripts/format-sheets.js`):
+it converts any raw `sheets/*.txt` chords-over-lyrics paste (see README's "Adding a song
+via the GitHub web UI") into a proper `.chordpro` file, regenerates `INDEX.md`, and
+commits the result back to `master` if anything changed. A `.txt` that fails to convert
+(most commonly: no `{t:...}` title) is left untouched and this workflow's run goes red
+with the reason.
+
 Every push and pull request triggers the **CI** GitHub Actions workflow
 (`.github/workflows/lint.yml`), which runs:
 

@@ -100,4 +100,8 @@ function main() {
   console.log(`Lint passed: ${files.length} files checked, no issues found.`);
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = { lintFile, listSongFiles, FILENAME_RE };
