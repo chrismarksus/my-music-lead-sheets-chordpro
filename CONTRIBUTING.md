@@ -73,6 +73,19 @@ npm run check
 
 Fix anything they report, then commit.
 
+### Auto-fix on push
+
+`.github/workflows/lint-autofix.yml` runs on every push that touches `sheets/**`. It runs
+`npm run lint:fix` (`scripts/lint.js --fix`), which mechanically rewrites long-form
+directives to short-form — the only lint rule that's a pure find-and-replace with no
+judgment call. If that changes any files, the workflow commits and pushes the fix back as
+`github-actions[bot]`. This mainly covers edits made through the GitHub web editor, where
+it's easy to type `{title:}` instead of `{t:}` without a local `npm run lint` to catch it.
+
+Every other lint failure (missing title, bad/missing genre, unbalanced blocks or brackets,
+non-snake_case filename, parse error) needs a human to supply or correct content, so
+`--fix` leaves those alone and `lint.yml` still reports and fails on them normally.
+
 ### What to do when CI fails
 
 Read the failing line from the Actions log or the PR check annotation — it's in

@@ -9,6 +9,10 @@
 //   6. filename        - filename must be snake_case segments, optionally hyphen-joined
 //                        (e.g. song_title-artist_name.txt)
 //   7. genre           - must contain a {meta: genre ...} directive with a value from GENRES
+//
+// Run with --fix to auto-rewrite long-form directives (rule 3) to short-form in place before
+// linting. It's the only rule that's a pure mechanical rewrite; every other failure still
+// needs a human to supply or correct content.
 'use strict';
 
 const fs = require('fs');
@@ -41,6 +45,30 @@ function listSongFiles() {
   return fs.readdirSync(SHEETS_DIR)
     .filter((f) => f.endsWith('.chordpro'))
     .sort();
+}
+
+// Only long-form directives are safe to auto-fix: it's a pure mechanical rewrite. Every
+// other lint rule (missing title, bad genre, unbalanced blocks/brackets, filename, parse
+// errors) needs a human to supply or correct content, so --fix leaves those for CI to report.
+function fixLongFormDirectives(content) {
+  let out = content;
+  for (const { long, short } of LONG_FORM_DIRECTIVES) {
+    out = long.endsWith(':')
+      ? out.replace(new RegExp(`\\{\\s*${long}`, 'gi'), `{${short}`)
+      : out.replace(new RegExp(`\\{\\s*${long}\\s*\\}`, 'gi'), `{${short}}`);
+  }
+  return out;
+}
+
+function fixFile(filename) {
+  const filePath = path.join(SHEETS_DIR, filename);
+  const original = fs.readFileSync(filePath, 'utf8');
+  const fixed = fixLongFormDirectives(original);
+  if (fixed !== original) {
+    fs.writeFileSync(filePath, fixed);
+    return true;
+  }
+  return false;
 }
 
 function lintFile(filename) {
@@ -102,7 +130,17 @@ function lintFile(filename) {
 }
 
 function main() {
+  const fix = process.argv.includes('--fix');
   const files = listSongFiles();
+
+  if (fix) {
+    const fixedFiles = files.filter(fixFile);
+    if (fixedFiles.length > 0) {
+      console.log(`Auto-fixed ${fixedFiles.length} file(s) (long-form directives -> short-form):`);
+      fixedFiles.forEach((f) => console.log(`  ${f}`));
+    }
+  }
+
   const allErrors = files.flatMap(lintFile);
 
   if (allErrors.length > 0) {
