@@ -230,8 +230,12 @@ svg.chord-diagram { display: block; width: 54px; height: auto; overflow: visible
 .song-nav a:hover .nav-title { color: var(--accent-text); }
 
 main.has-autoscroll { padding-bottom: 104px; }
-.autoscroll-bar {
+main.has-transpose { padding-bottom: 168px; }
+.song-control-bars {
   position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%); z-index: 15;
+  display: flex; flex-direction: column; align-items: center; gap: 10px;
+}
+.autoscroll-bar, .transpose-bar {
   display: flex; align-items: center; gap: 12px; background: var(--surface);
   border: 1px solid var(--divider); border-radius: 999px; padding: 8px 16px 8px 8px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
@@ -246,17 +250,32 @@ main.has-autoscroll { padding-bottom: 104px; }
 #autoscroll-speed-range { width: 88px; accent-color: var(--accent); }
 #autoscroll-speed-label { font-family: var(--font-heading); font-weight: 600; font-size: 13px; color: var(--muted); min-width: 24px; }
 
+#transpose-down, #transpose-up, #transpose-reset {
+  flex: none; min-width: 32px; height: 32px; padding: 0 8px; display: inline-flex;
+  align-items: center; justify-content: center; background: var(--accent); color: #fff;
+  border: none; border-radius: 999px; font-family: var(--font-heading); font-weight: 600;
+  font-size: 15px; cursor: pointer;
+}
+#transpose-down:hover, #transpose-up:hover, #transpose-reset:hover { opacity: 0.88; }
+#transpose-down:disabled, #transpose-up:disabled { opacity: 0.4; cursor: default; }
+#transpose-reset { background: transparent; color: var(--muted); border: 1px solid var(--divider); font-size: 12px; padding: 0 10px; }
+#transpose-readout { font-family: var(--font-heading); font-weight: 600; font-size: 14px; color: var(--muted); min-width: 26px; text-align: center; }
+.capo-suggestion { font-family: var(--font-body); font-size: 12.5px; color: var(--accent-text); white-space: nowrap; }
+body.transpose-active .chord-sheet .chord.has-diagram { cursor: default; text-decoration: none; }
+body.transpose-active .chord-sheet .chord-tooltip { display: none !important; }
+
 @media (max-width: 420px) {
   main { padding: 18px 14px 56px; }
   h1.page-title { font-size: 28px; }
   h1.title { font-size: 27px; }
   .song-list .artist { max-width: 38%; }
-  .autoscroll-bar { bottom: 12px; padding: 6px 12px 6px 6px; gap: 8px; }
+  .song-control-bars { bottom: 12px; gap: 6px; }
+  .autoscroll-bar, .transpose-bar { padding: 6px 12px 6px 6px; gap: 8px; }
   #autoscroll-speed-range { width: 68px; }
 }
 
 @media print {
-  .site-header, .search-wrap, .az-jump, .genre-filter, .song-nav, .spotify-link, .autoscroll-bar { display: none !important; }
+  .site-header, .search-wrap, .az-jump, .genre-filter, .song-nav, .spotify-link, .song-control-bars { display: none !important; }
   body { background: #fff; color: #000; font-size: 12pt; }
   a { color: #000; text-decoration: none; }
   main { max-width: 100%; margin: 0; padding: 0; }
@@ -458,6 +477,129 @@ const AUTOSCROLL_SCRIPT = `<script>
 })();
 </script>`;
 
+// Transposes displayed chord names client-side from each .chord div's
+// data-chord (the untransposed original — always re-parsed from there, never
+// from already-mutated text, so repeated +/- clicks never compound rounding
+// or parsing error). Offset never persists (resets to 0 on load, unlike
+// autoscroll speed). When a song's {key:} is known (data-key on
+// .transpose-bar), also recommends a capo fret + open-shape key. Chords this
+// can't parse are left exactly as rendered — mirrors chord-diagrams.js's
+// "silently skip what can't be resolved" philosophy. Diagram tooltips are
+// baked in at build time for the original key only, so they're suppressed via
+// the body.transpose-active CSS rule (see CHROME_CSS) whenever offset !== 0,
+// rather than risk showing a now-wrong fretboard.
+const TRANSPOSE_SCRIPT = `<script>
+(function () {
+  var bar = document.querySelector('.transpose-bar');
+  if (!bar) return;
+  var chordEls = Array.prototype.slice.call(document.querySelectorAll('.chord[data-chord]'));
+  var downBtn = document.getElementById('transpose-down');
+  var upBtn = document.getElementById('transpose-up');
+  var resetBtn = document.getElementById('transpose-reset');
+  var readout = document.getElementById('transpose-readout');
+  var capoEl = document.getElementById('capo-suggestion');
+  var songKey = bar.dataset.key || '';
+
+  // Keep in sync with SEMITONE_TO_KEY / NOTE_TO_SEMITONE in scripts/chord-diagrams.js.
+  var SEMITONE_TO_KEY = ['C', 'C#', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'Ab', 'A', 'Bb', 'B'];
+  var NOTE_TO_SEMITONE = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 };
+  var EASY_KEYS = ['C', 'G', 'D', 'A', 'E']; // tunable: major open-chord shapes to recommend into
+  var EASY_KEY_SEMITONES = EASY_KEYS.map(noteToSemitone);
+  var MIN_OFFSET = -11, MAX_OFFSET = 11;
+  var offset = 0;
+
+  function noteToSemitone(note) {
+    if (!note) return null;
+    var letter = note.charAt(0).toUpperCase();
+    if (!(letter in NOTE_TO_SEMITONE)) return null;
+    var semitone = NOTE_TO_SEMITONE[letter];
+    for (var i = 1; i < note.length; i++) {
+      var ch = note.charAt(i);
+      if (ch === '#') semitone += 1;
+      else if (ch === 'b') semitone -= 1;
+      else return null;
+    }
+    return ((semitone % 12) + 12) % 12;
+  }
+
+  // "F#m7/A" -> { root: "F#", suffix: "m7", bass: "A" }; null if root/bass unparseable.
+  var CHORD_RE = /^([A-Ga-g])([#b]*)([^\\/]*)(?:\\/([A-Ga-g][#b]*))?$/;
+  function parseChord(name) {
+    var m = CHORD_RE.exec(name.trim());
+    if (!m) return null;
+    var root = m[1].toUpperCase() + m[2];
+    if (noteToSemitone(root) === null) return null;
+    if (m[4] && noteToSemitone(m[4]) === null) return null;
+    return { root: root, suffix: m[3] || '', bass: m[4] || null };
+  }
+
+  function transposeNote(note, delta) {
+    var s = noteToSemitone(note);
+    if (s === null) return null;
+    return SEMITONE_TO_KEY[((s + delta) % 12 + 12) % 12];
+  }
+
+  function transposeChordName(name, delta) {
+    if (delta === 0) return name;
+    var parsed = parseChord(name);
+    if (!parsed) return name;
+    var newRoot = transposeNote(parsed.root, delta);
+    if (newRoot === null) return name;
+    var result = newRoot + parsed.suffix;
+    if (parsed.bass) {
+      var newBass = transposeNote(parsed.bass, delta);
+      if (newBass === null) return name; // bail whole chord rather than half-transpose it
+      result += '/' + newBass;
+    }
+    return result;
+  }
+
+  function updateCapoSuggestion() {
+    if (!capoEl) return;
+    var keyMatch = /^([A-Ga-g])([#b]*)$/.exec(songKey.trim());
+    if (!songKey || !keyMatch) { capoEl.hidden = true; return; } // no key, or e.g. minor "Am" -> fail closed
+    var keySemitone = noteToSemitone(keyMatch[1].toUpperCase() + keyMatch[2]);
+    var target = ((keySemitone + offset) % 12 + 12) % 12;
+    for (var c = 0; c <= 7; c++) {
+      var shape = ((target - c) % 12 + 12) % 12;
+      var idx = EASY_KEY_SEMITONES.indexOf(shape);
+      if (idx !== -1) {
+        capoEl.textContent = c === 0
+          ? ('Play in ' + EASY_KEYS[idx] + ' shapes (no capo)')
+          : ('Capo ' + c + ' — play in ' + EASY_KEYS[idx] + ' shapes');
+        capoEl.hidden = false;
+        return;
+      }
+    }
+    capoEl.hidden = true; // unreachable given EASY_KEYS' <=3-semitone spacing, kept defensive
+  }
+
+  function render() {
+    chordEls.forEach(function (el) {
+      if (el.firstChild && el.firstChild.nodeType === 3) {
+        el.firstChild.nodeValue = transposeChordName(el.dataset.chord, offset);
+      }
+    });
+    document.body.classList.toggle('transpose-active', offset !== 0);
+    readout.textContent = (offset > 0 ? '+' : '') + offset;
+    resetBtn.hidden = offset === 0;
+    downBtn.disabled = offset <= MIN_OFFSET;
+    upBtn.disabled = offset >= MAX_OFFSET;
+    updateCapoSuggestion();
+  }
+
+  function setOffset(n) {
+    offset = Math.max(MIN_OFFSET, Math.min(MAX_OFFSET, n));
+    render();
+  }
+
+  downBtn.addEventListener('click', function () { setOffset(offset - 1); });
+  upBtn.addEventListener('click', function () { setOffset(offset + 1); });
+  resetBtn.addEventListener('click', function () { setOffset(0); });
+  render();
+})();
+</script>`;
+
 function listSongFiles() {
   return fs.readdirSync(SHEETS_DIR)
     .filter((f) => f.endsWith('.chordpro'))
@@ -510,25 +652,28 @@ function buildChordDiagramsStrip(chordNames, diagrams) {
   return `<div class="chord-diagrams">\n${cards}\n</div>`;
 }
 
-// Wraps each rendered <div class="chord">Name</div> that has a known diagram
-// with a hover/focus/tap tooltip containing that chord's diagram. Chords
-// without a resolved diagram (see chord-diagrams.js) are left untouched.
-function injectChordTooltips(html, diagrams) {
+// Adds data-chord="OriginalName" to every rendered <div class="chord">Name</div>
+// (so the client-side transpose script always transposes from the canonical
+// original name, never from already-transposed text), and wraps chords with a
+// known diagram in a hover/focus/tap tooltip. Chords without a resolved
+// diagram (see chord-diagrams.js) get the data attribute but no tooltip.
+function injectChordData(html, diagrams) {
   return html.replace(/<div class="chord">([^<]*)<\/div>/g, (match, name) => {
+    const dataAttr = ` data-chord="${escapeHtml(name)}"`;
     const svg = diagrams[name];
-    if (!svg) return match;
-    return `<div class="chord has-diagram" tabindex="0">${name}<span class="chord-tooltip">${svg}</span></div>`;
+    if (!svg) return `<div class="chord"${dataAttr}>${name}</div>`;
+    return `<div class="chord has-diagram"${dataAttr} tabindex="0">${name}<span class="chord-tooltip">${svg}</span></div>`;
   });
 }
 
-function pageShell({ title, bodyHtml, isSongPage, description }) {
+function pageShell({ title, bodyHtml, isSongPage, description, songKey, hasChords }) {
   const stylesheetHref = isSongPage ? '../style.css' : 'style.css';
   const homeHref = isSongPage ? '../index.html' : null;
   const header = isSongPage
     ? `<a class="back" href="${homeHref}">&larr; Song list</a>`
     : `<span class="brand">Lead Sheets</span>`;
   const desc = escapeHtml(description || 'Personal collection of ChordPro lead sheets.');
-  const autoscrollBar = isSongPage
+  const autoscrollBarHtml = isSongPage
     ? `<div class="autoscroll-bar" role="group" aria-label="Auto-scroll controls">
 <button id="autoscroll-toggle" type="button" aria-label="Start auto-scroll"></button>
 <div class="autoscroll-speed">
@@ -536,6 +681,18 @@ function pageShell({ title, bodyHtml, isSongPage, description }) {
 <span id="autoscroll-speed-label">3&times;</span>
 </div>
 </div>`
+    : '';
+  const transposeBarHtml = isSongPage && hasChords
+    ? `<div class="transpose-bar" data-key="${escapeHtml(songKey || '')}" role="group" aria-label="Transpose controls">
+<button id="transpose-down" type="button" aria-label="Transpose down one semitone">&minus;</button>
+<span id="transpose-readout" aria-live="polite">0</span>
+<button id="transpose-up" type="button" aria-label="Transpose up one semitone">&plus;</button>
+<button id="transpose-reset" type="button" aria-label="Reset transpose" hidden>Reset</button>
+<span id="capo-suggestion" class="capo-suggestion" aria-live="polite" hidden></span>
+</div>`
+    : '';
+  const controlBarsHtml = isSongPage
+    ? `<div class="song-control-bars">${transposeBarHtml}${autoscrollBarHtml}</div>`
     : '';
   return `<!doctype html>
 <html lang="en">
@@ -563,10 +720,10 @@ function pageShell({ title, bodyHtml, isSongPage, description }) {
 ${header}
 <button id="theme-toggle" type="button" aria-label="Toggle dark mode"></button>
 </header>
-<main${isSongPage ? ' class="has-autoscroll"' : ''}>
+<main${isSongPage ? ` class="has-autoscroll${hasChords ? ' has-transpose' : ''}"` : ''}>
 ${bodyHtml}
 </main>
-${autoscrollBar}
+${controlBarsHtml}
 <script>
 (function () {
   var root = document.documentElement;
@@ -587,7 +744,7 @@ ${autoscrollBar}
   });
 })();
 </script>
-${isSongPage ? `${CHORD_TOOLTIP_SCRIPT}\n${SPOTIFY_EMBED_SCRIPT}\n${AUTOSCROLL_SCRIPT}` : SEARCH_SCRIPT}
+${isSongPage ? `${CHORD_TOOLTIP_SCRIPT}\n${SPOTIFY_EMBED_SCRIPT}\n${TRANSPOSE_SCRIPT}\n${AUTOSCROLL_SCRIPT}` : SEARCH_SCRIPT}
 </body>
 </html>
 `;
@@ -694,9 +851,10 @@ function main() {
     // only need to splice in the divider rather than render our own heading
     // (which would duplicate the formatter's).
     const chordNames = song.getChords();
+    const hasChords = chordNames.length > 0;
     const diagrams = buildChordDiagrams(chordNames);
     const diagramsStrip = buildChordDiagramsStrip(chordNames, diagrams);
-    const chordSheetHtml = injectChordTooltips(injectTabs(new HtmlDivFormatter().format(song), tabs), diagrams);
+    const chordSheetHtml = injectChordData(injectTabs(new HtmlDivFormatter().format(song), tabs), diagrams);
     const spotify = spotifyLinks[filename];
     const spotifyLinkHtml = spotify
       ? `<p class="spotify-link"><a href="${escapeHtml(spotify.url)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.42 1.56-.299.421-1.02.599-1.559.3z"/></svg>Listen on Spotify</a><button type="button" class="spotify-play-btn" data-track-id="${escapeHtml(spotify.id)}">&#9654; Play preview</button></p><div class="spotify-embed" hidden></div>`
@@ -706,7 +864,7 @@ function main() {
       '<div class="chord-sheet">',
       `${genreBadgeHtml}<hr class="song-divider">\n${spotifyLinkHtml}\n${diagramsStrip}\n<div class="chord-sheet">`
     );
-    entries.push({ title, artist, genre, slug, bodyHtml });
+    entries.push({ title, artist, genre, slug, bodyHtml, songKey: song.key || '', hasChords });
   });
 
   entries.sort((a, b) => a.title.localeCompare(b.title));
@@ -721,7 +879,7 @@ function main() {
     const description = `Chords and lyrics for "${entry.title}"${entry.artist ? ` by ${entry.artist}` : ''}.`;
     fs.writeFileSync(
       path.join(SONGS_DIR, `${entry.slug}.html`),
-      pageShell({ title: entry.title, bodyHtml, isSongPage: true, description })
+      pageShell({ title: entry.title, bodyHtml, isSongPage: true, description, songKey: entry.songKey, hasChords: entry.hasChords })
     );
   });
 
