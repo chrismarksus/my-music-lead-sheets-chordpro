@@ -3,6 +3,8 @@
 // directives. Run via `npm run generate-index` whenever songs are added, renamed, or
 // retitled — see CONTRIBUTING.md. Table format and row-extraction regex must stay in sync
 // with parseIndex() in scripts/check-consistency.js.
+// `--check` (used by `npm run check-index` in CI) compares the generated output against
+// the committed INDEX.md instead of writing, and exits 1 if they differ.
 'use strict';
 
 const fs = require('fs');
@@ -49,7 +51,22 @@ function generateIndex() {
 }
 
 function main() {
-  fs.writeFileSync(INDEX_PATH, generateIndex());
+  const generated = generateIndex();
+
+  if (process.argv.includes('--check')) {
+    const current = fs.existsSync(INDEX_PATH) ? fs.readFileSync(INDEX_PATH, 'utf8') : '';
+    if (current !== generated) {
+      console.error(
+        'INDEX.md is out of date with sheets/*.chordpro.\n'
+          + 'Run `npm run generate-index` and commit the result.'
+      );
+      process.exit(1);
+    }
+    console.log(`check-index: INDEX.md is up to date (${listSongFiles().length} songs).`);
+    return;
+  }
+
+  fs.writeFileSync(INDEX_PATH, generated);
   console.log(`INDEX.md regenerated: ${listSongFiles().length} songs.`);
 }
 

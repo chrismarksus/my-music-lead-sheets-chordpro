@@ -20,13 +20,13 @@ themselves are not licensed for redistribution.
 | `INDEX.md` | Generated table of every song, linking title/artist to its file |
 | `scripts/lint.js` | Per-file lint rules (parse validity, required title, banned long-form directives, etc.) |
 | `scripts/check-consistency.js` | Repo-wide checks (`INDEX.md` accuracy, cross-references, duplicates, stray files, encoding) |
-| `scripts/generate-index.js` | Regenerates `INDEX.md` from every `sheets/*.chordpro` file's `{t:}`/`{st:}` directives |
+| `scripts/generate-index.js` | Regenerates `INDEX.md` from every `sheets/*.chordpro` file's `{t:}`/`{st:}` directives; `--check` mode fails if it's out of date (used by CI) |
 | `scripts/convert-raw-sheet.js` | Converts a raw chords-over-lyrics paste into ChordPro (used by `format-sheets.js`) |
 | `scripts/format-sheets.js` | Finds `sheets/*.txt` raw pastes, converts each to `.chordpro`, and regenerates `INDEX.md` |
 | `scripts/build-site.js` | Renders every song to HTML into `_site/` (gitignored build output) |
 | `scripts/fetch-spotify-links.js` | Looks up a Spotify track match per song into `data/spotify-links.json`, which `build-site.js` uses to add a "Listen on Spotify" link |
 | `scripts/spotify-status-report.js` | Writes a local-only `data/spotify-status.html` maintenance dashboard (coverage, diff vs. the last run, arrangement-pair mismatches) — never published |
-| `.github/workflows/lint.yml` | Runs lint + consistency check on every push/PR |
+| `.github/workflows/lint.yml` | Runs lint + consistency check + INDEX.md staleness check on every push/PR |
 | `.github/workflows/format-sheets.yml` | Auto-converts `sheets/*.txt` raw pastes to `.chordpro` on push to `master`, committing the result back |
 | `.github/workflows/pages.yml` | Builds the site and deploys it to GitHub Pages on push to `master` |
 
@@ -36,6 +36,7 @@ themselves are not licensed for redistribution.
 npm install
 npm run lint    # per-file rules
 npm run check   # repo-wide consistency
+npm run check-index   # verifies INDEX.md matches sheets/*.chordpro
 npm run build-site   # renders sheets/ into _site/ for local preview
 ```
 
@@ -75,7 +76,7 @@ edit, before the next fetch re-verifies it.
 2. Name it `snake_case.chordpro`, adding a `-artist_name` segment only if
    needed to disambiguate.
 3. Run `npm run lint` and `npm run check` before committing.
-4. Run `npm run generate-index` to update `INDEX.md`.
+4. Run `npm run generate-index` to update `INDEX.md` (CI verifies this via `npm run check-index`).
 
 Full conventions (directive short forms, alternate-arrangement
 cross-references, tab block formatting, etc.) and what to do when CI fails

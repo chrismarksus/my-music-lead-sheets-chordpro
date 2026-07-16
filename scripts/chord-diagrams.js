@@ -170,4 +170,9 @@ function buildChordDiagrams(chordNames) {
   return diagrams;
 }
 
-module.exports = { buildChordDiagrams, resolveChordPosition, renderChordDiagramSvg, escapeXml };
+module.exports = {
+  buildChordDiagrams, resolveChordPosition, renderChordDiagramSvg, escapeXml,
+  // Exported for scripts/detect-keys.js, which needs the same note-name -> pitch-class
+  // mapping to compare chord roots against candidate keys.
+  noteToSemitone,
+};

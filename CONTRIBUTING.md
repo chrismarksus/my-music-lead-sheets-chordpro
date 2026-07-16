@@ -20,8 +20,9 @@ when it fails.
   `{c:Alternate arrangement — see also X.chordpro}` comment pointing at the other.
 - **Never reflow or trim whitespace inside `{sot}`/`{eot}` blocks** — those are ASCII guitar
   tab diagrams; the spacing is the content.
-- **`INDEX.md` is generated, not hand-edited.** Regenerate it whenever you add, rename, or
-  retitle a song (from each file's `{t:}`/`{st:}` directives).
+- **`INDEX.md` is generated, not hand-edited.** Run `npm run generate-index` whenever you
+  add, rename, or retitle a song (it rebuilds the table from each file's `{t:}`/`{st:}`
+  directives). CI runs `npm run check-index` and fails if `INDEX.md` is out of date.
 - **`NOTICE.md`** documents that song content is copyrighted material used for personal/
   church purposes, not licensed for redistribution — keep that in mind before adding songs.
 
@@ -42,6 +43,7 @@ Every push and pull request triggers the **CI** GitHub Actions workflow
 npm ci
 npm run lint
 npm run check
+npm run check-index
 ```
 
 `npm run lint` runs [`scripts/lint.js`](scripts/lint.js), which checks every `.chordpro` file in
@@ -59,9 +61,14 @@ byte-identical duplicate `.chordpro` files, no unrecognized stray files/director
 root or in `sheets/`, and every `.chordpro` file is valid UTF-8 with no BOM. As with lint, the
 rule list lives in the script's header comment.
 
-If every file passes both checks, CI exits 0 (green). If anything fails, it exits 1 (red)
-and prints every violation as `filename:line: message` (or `filename: message` for
-whole-file issues).
+`npm run check-index` runs [`scripts/generate-index.js`](scripts/generate-index.js)
+`--check`, which regenerates `INDEX.md` in memory from `sheets/*.chordpro` and fails if
+that doesn't byte-for-byte match the committed `INDEX.md` — catching not just
+missing/stray/drifted rows (which `npm run check` already catches) but also wrong sort
+order or hand-typed formatting that doesn't match the generator's output.
+
+If every check passes, CI exits 0 (green). If anything fails, it exits 1 (red) and prints
+every violation as `filename:line: message` (or `filename: message` for whole-file issues).
 
 ### Running lint and the consistency check locally before you push
 
@@ -69,6 +76,8 @@ whole-file issues).
 npm install    # once, or whenever chordsheetjs version changes
 npm run lint
 npm run check
+npm run generate-index
+npm run check-index
 ```
 
 Fix anything they report, then commit.
@@ -99,9 +108,10 @@ Read the failing line from the Actions log or the PR check annotation — it's i
 | `unbalanced {soc}/{eoc}` or `{sot}/{eot}` blocks | You opened a block without closing it (or vice versa) — add the missing tag. |
 | `unbalanced [ ] chord brackets on this line` | A `[Chord]` is missing its `[` or `]` on that line. |
 | `filename must be snake_case` | Rename the file to lowercase, underscore-separated words (hyphen-joined segments are OK for `song-artist` disambiguation). |
-| `INDEX.md: missing a row linking to X.chordpro` | Add a row for `X.chordpro` to `INDEX.md`. |
-| `INDEX.md:N: links to X.chordpro, which does not exist` | Fix or remove that row — the file it points at is gone or renamed. |
-| `INDEX.md:N: title/artist "..." doesn't match X.chordpro's {t:.../st:...}` | Someone edited the file's title/subtitle without regenerating `INDEX.md` (or vice versa) — make them match. |
+| `INDEX.md: missing a row linking to X.chordpro` | Run `npm run generate-index` and commit the result. |
+| `INDEX.md:N: links to X.chordpro, which does not exist` | Run `npm run generate-index` and commit the result — the file it points at is gone or renamed. |
+| `INDEX.md:N: title/artist "..." doesn't match X.chordpro's {t:.../st:...}` | Run `npm run generate-index` and commit the result. |
+| `INDEX.md is out of date with sheets/*.chordpro` | Run `npm run generate-index` and commit the result. |
 | `cross-reference points at X.chordpro, which does not exist` | Fix the `{c:...see also X.chordpro}` comment — the referenced file was renamed or removed. |
 | `X.chordpro: byte-identical to Y.chordpro` | Likely an accidental duplicate — remove one, or add a `{c:}` cross-reference if they're intentionally meant to be identical starting points. |
 | `stray file/directory in repo root` | Remove it, or add it to `KNOWN_ROOT_FILES`/`KNOWN_ROOT_DIRS` in `scripts/check-consistency.js` if it's meant to be there. |
@@ -112,7 +122,7 @@ Read the failing line from the Actions log or the PR check annotation — it's i
 1. Copy the structure of an existing file for conventions.
 2. Name it `snake_case.chordpro`, adding a `-artist_name` segment only if needed to disambiguate.
 3. Run `npm run lint` before committing.
-4. Regenerate `INDEX.md`.
+4. Run `npm run generate-index`.
 
 ## Adding an alternate arrangement
 

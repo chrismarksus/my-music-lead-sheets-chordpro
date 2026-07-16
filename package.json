@@ -12,7 +12,9 @@
     "spotify-status": "node scripts/spotify-status-report.js",
     "check-artist-plausibility": "node scripts/check-artist-plausibility.js",
     "generate-index": "node scripts/generate-index.js",
-    "format-sheets": "node scripts/format-sheets.js"
+    "check-index": "node scripts/generate-index.js --check",
+    "format-sheets": "node scripts/format-sheets.js",
+    "detect-keys": "node scripts/detect-keys.js"
   },
   "repository": {
     "type": "git",
