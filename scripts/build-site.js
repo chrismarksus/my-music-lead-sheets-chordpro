@@ -94,11 +94,14 @@ a:hover { color: var(--accent); }
 .site-header .back { font-family: var(--font-heading); font-weight: 600; font-size: 15px; color: var(--text); text-decoration: none; white-space: nowrap; margin-right: auto; }
 .site-header .back:hover { color: var(--accent-text); }
 .site-header .brand { font-family: var(--font-heading); font-weight: 600; font-size: 19px; margin-right: auto; text-decoration: none; color: var(--text); }
-#theme-toggle {
+#theme-toggle, #scroll-top {
   flex: none; width: 38px; height: 38px; display: inline-flex; align-items: center; justify-content: center;
   background: transparent; border: 1px solid var(--divider); border-radius: 6px; color: var(--text); cursor: pointer;
 }
-#theme-toggle:hover { border-color: var(--accent); color: var(--accent-text); }
+#theme-toggle:hover, #scroll-top:hover { border-color: var(--accent); color: var(--accent-text); }
+#scroll-top { display: none; }
+#scroll-top.visible { display: inline-flex; }
+#scroll-top svg { width: 18px; height: 18px; }
 
 main { max-width: 680px; margin: 0 auto; padding: 24px 20px 64px; }
 
@@ -176,7 +179,10 @@ h2.subtitle { font-family: var(--font-body); font-style: italic; font-weight: 40
 .spotify-embed iframe { display: block; }
 .song-divider { height: 1px; border: 0; background: var(--divider); margin: 0 0 22px; }
 
-.chord-diagrams { display: flex; flex-wrap: wrap; gap: 14px; margin: 0 0 22px; }
+.chord-diagrams { display: flex; flex-wrap: wrap; gap: 14px; margin: 0 0 6px; transition: opacity 0.15s; }
+.chord-diagrams-note { display: none; color: var(--muted); font-size: 12px; font-style: italic; margin: 0 0 22px; }
+body.transpose-active .chord-diagrams { opacity: 0.35; }
+body.transpose-active .chord-diagrams-note { display: block; }
 .chord-diagram-card {
   display: flex; flex-direction: column; align-items: center; gap: 4px; width: 62px;
   padding: 8px 4px 6px; border: 1px solid var(--divider); border-radius: 6px; background: var(--surface);
@@ -230,16 +236,18 @@ svg.chord-diagram { display: block; width: 54px; height: auto; overflow: visible
 .song-nav a:hover .nav-title { color: var(--accent-text); }
 
 main.has-autoscroll { padding-bottom: 104px; }
-main.has-transpose { padding-bottom: 168px; }
+main.has-transpose { padding-bottom: 104px; }
 .song-control-bars {
   position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%); z-index: 15;
-  display: flex; flex-direction: column; align-items: center; gap: 10px;
+  display: flex; align-items: center; max-width: calc(100vw - 24px);
 }
-.autoscroll-bar, .transpose-bar {
-  display: flex; align-items: center; gap: 12px; background: var(--surface);
+.song-control-bar {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 12px; background: var(--surface);
   border: 1px solid var(--divider); border-radius: 999px; padding: 8px 16px 8px 8px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
 }
+.autoscroll-bar, .transpose-bar { display: flex; align-items: center; gap: 12px; }
+.control-divider { flex: none; width: 1px; align-self: stretch; margin: 2px 0; background: var(--divider); }
 #autoscroll-toggle {
   flex: none; width: 36px; height: 36px; display: inline-flex; align-items: center; justify-content: center;
   background: var(--accent); color: #fff; border: none; border-radius: 50%; cursor: pointer;
@@ -269,8 +277,9 @@ body.transpose-active .chord-sheet .chord-tooltip { display: none !important; }
   h1.page-title { font-size: 28px; }
   h1.title { font-size: 27px; }
   .song-list .artist { max-width: 38%; }
-  .song-control-bars { bottom: 12px; gap: 6px; }
-  .autoscroll-bar, .transpose-bar { padding: 6px 12px 6px 6px; gap: 8px; }
+  .song-control-bars { bottom: 12px; }
+  .song-control-bar { padding: 6px 12px 6px 6px; gap: 8px; }
+  .autoscroll-bar, .transpose-bar { gap: 8px; }
   #autoscroll-speed-range { width: 68px; }
 }
 
@@ -303,6 +312,26 @@ const THEME_TOGGLE_ICONS = {
   sun: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>',
   moon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"/></svg>',
 };
+
+const SCROLL_TOP_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>';
+
+// Shown only once the page has been scrolled down a bit, on every page (index
+// and song pages alike) - clicking smooth-scrolls back to the top instead of
+// making the reader hunt for the browser's own "scroll to top" affordance.
+const SCROLL_TOP_SCRIPT = `<script>
+(function () {
+  var btn = document.getElementById('scroll-top');
+  if (!btn) return;
+  function update() {
+    btn.classList.toggle('visible', window.scrollY > 400);
+  }
+  window.addEventListener('scroll', update, { passive: true });
+  update();
+  btn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>`;
 
 const SEARCH_SCRIPT = `<script>
 (function () {
@@ -649,7 +678,7 @@ function buildChordDiagramsStrip(chordNames, diagrams) {
     )
     .join('\n');
   if (!cards) return '';
-  return `<div class="chord-diagrams">\n${cards}\n</div>`;
+  return `<div class="chord-diagrams">\n${cards}\n</div><p class="chord-diagrams-note">Diagrams shown are for the original key.</p>`;
 }
 
 // Adds data-chord="OriginalName" to every rendered <div class="chord">Name</div>
@@ -691,8 +720,9 @@ function pageShell({ title, bodyHtml, isSongPage, description, songKey, hasChord
 <span id="capo-suggestion" class="capo-suggestion" aria-live="polite" hidden></span>
 </div>`
     : '';
+  const controlDividerHtml = transposeBarHtml && autoscrollBarHtml ? '<span class="control-divider"></span>' : '';
   const controlBarsHtml = isSongPage
-    ? `<div class="song-control-bars">${transposeBarHtml}${autoscrollBarHtml}</div>`
+    ? `<div class="song-control-bars"><div class="song-control-bar" role="group" aria-label="Song controls">${transposeBarHtml}${controlDividerHtml}${autoscrollBarHtml}</div></div>`
     : '';
   return `<!doctype html>
 <html lang="en">
@@ -718,6 +748,7 @@ function pageShell({ title, bodyHtml, isSongPage, description, songKey, hasChord
 <body>
 <header class="site-header">
 ${header}
+<button id="scroll-top" type="button" aria-label="Scroll to top">${SCROLL_TOP_ICON}</button>
 <button id="theme-toggle" type="button" aria-label="Toggle dark mode"></button>
 </header>
 <main${isSongPage ? ` class="has-autoscroll${hasChords ? ' has-transpose' : ''}"` : ''}>
@@ -744,6 +775,7 @@ ${controlBarsHtml}
   });
 })();
 </script>
+${SCROLL_TOP_SCRIPT}
 ${isSongPage ? `${CHORD_TOOLTIP_SCRIPT}\n${SPOTIFY_EMBED_SCRIPT}\n${TRANSPOSE_SCRIPT}\n${AUTOSCROLL_SCRIPT}` : SEARCH_SCRIPT}
 </body>
 </html>
