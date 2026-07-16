@@ -14,7 +14,8 @@
     "generate-index": "node scripts/generate-index.js",
     "check-index": "node scripts/generate-index.js --check",
     "format-sheets": "node scripts/format-sheets.js",
-    "detect-keys": "node scripts/detect-keys.js"
+    "detect-keys": "node scripts/detect-keys.js",
+    "save-sheets": "bash scripts/save-sheets.sh"
   },
   "repository": {
     "type": "git",
