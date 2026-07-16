@@ -13,7 +13,8 @@
     "check-artist-plausibility": "node scripts/check-artist-plausibility.js",
     "generate-index": "node scripts/generate-index.js",
     "check-index": "node scripts/generate-index.js --check",
-    "format-sheets": "node scripts/format-sheets.js"
+    "format-sheets": "node scripts/format-sheets.js",
+    "detect-keys": "node scripts/detect-keys.js"
   },
   "repository": {
     "type": "git",

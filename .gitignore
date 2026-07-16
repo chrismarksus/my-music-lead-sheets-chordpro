@@ -21,3 +21,7 @@ _site/
 data/artist-suggestions.md
 data/spotify-links.previous.json
 data/spotify-status.html
+
+# Regenerated each run of scripts/detect-keys.js — a review queue for songs it couldn't
+# confidently guess a {key:} for, never a source of truth (see scripts/detect-keys.js).
+data/key-suggestions.md
