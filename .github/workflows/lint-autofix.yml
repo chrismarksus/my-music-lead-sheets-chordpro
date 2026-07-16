@@ -1,0 +1,36 @@
+name: Auto-fix lint on push
+
+# Catches the common case of a sheet edited via the GitHub web editor with long-form
+# directives (e.g. {title:} instead of {t:}) and fixes it in place, so the next CI run
+# (lint.yml) passes instead of failing on something mechanical. Any other lint failure
+# (missing title, bad genre, unbalanced blocks/brackets, bad filename, parse error) still
+# needs a human and is left for lint.yml to report as normal.
+
+on:
+  push:
+    paths: ['sheets/**']
+
+permissions:
+  contents: write
+
+jobs:
+  autofix:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci
+      - run: npm run lint:fix || true
+      - run: |
+          if ! git diff --quiet -- sheets/; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add -- sheets/
+            git commit -m "Auto-fix lint issues (long-form directives) via lint.js --fix"
+            git push
+          fi
