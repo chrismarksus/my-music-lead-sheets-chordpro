@@ -1,0 +1,18 @@
+{title: Another Brick In The Wall}
+{subtitle: }
+
+[Dm] We don't need no education
+[Dm] We don't need no thought control
+[Dm] No dark sarcasm in the classroom
+[Dm] Teacher leave them kids alone [G]
+[G] Hey teacher leave them kids a[Dm]lone
+[F] All in all it's just a[C]nother brick in the [Dm] wall
+[F] All in all you're just a[C]nother brick in the [Dm] wall
+
+[Dm] We don't need no education
+[Dm] We don't need no thought control
+[Dm] No dark sarcasm in the classroom
+[Dm] Teachers leave them kids alone [G]
+[G] Hey teacher leave those kids a[Dm]lone
+[F] All in all you're just a[C]nother brick in the [Dm] wall
+[F] All in all you're just a[C]nother brick in the [Dm] wall
