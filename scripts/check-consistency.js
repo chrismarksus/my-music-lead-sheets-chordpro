@@ -128,7 +128,11 @@ function checkStrayFiles(errors) {
   });
 
   fs.readdirSync(SHEETS_DIR, { withFileTypes: true }).forEach((entry) => {
-    if (entry.isDirectory() || !entry.name.endsWith('.chordpro')) {
+    // .txt is a permitted staging extension: a raw chords-over-lyrics paste dropped via
+    // the GitHub UI, awaiting conversion by the format-sheets workflow (see
+    // scripts/format-sheets.js). One that fails to convert is still surfaced loudly via
+    // that workflow's own failed run, so this isn't a silent pass-through.
+    if (entry.isDirectory() || !(entry.name.endsWith('.chordpro') || entry.name.endsWith('.txt'))) {
       errors.push(`stray entry in sheets/: ${entry.name}`);
     }
   });

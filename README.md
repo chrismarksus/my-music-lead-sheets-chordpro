@@ -20,10 +20,14 @@ themselves are not licensed for redistribution.
 | `INDEX.md` | Generated table of every song, linking title/artist to its file |
 | `scripts/lint.js` | Per-file lint rules (parse validity, required title, banned long-form directives, etc.) |
 | `scripts/check-consistency.js` | Repo-wide checks (`INDEX.md` accuracy, cross-references, duplicates, stray files, encoding) |
+| `scripts/generate-index.js` | Regenerates `INDEX.md` from every `sheets/*.chordpro` file's `{t:}`/`{st:}` directives |
+| `scripts/convert-raw-sheet.js` | Converts a raw chords-over-lyrics paste into ChordPro (used by `format-sheets.js`) |
+| `scripts/format-sheets.js` | Finds `sheets/*.txt` raw pastes, converts each to `.chordpro`, and regenerates `INDEX.md` |
 | `scripts/build-site.js` | Renders every song to HTML into `_site/` (gitignored build output) |
 | `scripts/fetch-spotify-links.js` | Looks up a Spotify track match per song into `data/spotify-links.json`, which `build-site.js` uses to add a "Listen on Spotify" link |
 | `scripts/spotify-status-report.js` | Writes a local-only `data/spotify-status.html` maintenance dashboard (coverage, diff vs. the last run, arrangement-pair mismatches) — never published |
 | `.github/workflows/lint.yml` | Runs lint + consistency check on every push/PR |
+| `.github/workflows/format-sheets.yml` | Auto-converts `sheets/*.txt` raw pastes to `.chordpro` on push to `master`, committing the result back |
 | `.github/workflows/pages.yml` | Builds the site and deploys it to GitHub Pages on push to `master` |
 
 ## Getting started
@@ -71,8 +75,44 @@ edit, before the next fetch re-verifies it.
 2. Name it `snake_case.chordpro`, adding a `-artist_name` segment only if
    needed to disambiguate.
 3. Run `npm run lint` and `npm run check` before committing.
-4. Regenerate `INDEX.md`.
+4. Run `npm run generate-index` to update `INDEX.md`.
 
 Full conventions (directive short forms, alternate-arrangement
 cross-references, tab block formatting, etc.) and what to do when CI fails
 are documented in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+### Adding a song via the GitHub web UI
+
+You don't need a local checkout for this. Create a new file directly in `sheets/`
+through GitHub's web editor, name it anything ending in `.txt` (e.g. `new_song.txt`),
+and paste:
+
+```
+{t:Song Title}
+{st:Artist Name}
+
+[Verse 1]
+C            G
+Some lyric line with chords above it
+              Am
+Another line
+```
+
+- `{t:...}` is required; `{st:...}` is optional. These are preserved as-is.
+- `[Label]`-only lines (`[Intro]`, `[Verse 1]`, `[Chorus]`, ...) become `{c:Label}` section
+  comments.
+- A line of only chords (e.g. `C   G   Am   F`) with no lyric line under it becomes an
+  instrumental line.
+- Chord placement is column-exact: a chord character sits above the exact letter of the
+  lyric it should attach to. This works cleanly if you type or paste the raw text into a
+  monospace editor (which GitHub's file editor is) with real space characters — pasting
+  from a source that doesn't preserve literal spacing (e.g. a web page that positions
+  chords with CSS) can produce wrong placement, since there's nothing in the text to
+  recover the intended position from.
+
+Commit straight to `master`. Within about a minute, the **Auto-format sheets** workflow
+converts the `.txt` to a properly named `.chordpro` file, regenerates `INDEX.md`, and
+commits that back — then the normal lint/consistency checks and site rebuild run against
+the converted file. If conversion fails (most commonly: no `{t:...}` line), the `.txt`
+is left untouched and the **Auto-format sheets** check goes red with the reason in its
+log — fix the `.txt` and push again.

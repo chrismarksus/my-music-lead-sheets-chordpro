@@ -9,7 +9,9 @@
     "build-site": "node scripts/build-site.js",
     "fetch-spotify-links": "node scripts/fetch-spotify-links.js",
     "spotify-status": "node scripts/spotify-status-report.js",
-    "check-artist-plausibility": "node scripts/check-artist-plausibility.js"
+    "check-artist-plausibility": "node scripts/check-artist-plausibility.js",
+    "generate-index": "node scripts/generate-index.js",
+    "format-sheets": "node scripts/format-sheets.js"
   },
   "repository": {
     "type": "git",
