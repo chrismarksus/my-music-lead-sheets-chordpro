@@ -30,7 +30,11 @@ const KNOWN_ROOT_FILES = new Set([
   '.env.example',
 ]);
 
-const KNOWN_ROOT_DIRS = new Set(['sheets', 'scripts', '.github', 'node_modules', '.git', 'data']);
+const KNOWN_ROOT_DIRS = new Set([
+  'sheets', 'scripts', '.github', 'node_modules', '.git', 'data',
+  // gitignored local-only dirs (see .gitignore) — expected on disk, never committed
+  '.claude', '_site',
+]);
 
 function listSongFiles() {
   return fs.readdirSync(SHEETS_DIR)
