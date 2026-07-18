@@ -1,6 +1,6 @@
 # Song Index
 
-286 songs. Generated from each file's `{t:}`/`{st:}` directives.
+287 songs. Generated from each file's `{t:}`/`{st:}` directives.
 
 | Title | Artist / Notes | File |
 |---|---|---|
@@ -17,6 +17,7 @@
 | Angels Dancing |  | [angels_dancing.chordpro](sheets/angels_dancing.chordpro) |
 | Angels From the Realms of Glory |  | [angels_from_realms.chordpro](sheets/angels_from_realms.chordpro) |
 | Annie's Song | John Denver | [annies_song-john_denver.chordpro](sheets/annies_song-john_denver.chordpro) |
+| Another Brick In The Wall, Part 2 | Pink Floyd | [another_brick_in_the_wall-pink_floyd.chordpro](sheets/another_brick_in_the_wall-pink_floyd.chordpro) |
 | Another Drink |  | [another_drink.chordpro](sheets/another_drink.chordpro) |
 | Apostle's Creed |  | [apostles_creed.chordpro](sheets/apostles_creed.chordpro) |
 | Arms of Love |  | [arms_of_love.chordpro](sheets/arms_of_love.chordpro) |
